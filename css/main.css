@@ -252,7 +252,7 @@ ol li {
 	margin-right: 3em;
 }
 
-.flavour-container .button2 {
+.flavour-container .disabled-button {
 	display:block;
 }
 
@@ -288,7 +288,7 @@ img {
 	max-width: 25em;
 }
 
-.container2 {
+.button-grid-container {
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr 1fr;
 	margin-bottom:5em;
@@ -348,7 +348,7 @@ img {
 	margin-left:-2.5em;
 }
 
-.flavour-container button {
+.flavour-container default-button {
 	font-size:0.9em;
 }
 
@@ -395,7 +395,7 @@ input {
 }
 
 
-.button {
+.default-button {
 	border:none;
 	padding: 8px 28px 8px 28px;
 	font-size: 0.9em;
@@ -408,14 +408,14 @@ input {
 	margin-top:1.5em;
 }
 
-.button:hover {
+.default-button:hover {
 	color: black;
 	background-color: white;
 	border: 1px solid rgb(40,61,59);
 	transition-duration: 0.4s;
 }
 
-.button2 {
+.disabled-button {
 	border:1px solid black;
 	width: 10em;
 	padding: 8px 28px 8px 28px;
@@ -426,7 +426,7 @@ input {
 
 }
 
-.button2:hover {
+.disabled-button:hover {
 	color: white;
 	background-color: rgb(40,61,59);
 	transition-duration: 0.5s;
@@ -448,7 +448,7 @@ input {
 	transition-duration: 0.5s;
 }
 
-.button4 {
+.secondary-button {
 	width: 8em;
 	padding: 7px 20px 7px 20px;
 	background-color: #A00226;
@@ -474,7 +474,7 @@ input {
 	width: 10em;
 }
 
-.first-items button {
+.first-items default-button {
 	margin-top: 1.5em;
 }
 
@@ -718,7 +718,7 @@ hr {
 		margin-bottom: 1em;
 	}
 
-	.button2 {
+	.disabled-button {
 		width: 10em;
 	}
 
@@ -769,7 +769,7 @@ hr {
 
 	}
 
-	.container2 {
+	.button-grid-container {
 		display:grid;
 		grid-template-columns:1fr 1fr;
 		margin-bottom:5em;
