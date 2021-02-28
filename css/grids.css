@@ -239,6 +239,15 @@ img {
 	margin-top: -1em;
 }
 
+.mini-item22 p {
+	margin-top:-1em;
+	font-size:0.9em;
+}
+
+.mini-item22 h4 {
+	font-size: 1em;
+}
+
 .small-container {
 	display: flex;
 	margin-left:-2em;
@@ -499,7 +508,7 @@ hr {
 
    .mini-item22 h4{
        font-size:1.1em;
-       margin-bottom:1.5em;
+       margin-bottom:0em;
 
    }
 
