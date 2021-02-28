@@ -173,7 +173,7 @@ img {
 	margin-bottom: 2em;
 }
 
-.second-item {
+.detail-item {
 	margin-left: 5em;
 	margin-top: -2em;
 }
@@ -461,7 +461,7 @@ hr {
        width: 10em;
    }
 
-   .second-item h3 {
+   .detail-item h3 {
        font-size: 1.5em;
    }
 
