@@ -128,7 +128,7 @@ img {
 	max-width: 32em;
 }
 
-.grid-container1 {
+.access-grid-container {
 	display: grid;
 	grid-template-columns:1fr 1fr 1fr 1fr;
 	margin-bottom: 1em;
