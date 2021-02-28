@@ -322,6 +322,17 @@ img {
 	margin-bottom: 2em;
 }
 
+.product-name{
+	/* font-size: 32px */
+	font-size: 2rem;
+}
+
+.product-price{
+	/* font-size: 30px */
+	font-size: 1.875rem;
+	font-weight: 400; 
+}
+
 .detail-item {
 	margin-left: 5em;
 	margin-top: -2em;
@@ -470,11 +481,6 @@ input {
 
 .first-items default-button {
 	margin-top: 1.5em;
-}
-
-.first-items h4 {
-	font-size: 1.5em;
-	font-weight: lighter;
 }
 
 .second-items {
