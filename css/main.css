@@ -25,13 +25,6 @@ https://css-tricks.com/solved-with-css-dropdown-menus/ */
   padding: 1.5rem;
 }
 
-/*
-#navigation {
-	position:fixed;
-	margin-left:-25em;
-}
-*/
-
 #navigation li:hover,
 #navigation li:focus-within {
   background:rgba(84,115,112, 0.3);

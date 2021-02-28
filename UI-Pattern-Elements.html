@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title> UI-Pattern-Elements </title>
+  <link href = "css/main.css" rel = "stylesheet">
+  <link href = "css/normalize.css" rel = "stylesheet">
+</head>
+<div class = "main-container">
+  <div class = "main-item">
+    <nav id="navigation">
+      <ul>
+        <li> <a href = 'https://joannekimm.github.io/styleguide2/Basic-styles.html'> Basic-styles </a> </li>
+       <li> <a class = "active" href = 'https://joannekimm.github.io/styleguide2/UI-Pattern-Elements.html'> UI-Pattern-Elements </a>
+          <ul class="dropdown" aria-label="submenu">
+            <li> <a href = '#nav'> Main navigation </a> </li>
+            <li> <a href = '#footer'> Footer </a> </li>
+            <li> <a href = '#product'> Product detail page </a> </li>
+            <li> <a href = '#grid'> Website grid structure </a> </li>
+            <li> <a href = '#checkout'> Checkout page </a> </li>
+          </ul>
+        </li>
+        <li> <a href = 'https://joannekimm.github.io/styleguide2/Citations.html'> Citations </a> </li>
+        <li> <a href = 'https://joannekimm.github.io/styleguide2/Wireframes.html'> Wireframes</a> </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+      <div class = "main-container">
+        <div class = "main-item">
+           <h2> Modular Pattern Elements </h2>
+            <h3> Main navigation module </h3> 
+            <p> This is a sample of the grainjar main navigation. We used a small dark green navigation bar with a white logo. </p>
+            <nav id = "nav">
+              <ul>
+                <li> <a class= "logoo" href = "#logo"> <img src = "img/logo.svg" alt= "logo" width= "90"> </a></li>
+                <li> <a href = "#shop"> shop all </a> </li>
+                <li> <a href = "#recipes"> recipes </a>  </li>
+                <li> <a href = "#about"> about </a> </li>
+                <li> <a href = "#cart"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
+              </ul>
+
+            <div class = "code">
+            <code> Sample code </code> <p></p>
+            <code>  &lt;nav class =  &quot;desktop-nav&quot;&gt; </code> <p></p>
+            <code> &lt;ul&gt; </code><p></p>
+            <code>&lt;li&gt; &lt;a href = &quot;#shop&quot;&gt; shop all &lt;/a&gt; &lt;/li&gt; </code><p></p>
+            <code>&lt;li&gt; &lt;a href = &quot;#recipes&quot;&gt; recipes &lt;/a&gt; &lt;/li&gt; </code><p></p>
+            <code> &lt;li&gt; &lt;a href = &quot;#about&quot;&gt; about &lt;/a&gt; &lt;/li&gt;</code><p></p>
+            <code> &lt;/ul&gt; </code><p></p>
+            <code> &lt;/nav&gt;</code>
+        </div>
+        <p> Author : Joanne Kim </p>
+        </nav>
+
+           <section id ="breadcrumbs">
+            <h3> Checkout breadcrumb </h3>
+            <p> Breadcrumbs show users their current location relative to the information architecture and enable them to quickly move up to a parent level or previous step. </p> 
+            <div class ="example">
+            <a href = "#"> Information &#8250; </a>
+            <a href = "#"> Shipping &#8250;</a>
+            <a href = "#"> Payment &#8250;</a>
+            <a href = "#"> Summary </a> 
+          </div>
+             <code> Sample code &lt;a href = &quot;#&quot;&gt; Information &lt;/a&gt; </code>
+             <p> Author : Clare Huang </p>
+
+             <section id ="anatomy">
+             <h3> Anatomy </h3>
+             <img src ="img/anatomy2.jpg" alt = "breadcrumb anatomy" width = "500">
+             <ol>
+              <li> Page link: Directs users to the parent-level page. </li>
+              <li> Arrow: shows the order of content.</li>
+            </ol>
+          </section>
+        </section>
+
+        <section id = "product">
+          <h3> Product detail page module </h3>
+          <p> This is a sample of the product detail page on the grainjar website. Spacing and interactive elements such as flavour and size selection are important to consider. 
+          </p>
+          <div class = "first-container">
+            <div class = "first-item">
+              <img src = "img/product.jpg" alt= "product image" width= "300">
+            </div>
+            <div class = "second-item">
+              <h5> best-seller</h5>
+              <h3> Whole-grain cereal</h3>
+              <h4> $ 25.00 CAD </h4>
+              <h4> select flavour </h4>
+              <div class ="mini-container">
+                <div class ="mini-item1">
+                  <button class = "button2"> honey</button> 
+                  <button class = "button2"> cinnamon </button>
+                </div>
+                <div class = "mini-item2">
+                  <button class = "button2"> mixed berry</button> 
+                  <button class = "button2"> natural</button>
+                </div>
+              </div>
+              <h4> select size </h4>
+              <div class = "mini-container2">
+                <ul>
+                  <li> <button class = "button3"> 300g </button></li>
+                  <li> <button class = "button3"> 500g </button></li>
+                  <li> <button class = "button3">1kg</button></li>
+                </ul>
+              </div>
+              <div class ="button5">
+              <button class = "button"> Add to Cart </button></div>
+            </div>
+          </div>
+          <div class ="code">
+          <code> Sample code </code> <p> </p> <code>&lt;button class =  &quot;button&quot;&gt; honey &lt;/button&gt; </code> <p></p><code>
+           &lt;button class =  &quot;button&quot;&gt; mixed berry &lt;/button&gt; </code>
+         </div>
+         <p> Author : Joanne Kim </p>
+         </section>
+        
+        <section id = "checkout">
+          <h3> Checkout module </h3>
+          <p> This is a sample of the checkout module at grainjar. Forms must be concise and labels must be legible to clearly communicate usage to users. </p>
+          <div class ="second-container">
+            <div class= "first-items">
+              <h4> Guest checkout </h4>
+               <form>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email ">
+                <label for="pword">Password</label>
+                <input type="text" id="pword" name="pword"> 
+                </form>
+                  <button class ="button"> Continue to shipping </button>
+                </div>
+               <div class= "line"> </div>
+                  <div class= "second-items">
+                    <div class = "mini-containers">
+                      <div class ="mini-item11">
+                        <img src = 'img/coco.jpg' alt="Coco-hazelnut" width = "100">
+                      </div>
+                      <div class = "mini-item22">
+                        <h4> Coco-hazelnut cereal </h4>
+                        <p> Qty :1 </p>
+                        <p> $25.00 </p>
+                      </div>
+                    </div>
+                    <hr>
+                    <input type="text" id="discount" name="discount ">
+                    <button class ="button"> Apply </button>
+                    <hr>
+                    <div class ="small-container">
+                      <div class ="small-item">
+                        <ul>
+                          <li>Subtotal</li>
+                          <li> Tax</li>
+                          <li> Shipping </li>
+                          <li> <h4> Subtotal </h4> </li>
+                        </ul>
+                      </div>
+                      <div class ="small-item2">
+                        <ul> 
+                          <li> $25.00 </li>
+                          <li> $1.25 </li>
+                          <li> Next step </li>
+                          <li> $26.25 </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class ="code">
+                <code> Sample code</code> <p> </p>
+                <code> &lt;form&gt; </code> <p></p>
+                <code> &lt;label for =  &quot;email&quot;&gt; Email &lt;/label&gt;</code><p></p>
+                <code> &lt;input type =  &quot;text&quot; id =  &quot;email&quot; name = &quot;email&quot;&gt;</code><p></p>
+               <code> &lt;/form&gt;
+               </code>
+             </div>
+              <p> Author : Sophia Wang </p>
+             </section>
+
+             <section id= "footer">
+              <h3> Footer </h3>
+              <img src ="img/footer.jpg" alt = "footer" width = "700"> <p></p>
+              <div class ="code">
+              <code> Sample code</code> <p></p>
+               <code> &lt; footer &gt; </code><p></p> 
+               <code> &lt; div class =  &quot;column-1&quot;&gt;</code><p></p> 
+                <code> &lt;h4&gt; Information &lt;/h4&gt; </code><p></p> 
+                <code> &lt;p&gt; About &lt;/p&gt;</code><p></p> 
+                <code> &lt;p&gt; grainjar &lt;/p&gt;</code><p></p> 
+                <code> &lt;p&gt; Packaging &lt;/p&gt; </code><p></p> 
+                <code> &lt;p&gt; Free &lt;/p&gt;</code><p></p> 
+                <code> &lt;p&gt; Our recipes &lt;/p&gt;</code><p></p> 
+                <code> &lt;/div&gt;</code><p></p> 
+                <code> &lt;/footer&gt;</code></div>
+              <p> Author : Sophia Wang </p>
+          </section>
+
+              <section id = "grid">
+                <h3> Website grid structure </h3>
+                <p> Our grid system is composed of 8 flexible columns with variable gutter sizes: 22 px for the navigation, 44 px between filter options and 66 px between product grid items. The left and right margin are both 125 px from the edge. </p>
+                <h3> Home page grid layout </h3>
+                <div class ="g-container">
+                  <div id ="logoo"><h4> Logo </h4> </div>
+                  <div id ="navbar"><h4>Navbar </h4></div>
+                  <div id ="banner"><h4>Banner</h4></div>
+                  <div id = "main"><h4> Main</h4></div>
+                  <div class = "row-container">
+                  <div class ="content">Content</div>
+                  <div class ="content">Content</div>
+                  <div class ="content">Content</div>
+                  <div class ="content">Content</div>
+                </div>
+                <div class = "row-container">
+                  <div class ="content">Content</div>
+                  <div class ="content">Content</div>
+                  <div class ="content">Content</div>
+                  <div class ="content">Content</div>
+                </div>
+                <div id = "recipe"><h4> Recipes</h4></div>
+                  <footer> <h4> Footer </h4> </footer>
+                </div>
+                <p> Author : Joanne Kim </p>
+              </section> 
+            </div>
+          </div>
+      </html>
