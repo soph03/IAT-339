@@ -39,7 +39,6 @@ ol li {
 }
 
 /* container for all items */
-
 .main-container {
 	display: flex;
 	justify-content:center;
