@@ -15,8 +15,42 @@ Black: 900
 /* the following dropdown nav bar was inspired by 
 https://css-tricks.com/solved-with-css-dropdown-menus/ */
 
-p{
-	font-family: 'Poppins';
+body{
+    font-family:'Poppins', Helvetica, Arial, sans-serif;
+	color: #3A2B1B;
+}
+
+h1{
+    /* font-size: 60px; */
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+h2 {
+	margin-bottom: 2em;
+	/* font-size: 40px; */
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+h3{
+    /* font-size: 26px */
+    font-size: 1.625rem;
+    font-weight: 500;
+}
+
+h4{
+    /* font-size: 18px */
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+h5 {
+	font-size: 1em;
+	color: white;
+	background-color:rgb(91,122,120);
+	text-align: center;
+	padding: 0.5em;
 }
 
 #navigation a {
@@ -91,21 +125,6 @@ ul li ul li {
 
 .active {
 	background-color:rgba(84,115,112, 0.3);
-}
-
-/*to here */
-h2 {
-	margin-bottom: 2em;
-	font-family: 'Poppins';
-	font-size: 1.8em;
-}
-
-h5 {
-	font-size: 1em;
-	color: white;
-	background-color:rgb(91,122,120);
-	text-align: center;
-	padding: 0.5em;
 }
 
 figcaption {
@@ -329,7 +348,7 @@ img {
 	margin-left:-2.5em;
 }
 
-#nav, #product, #grid, #checkout, #footer, #breadcrumbs{
+#nav, #product, #grid, #checkout, #footer, #recipedetail, #breadcrumbs{
 	margin-bottom: 6em;
 }
 
