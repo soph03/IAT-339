@@ -160,7 +160,7 @@ img {
 	margin-bottom:-0.8em;
 }
 
-.example {
+.bread-example {
 	margin-top:3.5em;
 	margin-bottom:3.5em;
 }
@@ -359,16 +359,16 @@ hr {
        width: 100%;
    }
 
-   .second-item {
+   .detail-item {
        margin-left:0em;
        margin-top:1em;
    }
 
-   .mini-container {
+   .flavour-container {
        flex-basis:100%;
    }
 
-   .first-item img {
+   .image-item img {
        width:100%;
    }
 
