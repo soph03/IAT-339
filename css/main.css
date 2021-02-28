@@ -76,6 +76,7 @@ ul li ul li {
 }
 
 /*to here */
+<<<<<<< HEAD
 
 p {
 	max-width: 45em;
@@ -89,6 +90,8 @@ h3 {
 	margin-top: 2em;
 }
 
+=======
+>>>>>>> main
 h2 {
 	margin-bottom: 2em;
 	font-family: Garamond;
