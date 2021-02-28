@@ -10,21 +10,12 @@ p {
 	line-height: 1.6em;
 }
 
-h3 {
-	margin-bottom: 1.5em;
-	margin-top: 2em;
-}
-
 figure img {
 	margin-left:-2.5em;
 }
 
 #bullets li{
 	margin-bottom:0.5em;
-}
-
-#typography h3 {
-	margin-top:1em;
 }
 
 ol li {

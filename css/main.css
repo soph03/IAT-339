@@ -24,19 +24,21 @@ h1{
     /* font-size: 60px; */
     font-size: 3.75rem;
     font-weight: 700;
+	margin: 0;
 }
 
-h2 {
-	margin-bottom: 2em;
+h2 {	
 	/* font-size: 40px; */
 	font-size: 2.5rem;
 	font-weight: 600;
+	margin: 0;
 }
 
 h3{
     /* font-size: 26px */
-    font-size: 1.625rem;
+    font-size: 1.5rem;
     font-weight: 500;
+	margin-top: 1em;
 }
 
 h4{
@@ -142,20 +144,16 @@ figure img {
 	margin-bottom:0.5em;
 }
 
-#typography h2 {
-	margin-bottom:1em;
-}
-
-#typography h3 {
-	margin-top:1em;
-}
-
 ol li {
 	margin-bottom: 0.5em;
 }
 
 #buttons a {
 	text-decoration:none;
+}
+
+.h3-type-style{
+	margin-top: 0.5em;
 }
 
 #typography,#bulllets,#form, #numbered, #colors, #buttons, #logo, #illustrations, #text {
@@ -371,10 +369,6 @@ img {
 /* Form label styling */
 label {
 	display:block;
-<<<<<<< Updated upstream
-=======
-	font-size: 0.8em;
->>>>>>> Stashed changes
 	font-family: 'Poppins';
 	font-size: default;
 	/* font-weight: Regular */
