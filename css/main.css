@@ -338,13 +338,13 @@ img {
 	margin-left: 1em;
 }
 
-.mini-container2 li {
+.size-container li {
 	list-style-type:none;
 	display: inline;
 	font-size: 0.9em;
 }
 
-.mini-container2 {
+.size-container {
 	margin-left:-2.5em;
 }
 
@@ -432,7 +432,7 @@ input {
 	transition-duration: 0.5s;
 }
 
-.button3 {
+.size-button {
 	border:1px solid black;
 	width: 4em;
 	padding: 0.5em;
@@ -442,7 +442,7 @@ input {
 
 }
 
-.button3:hover {
+.size-button:hover {
 	color: white;
 	background-color: rgb(40,61,59);
 	transition-duration: 0.5s;

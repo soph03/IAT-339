@@ -189,16 +189,6 @@ img {
 	margin-left: 1em;
 }
 
-.mini-container2 li {
-	list-style-type:none;
-	display: inline;
-	font-size: 0.9em;
-}
-
-.mini-container2 {
-	margin-left:-2.5em;
-}
-
 #nav, #product, #grid, #checkout, #footer, #breadcrumbs{
 	margin-bottom: 6em;
 }
