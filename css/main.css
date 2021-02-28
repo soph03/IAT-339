@@ -327,10 +327,6 @@ img {
 	margin-top: -2em;
 }
 
-.flavour-container{
-	display: flex;
-	flex-wrap: wrap;
-}
 
 .flavour-item2 {
 	margin-left: 1em;
@@ -550,7 +546,7 @@ hr {
 	margin-left:-4.8em;
 }
 
-.mini-container button {
+.flavour-container button {
 	font-size:0.9em;
 }
 
@@ -661,7 +657,7 @@ hr {
 		margin-top:1em;
 	}
 
-	.mini-container {
+	.flavour-container {
 		flex-basis:100%;
 	}
 
