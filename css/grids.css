@@ -103,11 +103,8 @@ ol li {
 	margin-top:-1em;
 }
 
-.item1 {
-	margin-right: 3em;
-}
 
-.mini-container .button2 {
+.mini-container .disabled-button {
 	display:block;
 }
 
@@ -136,7 +133,7 @@ img {
 	max-width: 25em;
 }
 
-.container2 {
+.button-grid-container {
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr 1fr;
 	margin-bottom:5em;
@@ -466,7 +463,7 @@ hr {
        margin-bottom: 1em;
    }
 
-   .button2 {
+   .disabled-button {
        width: 10em;
    }
 
@@ -517,7 +514,7 @@ hr {
 
    }
 
-   .container2 {
+   .button-grid-container {
        display:grid;
        grid-template-columns:1fr 1fr;
        margin-bottom:5em;
