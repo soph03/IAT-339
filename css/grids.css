@@ -121,7 +121,7 @@ img {
 	border-radius: 50%;
 }
 
-.grid-container {
+.color-grid-container {
 	display: grid;
 	grid-template-columns:1fr 1fr 1fr;
 	margin-bottom: 4em;
