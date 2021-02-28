@@ -95,7 +95,7 @@ ol li {
 }
 
 
-.mini-container .disabled-button {
+.flavour-container .disabled-button {
 	display:block;
 }
 
@@ -161,7 +161,7 @@ img {
 	margin-bottom: 2em;
 }
 
-.second-item {
+.detail-item {
 	margin-left: 3em;
 	margin-top:-1.8em;
 }
@@ -171,13 +171,9 @@ img {
 	margin-top: -2em;
 }
 
-.mini-container{
+.flavour-container{
 	display: flex;
 	flex-wrap: wrap;
-}
-
-.mini-item2 {
-	margin-left: 1em;
 }
 
 #nav, #product, #grid, #checkout, #footer, #breadcrumbs{
