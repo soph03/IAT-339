@@ -624,7 +624,7 @@ hr {
 		width: 100%;
 	}
 
-	.second-item {
+	.detail-item {
 		margin-left:0em;
 		margin-top:1em;
 	}
@@ -684,7 +684,7 @@ hr {
 		width: 10em;
 	}
 
-	.second-item h3 {
+	.detail-item h3 {
 		font-size: 1.5em;
 	}
 
