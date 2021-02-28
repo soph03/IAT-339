@@ -371,14 +371,10 @@ img {
 /* Form label styling */
 label {
 	display:block;
-<<<<<<< Updated upstream
-	font-size: 0.8em;
-=======
 	font-family: 'Poppins';
 	font-size: default;
 	/* font-weight: Regular */
 	font-weight: 400; 
->>>>>>> Stashed changes
 	margin-bottom: 0.3em;
 }
 
