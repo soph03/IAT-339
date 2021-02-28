@@ -348,6 +348,21 @@ img {
 	margin-left:-2.5em;
 }
 
+.flavour-container button {
+	font-size:0.9em;
+}
+
+.detail-item h3 {
+	margin-bottom:0em;
+	margin-top:0em;
+	font-size: 1.4em;
+}
+
+.detail-item h4 {
+	margin-top:0.5em;
+	margin-bottom:0.8em;
+}
+
 #nav, #product, #grid, #checkout, #footer, #recipedetail, #breadcrumbs{
 	margin-bottom: 6em;
 }
@@ -741,3 +756,4 @@ hr {
     	margin-left: -2.5em;
     }
 }
+
