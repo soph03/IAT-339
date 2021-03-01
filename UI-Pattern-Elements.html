@@ -15,10 +15,15 @@
        <li> <a class = "active" href = 'UI-Pattern-Elements.html'> UI-Pattern-Elements </a>
           <ul class="dropdown" aria-label="submenu">
             <li> <a href = '#nav'> Main navigation </a> </li>
-            <li> <a href = '#footer'> Footer </a> </li>
-            <li> <a href = '#product'> Product detail page </a> </li>
-            <li> <a href = '#grid'> Website grid structure </a> </li>
+            <li> <a href = '#breadcrumbs'> Breadcrumbs </a> </li>
+            <li> <a href = '#product'> Product detail module </a> </li>
+            <li> <a href = '#recipe-detail'> Recipe detail page </a> </li>
+            <li> <a href = '#all-recipes'> All recipe module </a> </li>
+            <li> <a href = '#recommended'> Recommended recipe module </a> </li>
+            <li> <a href = '#cart'> Shopping cart module </a> </li>
             <li> <a href = '#checkout'> Checkout page </a> </li>
+            <li> <a href = '#footer'> Footer </a> </li>
+            <li> <a href = '#grid'> Website grid structure </a> </li>
           </ul>
         </li>
         <li> <a href = 'Citations.html'> Citations </a> </li>
@@ -221,6 +226,8 @@
                 </div>
             </section>
 
+
+            <!-- Section All Recipe Module -->
             <section id = "all-recipes">
                 <h3>All Recipes Module</h3>
                 <h3>All Recipes</h3>
@@ -274,6 +281,8 @@
                 </div>
             </section>
 
+
+             <!-- Carousel Module -->
             <h3> Carousel module </h3>
             <section id="recommended">
               <h3> Recommended for you </h3>
@@ -302,6 +311,63 @@
             </section>
 
 
+            <!-- Section Shopping Cart -->
+            <section id="cart">
+              <h3>Shopping Cart Module</h3>
+              <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_th-->
+              <div class="cart_grid">
+
+                <p></p>
+                <p><b>Product</b></p>
+                <p></p>
+                <p><b>Quantity</b></p>
+                <p><b>Price</b></p>
+            
+                <button type="button" id="cart_button">&times;</button>
+
+                  <img src="img/cartphoto.png" alt="A picture of a bowl of granola with milk" width="200" height="200">
+                  
+                  <p class="cart_description">Coco-hazelnut cereal</p>
+
+                  <p class="cart_description">1</p>
+                  <!-- https://get.foundation/building-blocks/blocks/plus-minus-input.html -->
+                    
+                    <!-- <form class="input_button">
+                      <button type="button" data-type="minus" data-field="quantity">
+                        <i class="fa fa-minus" aria-hidden="true"></i>
+                      </button>
+                    </form>
+                    <input  class="input_field" type="number" name="quanity" value="1" min="0" max="100">
+                    <form class="input_button">
+                      <button type="button" data-type="plus" data-field="quantity"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </form> -->
+
+                  <p class="cart_description">&dollar;25&period;00</p>
+
+                  <div class="cart_subtotal">
+                    <p><b>Subtotal</b></p>
+                    <p>&dollar;25&period;00</p>
+                  </div>
+
+              </div>
+
+              <p class="code_line">code snippet:</p>
+
+                <p><code>
+                  &lt;table&gt;
+                    &lt;tr&gt;
+                        &lt;th&gt;Product&lt;&sol;th&gt; 
+                      &lt;&sol;tr&gt;
+
+                      &lt;tr&gt;
+                        &lt;td&gt;Coco-hazelnut cereal&lt;&sol;td&gt;
+                      &lt;&sol;tr&gt;
+                    &lt;&sol;table&gt;
+                </code></p>
+              </section>
+
+
+            <!-- Section Footer -->
             <section id= "footer">
               <h3> Footer </h3>
               <img src ="img/footer.jpg" alt = "footer" width = "700"> <p></p>

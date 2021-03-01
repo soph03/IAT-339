@@ -316,12 +316,6 @@ img {
 }
 
 /* product detail page */
-.product-image-container {
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 2.5em;
-	margin-bottom: 2em;
-}
 
 .product-name{
 	/* font-size: 32px */
