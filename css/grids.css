@@ -635,13 +635,24 @@ hr {
 	.cart-header{
 		visibility: hidden;
 	}
+	.cart-subtotal{
+		grid-column: 3/4;
+	}
 
+}
+
+@media (max-width: 40em) {
 	.cart-grid-container{
-		grid-column: 1/5;
 		grid-template-columns: 0.3fr 1fr;
 	}
+	.product-cart-detail{
+		grid-column: 2/3;
+		grid-column-start: 2;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 	.cart-subtotal{
-		grid-column: 3/4
+		grid-column-start: 2;
 	}
 
 }
