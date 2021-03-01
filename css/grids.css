@@ -155,7 +155,7 @@ img {
 }
 
 /* product detail page */
-.first-container {
+.product-image-container {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 2.5em;
