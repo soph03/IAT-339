@@ -317,19 +317,24 @@
               <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_th-->
               <div class="cart-grid-container">
 
+                <!-- 
                 <p></p>
-                <p><b>Product</b></p>
+                <p class="cart-header"><b>Product</b></p>
                 <p></p>
-                <p><b>Quantity</b></p>
-                <p><b>Price</b></p>
+                <p class="cart-header"><b>Quantity</b></p>
+                <p class="cart-header"><b>Price</b></p>
+
+              -->
             
                 <button type="button" id="cart_button">&times;</button>
 
                   <img src="img/coco.jpg" alt="A picture of a bowl of granola with milk" id="cart-image" width="200" height="200">
+
+                  <div class="product-cart-detail">
                   
                   <p class="cart-description">Coco-hazelnut cereal</p>
 
-                  <p class="cart-description">1</p>
+                  <p class="cart-description cart-quantity">1</p>
                   <!-- https://get.foundation/building-blocks/blocks/plus-minus-input.html -->
                     
                     <!-- <form class="input_button">
@@ -342,14 +347,18 @@
                       <button type="button" data-type="plus" data-field="quantity"><i class="fa fa-plus" aria-hidden="true"></i></button>
                     </form> -->
 
-                  <p class="cart-description">&dollar;25&period;00</p>
+                  <p class="cart-description cart-price">&dollar;25&period;00</p>
+
+                  </div>
 
                   <div class="cart-subtotal">
                     <p><b>Subtotal</b></p>
                     <p>&dollar;25&period;00</p>
                   </div>
 
-              </div>
+                  
+
+              </div> <!-- cart grid container --> 
 
             <div class="code"></div>
               <p>code snippet:</p>
