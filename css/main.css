@@ -68,6 +68,7 @@ a:hover, a:focus{
 
 img{
 	max-width: 100%;
+	height: auto;
 }
 
 #navigation a {
@@ -372,6 +373,19 @@ img {
 
 .read-more{
 
+}
+
+/*Shopping cart module*/
+
+button#cart_button{
+	padding: 0;
+	border:none;
+	cursor: pointer;
+	background-color: white;
+}
+
+#cart-image{
+	border-radius: 4% 
 }
 
 /* Form label styling */

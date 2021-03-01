@@ -31,7 +31,7 @@ ol li {
 	margin-bottom: 7em;
 }
 
-#nav, #product, #grid, #checkout, #footer, #recipe-detail, #all-recipes, #breadcrumbs, #recommended{
+#nav, #product, #grid, #checkout, #footer, #recipe-detail, #all-recipes, #breadcrumbs, #recommended, #cart{
 	margin-bottom: 6em;
 }
 
@@ -322,13 +322,33 @@ hr {
 .recipe-blurb {
 	width: 30em;
 }
-
 .recipe-blurb li {
 	font-size: 0.8em;
 	margin-bottom: 0.5em;
 }
 
-/*Recommended for you module  */
+/*Shopping cart module*/
+.cart-grid-container{
+	display: grid;
+	grid-template-columns: 0.3fr 1.2fr 1.2fr 0.5fr 0.5fr;
+	grid-column-gap: 0.5rem;
+	padding-bottom: 1rem;
+}
+
+.cart-subtotal{
+	grid-column: 4/6;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 0.5rem;
+	padding-bottom: 1rem;
+}
+
+.cart-description{
+	display: flex;
+	align-items: center;
+}
+
+/*Recommended for you module */
 
 .recommended-grid {
 	display:grid;
