@@ -154,14 +154,6 @@ ol li {
 	margin-top: 0.5em;
 }
 
-#typography,#bulllets,#form, #numbered, #colors, #buttons, #logo, #illustrations, #text {
-	margin-bottom: 6em;
-}
-
-#crazy, #wireframes, #sitemap, #highf {
-	margin-bottom: 6em ;
-}
-
 /* container for all items */
 
 .main-container {
