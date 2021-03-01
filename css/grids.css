@@ -540,4 +540,11 @@ hr {
    .mini-item22 p {
    	   margin-top: 1em;
    }
+
+   .recipe-blurb {
+	   width: 100%;
+}
+   #all-recipes img{
+    	flex-basis:100%;
+    }
 }
