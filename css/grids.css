@@ -313,16 +313,23 @@ hr {
 /* all recipes module */
 
 .recipe-preview{
-    display: block;
-    margin: 3em 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.recipe-blurb{
-    display: inline-block;
-    margin: 0 3em;
-    width: 50%;
+.recipe-img {
+	margin-right: 3em;
+	margin-bottom: 4em;
 }
 
+.recipe-blurb {
+	width: 30em;
+}
+
+.recipe-blurb li {
+	font-size: 0.8em;
+	margin-bottom: 0.5em;
+}
 /* website grid structure section */
 
 .g-container {
@@ -502,6 +509,11 @@ hr {
 
    }
 
+   #all-recipes img {
+   	   margin-top: 2em;
+   	   flex-basis: 100%;
+   }
+
    .content {
        grid-column:1 / span 8;
 
@@ -522,7 +534,7 @@ hr {
    }
 
    .instructions-item {
-	margin: 1em 0;
+	   margin: 1em 0;
     }
 
    .mini-item22 p {
