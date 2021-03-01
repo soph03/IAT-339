@@ -23,6 +23,10 @@ ol li {
 	margin-bottom: 0.5em;
 }
 
+.anatomy ol li {
+	margin-left:-5em;
+}
+
 #typography,#bulllets,#form, #numbered, #colors, #buttons, #logo, #illustrations, #in-text {
 	margin-bottom: 4em;
 }
