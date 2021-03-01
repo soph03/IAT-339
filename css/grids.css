@@ -273,6 +273,7 @@ hr {
 
 .recipe-container {
 	display:flex;
+	flex-wrap:wrap;
 }
 
 #recipedetail li{
@@ -497,5 +498,13 @@ hr {
 
    .item2 {
        margin-left: -2.5em;
+   }
+
+   .recipe-item {
+   	   margin-top:1em;
+   }
+
+   .mini-item22 p {
+   	   margin-top: 1em;
    }
 }

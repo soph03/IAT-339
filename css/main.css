@@ -754,7 +754,6 @@ hr {
 
 	.mini-item22 h4{
 		font-size:1.1em;
-		margin-bottom:1.5em;
 
 	}
 
@@ -771,6 +770,14 @@ hr {
 
     .item2 {
     	margin-left: -2.5em;
+    }
+
+    .instructions-container img {
+    	margin-bottom: 1em;
+    }
+
+    .recipe-container {
+    	margin-left:-3em;
     }
 }
 
