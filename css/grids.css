@@ -616,12 +616,12 @@ hr {
 
     .recommended-grid {
 		display:grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr;
     }
 
     #recommended {
 		padding:0em;
-}
+    }
 
 	.product-cart-detail{
 		grid-column: 3/5;
