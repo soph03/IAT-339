@@ -31,7 +31,7 @@ ol li {
 	margin-bottom: 7em;
 }
 
-#nav, #product, #grid, #checkout, #footer, #recipe-detail, #all-recipes, #breadcrumbs{
+#nav, #product, #grid, #checkout, #footer, #recipe-detail, #all-recipes, #breadcrumbs, #recommended{
 	margin-bottom: 6em;
 }
 
@@ -278,6 +278,10 @@ hr {
 .recipe-container {
 	display:flex;
 	flex-wrap:wrap;
+	background-color: #F6F0E9;
+	margin-top:4em;
+	margin-bottom:4em;
+	width: 92%;
 }
 
 #recipe-detail li{
@@ -304,12 +308,6 @@ hr {
 	margin-right: 2em;
 }
 
-.recipe-container {
-	background-color: #F6F0E9;
-	margin-top:4em;
-	margin-bottom:4em;
-}
-
 /* all recipes module */
 
 .recipe-preview{
@@ -329,6 +327,44 @@ hr {
 .recipe-blurb li {
 	font-size: 0.8em;
 	margin-bottom: 0.5em;
+}
+
+/*Recommended for you module  */
+
+.recommended-grid {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-left:2em;
+}
+
+#recommended {
+	background-color: #F6F0E9;
+	padding:2em;
+}
+
+#recommended h3 {
+	margin-left:1.3em;
+}
+
+.recommended-item {
+	margin-right:-2em;
+	max-width: 90%;
+}
+
+.recommended-item img {
+	border-radius: 4%;
+}
+
+.recommended-item p {
+	margin-top:-1em;
+}
+
+#recommended h4 {
+	font-size:0.95em;
+}
+
+#recommended p {
+	font-size:0.8em;
 }
 /* website grid structure section */
 
@@ -533,6 +569,10 @@ hr {
    	   margin-top:1em;
    }
 
+   .recipe-container{
+   	width:100%;
+   }
+
    .instructions-item {
 	   margin: 1em 0;
     }
@@ -543,8 +583,19 @@ hr {
 
    .recipe-blurb {
 	   width: 100%;
-}
+   }
+
    #all-recipes img{
     	flex-basis:100%;
     }
+
+    .recommended-grid {
+		display:grid;
+		grid-template-columns: 1fr;
+    }
+
+    #recommended {
+		padding:0em;
+}
+
 }
