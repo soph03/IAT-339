@@ -56,6 +56,16 @@ h5 {
 	padding: 0.5em;
 }
 
+a{
+	color: #3A2B1B;
+    font-weight:400;
+}
+
+a:hover, a:focus{
+    font-weight:600;
+    color:rgb(40,61,59);
+}
+
 img{
 	max-width: 100%;
 }
@@ -152,6 +162,10 @@ ol li {
 
 .h3-type-style{
 	margin-top: 0.5em;
+}
+
+#crazy, #wireframes, #sitemap, #highf {
+	margin-bottom: 6em ;
 }
 
 /* container for all items */
@@ -304,6 +318,7 @@ img {
 	margin-top:3.5em;
 	margin-bottom:3.5em;
 }
+
 /* product detail page */
 .product-image-container {
 	display: flex;
@@ -360,8 +375,13 @@ img {
 	font-size:1em;
 }
 
-#nav, #product, #grid, #checkout, #footer, #recipedetail, #breadcrumbs{
-	margin-bottom: 6em;
+/* all recipes module */
+#all-recipes li{
+	list-style-type: none;
+}
+
+.read-more{
+
 }
 
 /* Form label styling */
@@ -392,6 +412,7 @@ input {
 	font-size: 0.9em;
 	background-color:rgb(40,61,59);
 	color: white;
+	text-decoration: none;
 	border-radius: 3px;
 }
 
@@ -619,157 +640,4 @@ hr {
  	margin-top:0.5em;
  	margin-left: 1em;
  }
-
-@media (max-width: 55em) {
-
-	.main-item {
-		flex-basis: 100%;
-		padding:1em;
-		margin-right:0em;
-	}
-
-	#illustrations img {
-		width:100%;
-	}
-
-	#buttons img {
-		width:100%;
-	}
-
-	#buttonsize img {
-		width: 60%;
-	}
-
-	#logo img{
-		margin-bottom:1em;
-	}
-
-	#footer img{
-		width: 100%;
-	}
-
-	.detail-item {
-		margin-left:0em;
-		margin-top:1em;
-	}
-
-	.flavour-container {
-		flex-basis:100%;
-	}
-
-	.image-item img {
-		width:100%;
-	}
-
-	.second-items {
-		margin-left: 0em;
-		margin-top:3em;
-	}
-
-	.line {
-		display:none;
-	}
-
-	#anatomy img {
-		width:100%;
-	}
-
-	figure img{
-		width:100%;
-	}
-
-	figcaption {
-		width:100%;
-	}
-
-	figure {
-		width:100%;
-	}
-
-	.color-item code {
-		margin-right: -2.7em;
-	}
-
-	.logoo {
-		margin-right:0em;
-		margin-left: -2em;
-	}
-
-	.product-add-button {
-		margin-top:1.5em;
-	}
-
-	#nav li{
-		font-size: 0.8em;
-		margin-bottom: 1em;
-	}
-
-	.disabled-button {
-		width: 10em;
-	}
-
-	.detail-item h3 {
-		font-size: 1.5em;
-	}
-
-	.first-items input {
-		width: 21.5em;
-		height: 2em;
-		margin-top:0.5em;
-	}
-
-	.second-items input {
-		width: 15em;
-		height: 2em;
-	}
-
-	#form input {
-		width: 20em;
-		height: 2em;
-		margin-top:0.5em;
-	}
-
-	.small-container li {
-		font-size:1em;
-    }
-
-	.small-item2 li{
-		justify-content: right;
-		margin-left:2.5em;
-	}
-
-	.mini-item11 img{
-		width:8.5em;
-		margin-bottom:2em;
-
-	}
-
-	.mini-item22 h4{
-		font-size:1.1em;
-
-	}
-
-	.content {
-		grid-column:1 / span 8;
-
-	}
-
-	.button-grid-container {
-		display:grid;
-		grid-template-columns:1fr 1fr;
-		margin-bottom:5em;
-    }
-
-    .item2 {
-    	margin-left: -2.5em;
-    }
-
-    .instructions-container img {
-    	margin-bottom: 1em;
-    }
-
-    .recipe-container {
-    	margin-left:-3em;
-    }
-}
 

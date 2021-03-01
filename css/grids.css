@@ -31,6 +31,10 @@ ol li {
 	margin-bottom: 7em;
 }
 
+#nav, #product, #grid, #checkout, #footer, #recipe-detail, #all-recipes, #breadcrumbs{
+	margin-bottom: 6em;
+}
+
 #crazy, #wireframes, #sitemap, #highf {
 	margin-bottom: 6em ;
 }
@@ -181,10 +185,6 @@ img {
 	flex-wrap: wrap;
 }
 
-#nav, #product, #grid, #checkout, #footer, #breadcrumbs{
-	margin-bottom: 6em;
-}
-
 #buttons h4 {
 	margin-top: 2.5em;
 }
@@ -280,7 +280,7 @@ hr {
 	flex-wrap:wrap;
 }
 
-#recipedetail li{
+#recipe-detail li{
 	margin-left:-1.5em;
 	margin-bottom:1em;
 }
@@ -308,6 +308,19 @@ hr {
 	background-color: #F6F0E9;
 	margin-top:4em;
 	margin-bottom:4em;
+}
+
+/* all recipes module */
+
+.recipe-preview{
+    display: block;
+    margin: 3em 0;
+}
+
+.recipe-blurb{
+    display: inline-block;
+    margin: 0 3em;
+    width: 50%;
 }
 
 /* website grid structure section */
