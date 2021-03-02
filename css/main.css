@@ -375,6 +375,11 @@ img {
 
 }
 
+/* Checkout module */
+.subtotal-item li{
+	list-style-type: none;
+}
+
 /*Shopping cart module*/
 
 button#cart_button{
