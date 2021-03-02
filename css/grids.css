@@ -220,10 +220,6 @@ img {
 	margin-left:-2em;
 }
 
-.small-item2 {
-	margin-left: 8em;
-	text-align: right;
-}
 
 .small-item {
 	margin-left:-0.5em;
@@ -544,7 +540,7 @@ hr {
        font-size:1em;
    }
 
-   .small-item2 li{
+   .price-subtotal li{
        justify-content: right;
        margin-left:2.5em;
    }
