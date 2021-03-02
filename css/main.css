@@ -171,11 +171,6 @@ ol li {
 
 /* container for all items */
 
-.main-container {
-	display: flex;
-	justify-content:center;
-}
-
 .main-item {
 	padding: 5em;
 	padding-top: 0em;
@@ -185,27 +180,6 @@ ol li {
 .grid-container {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
-}
-
-.primary-container {
-	display: flex;
-}
-
-.primary-item1 {
-	flex:1;
-	flex-direction:column;
-	margin-right: 2em;
-}
-
-.primary-item2 {
-	flex:2;
-	flex-direction:column;
-	margin-right: 2em;
-}
-
-.primary-item3 {
-	flex:3;
-	flex-direction:column;
 }
 
 #nav li {

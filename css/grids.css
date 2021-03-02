@@ -40,14 +40,9 @@ ol li {
 }
 
 /* container for all items */
-.main-container {
+.main-container, .nav-container {
 	display: flex;
 	justify-content:center;
-}
-
-.main-item {
-	padding: 5em;
-	padding-top: 0em;
 }
 
 /* UI Pattern elements css */
