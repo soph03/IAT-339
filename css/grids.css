@@ -8,7 +8,7 @@ p {
 	max-width: 45em;
 	margin-top: 1em;
 	margin-bottom: 1.5em;
-	line-height: 1.6em;
+	line-checkout-height: 1.6em;
 }
 
 figure img {
@@ -163,7 +163,7 @@ img {
 }
 
 /* product detail page */
-.product-image-container {
+.product-module {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 2.5em;
@@ -189,46 +189,33 @@ img {
 	margin-top: 2.5em;
 }
 
-.second-container {
+.checkout-module {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 2.5em;
 	margin-bottom: 2em;
 }
 
-.second-items input {
-	width: 10em;
-}
-
-.first-items button {
+.guest-checkout-container button {
 	margin-top: 1.5em;
 }
 
-.second-items {
-	margin-left: 8em;
-}
-
-.mini-containers {
+.purchased-summary-item {
 	display: flex;
 	margin-top: 1.5em;
 	margin-bottom: -1.5em;
 }
 
-.mini-item22{
-	margin-left: 2em;
-	margin-top: -1em;
-}
-
-.mini-item22 p {
+.details-purchased p {
 	margin-top:-1em;
 	font-size:0.9em;
 }
 
-.mini-item22 h4 {
+.details-purchased h4 {
 	font-size: 1em;
 }
 
-.small-container {
+.price-item {
 	display: flex;
 	margin-left:-2em;
 }
@@ -303,13 +290,13 @@ hr {
 	margin-top: 3em;
 }
 
-.instructions-item {
+.instructions-image {
 	margin-right: 2em;
 }
 
 /* all recipes module */
 
-.recipe-preview{
+.recipe-preview-container{
     display: flex;
     flex-wrap: wrap;
 }
@@ -489,12 +476,12 @@ hr {
        width:100%;
    }
 
-   .second-items {
+   .summary-checkout-container {
        margin-left: 0em;
        margin-top:3em;
    }
 
-   .line {
+   .line-checkout {
        display:none;
    }
 
@@ -536,13 +523,13 @@ hr {
        font-size: 1.5em;
    }
 
-   .first-items input {
+   .guest-checkout-container input {
        width: 21.5em;
        height: 2em;
        margin-top:0.5em;
    }
 
-   .second-items input {
+   .summary-checkout-container input {
        width: 15em;
        height: 2em;
    }
@@ -553,7 +540,7 @@ hr {
        margin-top:0.5em;
    }
 
-   .small-container li {
+   .subtotal-item li {
        font-size:1em;
    }
 
@@ -562,13 +549,13 @@ hr {
        margin-left:2.5em;
    }
 
-   .mini-item11 img{
+   .image-purchased img{
        width:8.5em;
        margin-bottom:2em;
 
    }
 
-   .mini-item22 h4{
+   .details-purchased h4{
        font-size:1.1em;
        margin-bottom:0em;
 
@@ -598,11 +585,11 @@ hr {
    	   margin-top:1em;
    }
 
-   .instructions-item {
+   .instructions-image {
 	   margin: 1em 0;
     }
 
-   .mini-item22 p {
+   .details-purchased p {
    	   margin-top: 1em;
    }
 
