@@ -336,7 +336,7 @@ img {
 }
 
 
-.flavour-item2 {
+.right-flavour-item {
 	margin-left: 1em;
 }
 
@@ -479,47 +479,35 @@ input {
 	margin-top: 2.5em;
 }
 
-.second-container {
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 2.5em;
-	margin-bottom: 2em;
-}
 
-.second-items input {
+.summary-checkout-container input {
 	width: 10em;
 }
 
-.first-items default-button {
+.guest-checkout-container default-button {
 	margin-top: 1.5em;
 }
 
-.second-items {
+.summary-checkout-container {
 	margin-left: 8em;
 }
 
-.mini-containers {
-	display: flex;
-	margin-top: 1.5em;
-	margin-bottom: -1.5em;
-}
-
-.mini-item22{
+.details-purchased{
 	margin-left: 2em;
 	margin-top: -1em;
 }
 
-.mini-item22 p{
+.details-purchased p{
 	margin-top: -0.5em;
 }
 
-.small-container {
+.subtotal-item {
 	display: flex;
 	margin-left:-2em;
 	margin-top:-1em;
 }
 
-.small-container li {
+.price-item li {
 	list-style-type: none;
 	margin-top: 1.3em;
 	font-size: 0.8em;
@@ -539,7 +527,7 @@ hr {
 	margin-bottom: 2em;
 }
 
-.line {
+.line-checkout {
 	border-left: 1px solid black;
 	height: 27em;
 	margin-right: -3em;
