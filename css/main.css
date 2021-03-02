@@ -512,7 +512,7 @@ input {
 	margin-top:-1em;
 }
 
-.price-item li {
+.subtotal-item li {
 	list-style-type: none;
 	margin-top: 1.3em;
 	font-size: 0.8em;
@@ -523,7 +523,7 @@ input {
 	text-align: right;
 }
 
-.small-item {
+.labels-price {
 	margin-left:-0.5em;
 }
 

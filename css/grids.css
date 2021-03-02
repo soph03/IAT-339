@@ -215,15 +215,16 @@ img {
 	font-size: 1em;
 }
 
-.price-item {
+.subtotal-item {
 	display: flex;
 	margin-left:-2em;
 }
 
-
-.small-item {
-	margin-left:-0.5em;
+.price-subtotal {
+	margin-left: 8em;
+	text-align: right;
 }
+
 
 hr {
 	margin-top: 2em;
