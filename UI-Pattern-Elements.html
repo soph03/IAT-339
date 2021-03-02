@@ -85,7 +85,7 @@
         <h3> Product detail page module </h3>
         <p> This is a sample of the product detail page on the grainjar website. Spacing and interactive elements such as flavour and size selection are important to consider. 
         </p>
-        <div class = "product-image-container">
+        <div class = "product-module">
           <div class = "image-item">
             <img src = "img/product.jpg" alt= "product image" width= "320">
           </div>
@@ -95,11 +95,11 @@
             <h3 class="product-price"> $ 25.00 CAD </h3> <p></p>
             <h4> select flavour </h4>
             <div class ="flavour-container">
-              <div class ="flavour-item1">
+              <div class ="left-flavour-item">
                 <button class = "disabled-button"> honey</button> 
                 <button class = "disabled-button"> cinnamon </button>
               </div>
-              <div class = "flavour-item2">
+              <div class = "right-flavour-item">
                 <button class = "disabled-button"> mixed berry</button> 
                 <button class = "disabled-button"> natural</button>
               </div>
@@ -126,8 +126,8 @@
       <section id = "checkout">
         <h3> Checkout module </h3>
         <p> This is a sample of the checkout module at grainjar. Forms must be concise and labels must be legible to clearly communicate usage to users. </p>
-        <div class ="second-container">
-          <div class= "first-items">
+        <div class ="checkout-module">
+          <div class= "guest-checkout-container">
             <h4> Guest checkout </h4>
              <form>
               <label for="email">Email</label>
@@ -137,13 +137,13 @@
               </form>
                 <button class ="default-button"> Continue to shipping </button>
               </div>
-             <div class= "line"> </div>
-                <div class= "second-items">
-                  <div class = "mini-containers">
-                    <div class ="mini-item11">
+             <div class= "line-checkout"> </div>
+                <div class= "summary-checkout-container">
+                  <div class = "purchased-item">
+                    <div class ="image-purchased">
                       <img src = 'img/coco.jpg' alt="Coco-hazelnut" width = "100">
                     </div>
-                    <div class = "mini-item22">
+                    <div class = "details-purchased">
                       <h4> Coco-hazelnut cereal </h4>
                       <p> Qty: 1 </p>
                       <p> $25.00 </p>
@@ -153,8 +153,8 @@
                   <input type="text" id="discount" name="discount ">
                   <button class ="default-button"> Apply </button>
                   <hr>
-                  <div class ="small-container">
-                    <div class ="small-item">
+                  <div class ="price-item">
+                    <div class ="labels-price">
                       <ul>
                         <li>Subtotal</li>
                         <li> Tax</li>

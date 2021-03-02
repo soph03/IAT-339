@@ -609,17 +609,13 @@ hr {
     grid-column-end:9;
 }
 
-#main {
+#main, #recipe{
 	background-color: rgb(200, 200, 200);
 	grid-column-start:1;
     grid-column-end:9;
 }
 
-#recipe {
-	background-color: rgb(200, 200, 200);
-	grid-column-start:1;
-    grid-column-end:9;
-}
+
 
 .row-container{
 	grid-column: 2 / 8;
