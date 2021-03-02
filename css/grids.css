@@ -317,7 +317,7 @@ hr {
 /*Shopping cart module*/
 .cart-grid-container{
 	display: grid;
-	grid-template-columns: 0.2fr 1.2fr 1.2fr 0.5fr 0.5fr;
+	grid-template-columns: 0.2fr 0.85fr 1.2fr 0.5fr 0.5fr;
 	grid-column-gap: 0.5rem;
 	padding-bottom: 1rem;
 }
