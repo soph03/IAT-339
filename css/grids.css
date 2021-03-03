@@ -577,6 +577,10 @@ hr {
    	   margin-top: 1em;
    }
 
+   .recipe-img {
+		margin-bottom: 0;
+	}
+
    .recipe-blurb {
 	   width: 100%;
    }
