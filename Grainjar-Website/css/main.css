@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+Thin: 100
+Extra-light: 200
+Light: 300
+Regular: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+Extra-bold: 800
+Black: 900
+*/
+
+/* the following dropdown nav bar was inspired by 
+https://css-tricks.com/solved-with-css-dropdown-menus/ */
+
+body{
+    font-family:'Poppins', Helvetica, Arial, sans-serif;
+	color: #3A2B1B;
+}
+
+h1{
+    /* font-size: 60px; */
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+h2 {	
+	/* font-size: 40px; */
+	font-size: 2.2em;
+	font-weight: 600;
+}
+
+h3{
+    /* font-size: 26px */
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+h4{
+    /* font-size: 18px */
+    font-size: 1.125em;
+    font-weight: 600;
+}
+
+h5 {
+
+}
+
+a{
+	color: #3A2B1B;
+    font-weight:400;
+}
+
+a:hover, a:focus{
+    font-weight:600;
+    color:rgb(40,61,59);
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*Home Page*/
+/*Product*/
+/*Product-Detail*/
+/*Recipe*/
+/*Recipe-Detail*/
+/*About*/
+/*Checkout-Cart*/
+/*Checkout-Information*/
+/*Checkout-Shipping*/
+/*Checkout-Payment*/
+/*Checkout-Summary*/
+/*Checkout-Post-Order*/
