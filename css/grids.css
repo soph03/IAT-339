@@ -80,9 +80,6 @@ ol li {
 	margin-left: 1em;
 }
 
-.logoo {
-	margin-right: 16em;
-}
 
 #colors img {
 	display:block;
@@ -165,12 +162,12 @@ img {
 	margin-bottom: 2em;
 }
 
-.detail-item {
+.detail-container {
 	margin-left: 3em;
 	margin-top:-1.8em;
 }
 
-.detail-item {
+.detail-container {
 	margin-left: 5em;
 	margin-top: -2em;
 }
@@ -383,7 +380,7 @@ hr {
 	grid-template-rows: 3rem 14em 9em 7em 7em 9em 6em;
 }
 
-#logoo {
+#logo-gridsample {
 	background:rgb(100,100,100);
 	grid-column-start:1;
     grid-column-end:2;
@@ -401,17 +398,12 @@ hr {
     grid-column-end:9;
 }
 
-#main {
+#main, #recipe {
 	background-color: rgb(200, 200, 200);
 	grid-column-start:1;
     grid-column-end:9;
 }
 
-#recipe {
-	background-color: rgb(200, 200, 200);
-	grid-column-start:1;
-    grid-column-end:9;
-}
 
 .row-container{
 	grid-column: 2 / 8;
@@ -455,7 +447,7 @@ hr {
        width: 100%;
    }
 
-   .detail-item {
+   .detail-container {
        margin-left:0em;
        margin-top:1em;
    }
@@ -464,7 +456,7 @@ hr {
        flex-basis:100%;
    }
 
-   .image-item img {
+   .image-container img {
        width:100%;
    }
 
@@ -497,7 +489,7 @@ hr {
        margin-right: -2.7em;
    }
 
-   .logoo {
+   .logo-navsample {
        margin-right:0em;
        margin-left: -2em;
    }
@@ -511,7 +503,7 @@ hr {
        width: 10em;
    }
 
-   .detail-item h3 {
+   .detail-container h3 {
        font-size: 1.5em;
    }
 
