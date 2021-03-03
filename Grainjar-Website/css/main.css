@@ -64,6 +64,33 @@ img{
 }
 
 /*Home Page*/
+
+	/*Nav Bar*/
+
+	#navigation li {
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	#navigation ul {
+		background-color: rgb(40,61,59);
+		color: white;
+	}
+
+	.logo {
+		margin-right: 16em;
+	}
+
+	#navigation li a {
+	    color: white;
+	    text-decoration: none;
+	}
+
+	#navigation li a:hover {
+	    color: grey;
+	    transition-duration: 0.5s;
+	}
+
 /*Product*/
 /*Product-Detail*/
 /*Recipe*/
