@@ -21,36 +21,41 @@
 
     <header>
 
-      <div class = "main-container">
+      <!-- Main Navigation -->
+      <nav id="navigation">
 
-        <div class = "main-item">
-          <!-- Main Navigation -->
-          <nav id="navigation">
+        <ul>
 
-            <ul>
+          <li> <a class= "logo" href = "Home-Page.html"> <img src = "img/logo.svg" alt= "image of logo" width= "90"> </a></li>
+          <li> <a class = "active" href = "#"> shop all </a> </li> <!-- link that opens dropdown (doesn't go anywhere) -->
 
-              <li> <a class= "logo" href = "Home-Page.html"> <img src = "img/logo.svg" alt= "image of logo" width= "90"> </a></li>
-              <li> <a class = "active" href = "#"> shop all </a> </li> <!-- link that opens dropdown (doesn't go anywhere) -->
+          <ul class="dropdown" aria-label="submenu">
+            <li> <a href = 'Product-Detail.html'> favourites </a> </li>
+            <li> <a href = '#breakfast'> breakfast </a> </li>
+            <li> <a href = '#dessert'> dessert </a> </li>
+            <li> <a href = '#snack'> snack </a> </li>
+          </ul> <!-- Closing dropdown ul -->
 
-              <ul class="dropdown" aria-label="submenu">
-                <li> <a href = 'Product-Detail.html'> favourites </a> </li>
-                <li> <a href = '#breakfast'> breakfast </a> </li>
-                <li> <a href = '#dessert'> dessert </a> </li>
-                <li> <a href = '#snack'> snack </a> </li>
-              </ul> <!-- Closing dropdown ul -->
+          <li> <a href = "Recipe.html"> recipes </a>  </li>
+          <li> <a href = "About.html"> about </a> </li>
+          <li> <a href = "Checkout-Cart.html"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
 
-              <li> <a href = "Recipe.html"> recipes </a>  </li>
-              <li> <a href = "About.html"> about </a> </li>
-              <li> <a href = "Checkout-Cart.html"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
+        </ul> <!-- Closing the main nav ul -->
 
-            </ul> <!-- Closing the main nav ul -->
+      </nav> <!-- Closing main nav -->
 
-          </nav> <!-- Closing main nav -->
-
-        </div> <!-- Closing main-item -->
-        
-      </div> <!-- Closing main-container -->
     </header>
 
+    <div class = "main-container">
+
+      <div class = "main-item">
+
+        <!-- footer -->
+        <section id = "footer">
+
+        </section>
+
+      </div> <!-- Closing main-item -->  
+    </div> <!-- Closing main-container -->
   </body> 
 </html>

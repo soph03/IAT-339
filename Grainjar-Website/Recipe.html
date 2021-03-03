@@ -17,123 +17,123 @@
 
     <header>
 
-      <div class = "main-container">
+      <!-- Main Navigation -->
+      <nav id="navigation">
 
-        <div class = "main-item">
-          <!-- Main Navigation -->
-          <nav id="navigation">
+        <ul>
 
-            <ul>
+          <li> <a class= "logo" href = "Home-Page.html"> <img src = "img/logo.svg" alt= "image of logo" width= "90"> </a></li>
+          <li> <a href = "#"> shop all </a> </li> <!-- link that opens dropdown (doesn't go anywhere) -->
 
-              <li> <a class= "logo" href = "Home-Page.html"> <img src = "img/logo.svg" alt= "image of logo" width= "90"> </a></li>
-              <li> <a href = "#"> shop all </a> </li> <!-- link that opens dropdown (doesn't go anywhere) -->
+          <ul class="dropdown" aria-label="submenu">
+            <li> <a href = 'Product-Detail.html'> favourites </a> </li>
+            <li> <a href = '#breakfast'> breakfast </a> </li>
+            <li> <a href = '#dessert'> dessert </a> </li>
+            <li> <a href = '#snack'> snack </a> </li>
+          </ul> <!-- Closing dropdown ul -->
 
-              <ul class="dropdown" aria-label="submenu">
-                <li> <a href = 'Product-Detail.html'> favourites </a> </li>
-                <li> <a href = '#breakfast'> breakfast </a> </li>
-                <li> <a href = '#dessert'> dessert </a> </li>
-                <li> <a href = '#snack'> snack </a> </li>
-              </ul> <!-- Closing dropdown ul -->
+          <li> <a class = "active" href = "Recipe.html"> recipes </a>  </li>
+          <li> <a href = "About.html"> about </a> </li>
+          <li> <a href = "Checkout-Cart.html"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
 
-              <li> <a class = "active" href = "Recipe.html"> recipes </a>  </li>
-              <li> <a href = "About.html"> about </a> </li>
-              <li> <a href = "Checkout-Cart.html"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
+        </ul> <!-- Closing the main nav ul -->
 
-            </ul> <!-- Closing the main nav ul -->
+      </nav> <!-- Closing main nav -->
 
-          </nav> <!-- Closing main nav -->
-
-        </div> <!-- Closing main-item -->
-        
-      </div> <!-- Closing main-container -->
     </header>
 
-    <!-- Recipes header banner -->
-    <section id = "recipe-head">
-      <h1> Recipes </h1>
-    </section> <!-- CLosing tag for recipe-head -->
+    <div class = "main-container">
 
-    <!-- Featured Recipe -->
-    <section id = "featured-recipe">
-      <img src = "img/greek-yogurt-parfait.png" alt = "greek yogurt honey parfait" width = "">
+      <div class = "main-item">
 
-      <h2>The Perfect Greek Yogurt Honey Partfait</h2>
-      <p>Beautiful grain free granola parfaits. Whipped up with utterly delicious creamy and smooth greek yogurt and drizzles of honey. 
-        This recipes features our best seller grain free cinnamon walnut granola.</p>
+        <!-- Recipes header banner -->
+        <section id = "recipe-head">
+          <h1> Recipes </h1>
+        </section> <!-- CLosing tag for recipe-head -->
 
-        <a class="default-button" href=''>Read more ></a> 
-      
-    </section> <!-- Closing tag for featured-recipe -->
+        <!-- Featured Recipe -->
+        <section id = "featured-recipe">
+          <img src = "img/greek-yogurt-parfait.png" alt = "greek yogurt honey parfait" width = "">
 
-    <!-- All Recipes Module -->
-    <section id = "all-recipes">
-      <h3>All Recipes</h3>
+          <h2>The Perfect Greek Yogurt Honey Partfait</h2>
+          <p>Beautiful grain free granola parfaits. Whipped up with utterly delicious creamy and smooth greek yogurt and drizzles of honey. 
+            This recipes features our best seller grain free cinnamon walnut granola.</p>
 
-      <div class = "recipe-preview-container">
-        <div class = "recipe-img">
-          <img src="img/berry-crisp.png" alt="triple berry crisp" width = "211">
-        </div>
-
-        <div class = "recipe-blurb">
-          <h4>Triple Berry Crisp</h4>
-          <ul>
-            <li>Total Time: 65 minutes +</li>
-            <li>Serving Size: 9 servings</li>
-          </ul>
-
-          <p>The easiest Triple Berry Crisp made with frozen raspberries, blueberries 
-            and blackberries for a juicy berry filling nestled under a crispy oat topping.</p>
+            <a class="default-button" href=''>Read more ></a> 
           
-          <a class="default-button" href=''>Read more ></a>  
+        </section> <!-- Closing tag for featured-recipe -->
 
-        </div> <!-- Closing tag for recipe-blurb -->
-      </div> <!-- Closing tag for recipe-preview-container -->
+        <!-- All Recipes Module -->
+        <section id = "all-recipes">
+          <h3>All Recipes</h3>
 
-      <div class = "recipe-preview-container">
-        <div class = "recipe-img">
-          <img src="img/easy-overnight-oats.png" alt="easy overnight oats" width = "211">
-        </div>
+          <div class = "recipe-preview-container">
+            <div class = "recipe-img">
+              <img src="img/berry-crisp.png" alt="triple berry crisp" width = "211">
+            </div>
 
-        <div class = "recipe-blurb">
-          <h4>Easy Overnight Oats</h4>
-          <ul>
-            <li>Total Time: 5 minutes +</li>
-            <li>Serving Size: 1 serving</li>
-          </ul>
+            <div class = "recipe-blurb">
+              <h4>Triple Berry Crisp</h4>
+              <ul>
+                <li>Total Time: 65 minutes +</li>
+                <li>Serving Size: 9 servings</li>
+              </ul>
 
-          <p>This easy overnight oats recipe is a healthy simple breakfast that you can make 
-            ahead for busy mornings and customize with many add-ins and toppings!</p>
-          
-          <a class="default-button" href='Recipe-Detail.html'>Read more ></a>  
+              <p>The easiest Triple Berry Crisp made with frozen raspberries, blueberries 
+                and blackberries for a juicy berry filling nestled under a crispy oat topping.</p>
+              
+              <a class="default-button" href=''>Read more ></a>  
 
-        </div> <!-- Closing tag for recipe-blurb -->
-      </div> <!-- Closing tag for recipe-preview-container -->
-        
-      <div class = "recipe-preview-container">
-        <div class = "recipe-img">
-          <img src="img/chocolate-pumpkin-granola.png" alt="chocolate pumpkin granola" width = "211">
-        </div>
-        
-        <div class = "recipe-blurb">
-        <h4>Chocolate Pumpkin Granola</h4>
-        <ul>
-          <li>Total Time: 50 minutes +</li>
-          <li>Serving Size: 2 servings</li>
-        </ul>
+            </div> <!-- Closing tag for recipe-blurb -->
+          </div> <!-- Closing tag for recipe-preview-container -->
 
-          <p>This recipe for pumpkin granola is loaded with nutty pecans and studded with 
-            chocolate chips for the perfect hint of chocolatey goodness. Vegan + gluten-free.</p>
-          
-          <a class="default-button" href=''>Read more ></a>  
+          <div class = "recipe-preview-container">
+            <div class = "recipe-img">
+              <img src="img/easy-overnight-oats.png" alt="easy overnight oats" width = "211">
+            </div>
 
-        </div> <!-- Closing tag for recipe-blurb -->
-      </div> <!-- Closing tag for recipe-preview-container -->
-    </section> <!-- Closing tag for all-recipes -->
+            <div class = "recipe-blurb">
+              <h4>Easy Overnight Oats</h4>
+              <ul>
+                <li>Total Time: 5 minutes +</li>
+                <li>Serving Size: 1 serving</li>
+              </ul>
 
-    <!-- footer -->
-    <section id = "footer">
+              <p>This easy overnight oats recipe is a healthy simple breakfast that you can make 
+                ahead for busy mornings and customize with many add-ins and toppings!</p>
+              
+              <a class="default-button" href='Recipe-Detail.html'>Read more ></a>  
 
-    </section>
+            </div> <!-- Closing tag for recipe-blurb -->
+          </div> <!-- Closing tag for recipe-preview-container -->
+            
+          <div class = "recipe-preview-container">
+            <div class = "recipe-img">
+              <img src="img/chocolate-pumpkin-granola.png" alt="chocolate pumpkin granola" width = "211">
+            </div>
+            
+            <div class = "recipe-blurb">
+            <h4>Chocolate Pumpkin Granola</h4>
+            <ul>
+              <li>Total Time: 50 minutes +</li>
+              <li>Serving Size: 2 servings</li>
+            </ul>
 
+              <p>This recipe for pumpkin granola is loaded with nutty pecans and studded with 
+                chocolate chips for the perfect hint of chocolatey goodness. Vegan + gluten-free.</p>
+              
+              <a class="default-button" href=''>Read more ></a>  
+
+            </div> <!-- Closing tag for recipe-blurb -->
+          </div> <!-- Closing tag for recipe-preview-container -->
+        </section> <!-- Closing tag for all-recipes -->
+
+        <!-- footer -->
+        <section id = "footer">
+
+        </section>
+
+      </div> <!-- Closing main-item -->  
+    </div> <!-- Closing main-container -->
   </body> 
 </html>
