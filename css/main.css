@@ -345,6 +345,10 @@ img {
 	list-style-type: none;
 }
 
+#all-recipes ul{
+	padding: 0;
+}
+
 .read-more{
 
 }
