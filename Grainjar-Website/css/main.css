@@ -67,29 +67,44 @@ img{
 
 	/*Nav Bar*/
 
-	#navigation li {
+	header {
+		background-color:rgb(40,61,59);
+		height:3.5em;
+		margin-top:-0.5em;
+		margin-left:-0.5em;
+		margin-right:-0.5em;
+    }
+
+
+	nav li {
 		list-style-type: none;
 		display: inline-block;
+		font-weight: bolder;
+		margin: 0 1.3vw;
 	}
 
-	#navigation ul {
-		background-color: rgb(40,61,59);
-		color: white;
-	}
-
-	.logo {
-		margin-right: 16em;
-	}
-
-	#navigation li a {
+	nav li a {
 	    color: white;
 	    text-decoration: none;
 	}
 
-	#navigation li a:hover {
+	nav li a:hover {
 	    color: grey;
-	    transition-duration: 0.5s;
+	    transition-duration: 0.4s;
 	}
+
+	#navigation {
+		width: 35%;
+		position: absolute;
+		right: 0;
+	}
+
+	.logo {
+		margin-left:3.5em;
+		margin-top:0.7em;
+		position: absolute;
+	}
+
 
 /*Product*/
 /*Product-Detail*/
