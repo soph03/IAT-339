@@ -242,6 +242,11 @@ ul li ul:focus {
 	top:40%;
 }
 
+#title-banner img {
+	height: 29em;
+	width:100%;
+}
+
 .line {
 	border-left: 1.5px solid black;
 	height:15em;
