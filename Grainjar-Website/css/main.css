@@ -183,6 +183,15 @@ ul li ul:focus {
 	margin-bottom:2em;
 }
 
+/*inspo board section */
+
+.inspo-grid-item h3 {
+	color:white;
+	font-size: 1.3em;
+	position:absolute;
+	margin-left:9em;
+}
+
 /*why grainjar section */
 
 .why-grainjar-container{
