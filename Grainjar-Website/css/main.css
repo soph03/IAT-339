@@ -309,35 +309,24 @@ ul li ul:focus {
 	padding-left: 3em;
 }
 
-.featured-text{
-	width:57em;
-}
-
-.recipe-blurb h4 {
-	font-size:1.5em;
-}
-
-.recipe-blurb p {
-	width:25em;
-}
-
-#recipe-head{
-	z-index: -1;
-	position: absolute;
-	width: 100%;
-	display: block;
-	background-color: #EADDD0;
-	
-}
-
-#recipe-head h1{
-	padding-left: 3em;
-}
-
 #featured-recipe{
 	
 	margin-top: 12em;
 	text-align: left;
+}
+
+.featured-text{
+	width:57em;
+	margin-bottom:2em;
+}
+
+.recipe-blurb h4 {
+	font-size:1.4em;
+}
+
+.recipe-blurb p {
+	width:28em;
+	margin-bottom:2em;
 }
 
 /*Recipe-Detail*/
