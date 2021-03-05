@@ -55,6 +55,28 @@
 	width: 30em;
 }
 
+/* all recipes module */
+
+.recipe-preview-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe-img {
+	margin-right: 3em;
+	margin-bottom: 4em;
+}
+
+.recipe-blurb li {
+	font-size: 0.8em;
+	margin-bottom: 0.5em;
+	margin-left:-2em;
+}
+
+.recipe-blurb {
+	margin-top:-2em;
+}
+
 
 
 /*Product*/

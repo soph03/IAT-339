@@ -71,10 +71,6 @@ section {
 	margin-bottom:9em;
 }
 
-.main-container img{
-	border-radius:3%;
-}
-
 .main-container{
 	display:flex;
 	justify-content:center;
@@ -315,6 +311,46 @@ ul li ul:focus {
 	margin-top:-2em;
 	margin-left:2em;
 }
+
+
+/*Product*/
+/*Product-Detail*/
+
+/*Recipe*/
+
+/* Recipes title banner */
+#recipe-head{
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	display: block;
+	background-color: #EADDD0;
+	
+}
+
+#recipe-head h1{
+	padding-left: 3em;
+}
+
+.featured-recipe img {
+	width:100%;
+}
+
+.featured-text{
+	width:55em;
+
+}
+
+.recipe-blurb h4 {
+	font-size:1.5em;
+}
+
+.recipe-blurb p {
+	width:25em;
+}
+
+/*Recipe-Detail*/
+/*About*/
 /*Checkout-Cart*/
 /*Checkout-Information*/
 /*Checkout-Shipping*/
