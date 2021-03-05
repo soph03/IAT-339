@@ -71,6 +71,10 @@ section {
 	margin-bottom:9em;
 }
 
+.main-container img{
+	border-radius:3%;
+}
+
 .main-container{
 	display:flex;
 	justify-content:center;
@@ -211,6 +215,8 @@ ul li ul:focus {
 .best-sellers-grid p{
 	margin-top:-1em;
 }
+
+/*at grainjar section */
 
 #at-grainjar {
 	background-color: rgba(234,221,208,0.5);
