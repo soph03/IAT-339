@@ -235,30 +235,7 @@ ul li ul:focus {
 /*Recipe*/
 
 /* Recipes title banner */
-#recipe-head{
-	z-index: -1;
-	position: absolute;
-	width: 100%;
-	display: block;
-	background-color: #EADDD0;
-	
-}
 
-#recipe-head h1{
-	padding-left: 3em;
-}
-
-#featured-recipe{
-	
-	margin-top: 12em;
-	text-align: center;
-}
-
-.featured-text{
-	max-width: 70%;
-	text-align: left;
-	padding: 0 10em;
-}
 
 /*Recipe-Detail*/
 /*About*/
@@ -332,13 +309,8 @@ ul li ul:focus {
 	padding-left: 3em;
 }
 
-.featured-recipe img {
-	width:100%;
-}
-
 .featured-text{
-	width:55em;
-
+	width:57em;
 }
 
 .recipe-blurb h4 {
@@ -347,6 +319,25 @@ ul li ul:focus {
 
 .recipe-blurb p {
 	width:25em;
+}
+
+#recipe-head{
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	display: block;
+	background-color: #EADDD0;
+	
+}
+
+#recipe-head h1{
+	padding-left: 3em;
+}
+
+#featured-recipe{
+	
+	margin-top: 12em;
+	text-align: left;
 }
 
 /*Recipe-Detail*/
