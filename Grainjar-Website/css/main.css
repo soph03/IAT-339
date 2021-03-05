@@ -17,6 +17,7 @@ https://css-tricks.com/solved-with-css-dropdown-menus/ */
 
 body{
     font-family:'Poppins', Helvetica, Arial, sans-serif;
+	color: #3A2B1B;
 }
 
 h1{
@@ -137,7 +138,7 @@ nav li a:hover {
 }
 
 .logo {
-	margin-left:4em;
+	margin-left:10em;
 	margin-top:0.7em;
 	position: absolute;
 }
@@ -240,7 +241,32 @@ ul li ul:focus {
 
 /*Product*/
 /*Product-Detail*/
+
 /*Recipe*/
+
+/* Recipes title banner */
+#recipe-head{
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	display: block;
+	background-color: #EADDD0;
+	
+}
+
+#recipe-head h1{
+	padding-left: 3em;
+}
+
+#featured-recipe{
+	margin-top: 12em;
+	text-align: center;
+}
+
+#featured-recipe h2, #featured-recipe p{
+	text-align:left;
+}
+
 /*Recipe-Detail*/
 /*About*/
 /*Checkout-Cart*/
