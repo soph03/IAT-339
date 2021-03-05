@@ -259,12 +259,15 @@ ul li ul:focus {
 }
 
 #featured-recipe{
+	
 	margin-top: 12em;
 	text-align: center;
 }
 
-#featured-recipe h2, #featured-recipe p{
-	text-align:left;
+.featured-text{
+	max-width: 70%;
+	text-align: left;
+	padding: 0 10em;
 }
 
 /*Recipe-Detail*/
