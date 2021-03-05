@@ -49,7 +49,6 @@ h5 {
 }
 
 p{
-	color:#3D2B19;
 	line-height:1.5em;
 }
 
@@ -234,21 +233,54 @@ ul li ul:focus {
 	border-radius: 50%;
 }
 
+/*Product*/
+/*Product-Detail*/
+
+/*Recipe*/
+
+/* Recipes title banner */
+#recipe-head{
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	display: block;
+	background-color: #EADDD0;
+	
+}
+
+#recipe-head h1{
+	padding-left: 3em;
+}
+
+#featured-recipe{
+	
+	margin-top: 12em;
+	text-align: center;
+}
+
+.featured-text{
+	max-width: 70%;
+	text-align: left;
+	padding: 0 10em;
+}
+
+/*Recipe-Detail*/
+/*About*/
 /*About grainjar*/
 
 #title-banner h1 {
 	position:absolute;
 	left:10%;
-	top:40%;
+	top:20%;
 }
 
 #title-banner img {
-	height: 29em;
+	height: auto;
 	width:100%;
 }
 
 .line {
-	border-left: 1.5px solid black;
+	border-left: 2px solid #3D2B19;
 	height:15em;
 	position:absolute;
 	margin-left:-3em;
@@ -283,41 +315,6 @@ ul li ul:focus {
 	margin-top:-2em;
 	margin-left:2em;
 }
-
-
-/*Product*/
-/*Product-Detail*/
-
-/*Recipe*/
-
-/* Recipes title banner */
-#recipe-head{
-	z-index: -1;
-	position: absolute;
-	width: 100%;
-	display: block;
-	background-color: #EADDD0;
-	
-}
-
-#recipe-head h1{
-	padding-left: 3em;
-}
-
-#featured-recipe{
-	
-	margin-top: 12em;
-	text-align: center;
-}
-
-.featured-text{
-	max-width: 70%;
-	text-align: left;
-	padding: 0 10em;
-}
-
-/*Recipe-Detail*/
-/*About*/
 /*Checkout-Cart*/
 /*Checkout-Information*/
 /*Checkout-Shipping*/
