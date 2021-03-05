@@ -8,7 +8,7 @@
 .at-grainjar-grid {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-column-gap: 2em;
+	grid-column-gap: 1em;
 	margin-top:4em;
 	margin-bottom:2em;
 }
