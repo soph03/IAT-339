@@ -255,6 +255,16 @@ ul li ul:focus {
 	border-radius: 50%;
 }
 
+/*mailing list section */
+
+#mailing-list {
+	text-align:center;
+}
+
+#mailing-list button {
+	margin-top:1em;
+}
+
 /*Product*/
 /*Product-Detail*/
 
