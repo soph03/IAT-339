@@ -17,12 +17,11 @@ https://css-tricks.com/solved-with-css-dropdown-menus/ */
 
 body{
     font-family:'Poppins', Helvetica, Arial, sans-serif;
-	color: #3A2B1B;
 }
 
 h1{
     /* font-size: 60px; */
-    font-size: 3.5em;
+    font-size: 3.1em;
     font-weight: 700;
 }
 
@@ -34,7 +33,7 @@ h2 {
 
 h3{
     /* font-size: 26px */
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: 500;
 }
 
@@ -46,6 +45,11 @@ h4{
 
 h5 {
 
+}
+
+p{
+	color:#3D2B19;
+	line-height:1.5em;
 }
 
 a{
@@ -63,74 +67,175 @@ img{
 	height: auto;
 }
 
+section {
+	margin-bottom:9em;
+}
+
+.main-container{
+	display:flex;
+	justify-content:center;
+}
+
+.main-item{
+	padding: 4em;
+	padding-top:0em;
+}
+
+/* Buttons */
+
+.default-button {
+	border:none;
+	padding: 8px 28px 8px 28px;
+	font-size: 0.9em;
+	background-color:rgb(40,61,59);
+	color: white;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.default-button:hover {
+	color: black;
+	background-color: white;
+	border: 1px solid rgb(40,61,59);
+	transition-duration: 0.4s;
+}
+
 /*Home Page*/
 
-	/*Nav Bar*/
+/*Nav Bar*/
 
-	header {
-		background-color:rgb(40,61,59);
-		height:3.5em;
-		margin-top:-0.5em;
-		margin-left:-0.5em;
-		margin-right:-0.5em;
-    }
+header {
+	background-color:rgb(40,61,59);
+	height:3.5em;
+}
 
 
-	nav li {
-		list-style-type: none;
-		display: inline-block;
-		margin: 0 1.3vw;
-	}
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 1.3vw;
+}
 
-	nav li a {
-	    color: white;
-	    text-decoration: none;
-	}
+nav li a {
+    color: white;
+    text-decoration: none;
+}
 
-	nav li a:hover {
-	    color: grey;
-	    transition-duration: 0.4s;
-	}
+nav li a:hover {
+    color: grey;
+    transition-duration: 0.4s;
+}
 
-	#navigation {
-		width: 35%;
-		position: absolute;
-		right: 0;
-	}
+#navigation {
+	width: 35%;
+	position: absolute;
+	right: 0;
+}
 
-	.logo {
-		margin-left:3em;
-		margin-top:0.7em;
-		position: absolute;
-	}
+.logo {
+	margin-left:4em;
+	margin-top:0.7em;
+	position: absolute;
+}
 
-	ul li ul {
-		background-color:rgb(40,61,59);
-		visibility: hidden;
-		position: absolute;
-		transition: all 0.5s ease;
-		text-align: center;
-		display: none;
-		margin-left:-2em;
-		padding:0.5em;
-	}
+ul li ul {
+	background-color:rgb(40,61,59);
+	visibility: hidden;
+	position: absolute;
+	transition: all 0.5s ease;
+	text-align: center;
+	display: none;
+	margin-left:-2em;
+	padding:0.5em;
+}
 
-	ul li ul li {
-		display: block;
-		margin-bottom:1em;
-	}
+ul li ul li {
+	display: block;
+	margin-bottom:1em;
+}
 
-	ul li:hover > ul,
-	ul li:focus-within > ul,
-	ul li ul:hover,
-	ul li ul:focus {
-	   visibility: visible;
-	   display: block;
-	}
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+   visibility: visible;
+   display: block;
+}
 
-	.active {
-		font-weight:bold;
-	}
+.active {
+	font-weight:bold;
+}
+
+/*Home page banner */
+
+.main-banner-text{
+	position:absolute;
+	justify-content:right;
+	top: 35%;
+    left: 57%;
+    width: 36%;
+    text-align:right;
+    color:#3D2B19;
+}
+
+#main-banner p{
+	margin-bottom:2em;
+}
+
+/*why grainjar section */
+
+.why-grainjar-container{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.why-grainjar-item1 {
+	flex:10%;
+	flex-direction: column;
+	width:30em;
+}
+
+.why-grainjar-container h2 {
+	color: #B89473;
+}
+
+.why-grainjar-container img{
+	margin-top:3em;
+	margin-left:5em;
+}
+
+#about-grainjar p {
+	margin-bottom:2em;
+}
+
+.best-sellers-grid p{
+	margin-top:-1em;
+}
+
+#at-grainjar {
+	background-color: rgba(234,221,208,0.5);
+	padding-top:3em;
+	margin-top:-4em;
+}
+
+#at-grainjar {
+	text-align:center;
+}
+
+#at-grainjar img{
+	border-radius: 50%;
+}
+
+.recipes-preview-item {
+	margin-right: 4em;
+}
+
+#recipes-preview h3{
+	margin-top:0em;
+}
+
+
+
 
 
 /*Product*/
