@@ -9,44 +9,45 @@
     <title> Product Detail </title>
 
     <!-- Links to CSS Style Sheets -->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
   </head>
 
+  <header>
+
+    <!-- Main Navigation -->
+    <nav id="navigation">
+
+      <ul>
+
+        <li> <a class = "active" href = "#"> shop </a>  <!-- link that opens dropdown (doesn't go anywhere) -->
+
+          <ul class="dropdown" aria-label="submenu">
+            <li> <a href = 'Product-Detail.html'> favourites </a> </li>
+            <li> <a href = '#breakfast'> breakfast </a> </li>
+            <li> <a href = '#dessert'> dessert </a> </li>
+            <li> <a href = '#snack'> snack </a> </li>
+          </ul> <!-- Closing dropdown ul -->
+
+        </li><!-- Closing shop li -->
+
+        <li> <a href = "Recipe.html"> recipes </a>  </li>
+        <li> <a href = "About.html"> about </a> </li>
+        <li> <a href = "Checkout-Cart.html"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
+
+      </ul> <!-- Closing the main nav ul -->
+
+    </nav> <!-- Closing main nav -->
+
+    <!-- Logo -->
+    <div class ="logo">
+      <a href = "Home-Page.html"> <img src = "img/logo.svg" alt= "image of logo" width= "90"> </a> 
+    </div>
+
+  </header>
+
   <body>
-
-    <header>
-
-      <!-- Main Navigation -->
-      <nav id="navigation">
-
-        <ul>
-
-          <li> <a class = "active" href = "#"> shop </a>  <!-- link that opens dropdown (doesn't go anywhere) -->
-
-            <ul class="dropdown" aria-label="submenu">
-              <li> <a href = 'Product-Detail.html'> favourites </a> </li>
-              <li> <a href = '#breakfast'> breakfast </a> </li>
-              <li> <a href = '#dessert'> dessert </a> </li>
-              <li> <a href = '#snack'> snack </a> </li>
-            </ul> <!-- Closing dropdown ul -->
-
-          </li><!-- Closing shop li -->
-
-          <li> <a href = "Recipe.html"> recipes </a>  </li>
-          <li> <a href = "About.html"> about </a> </li>
-          <li> <a href = "Checkout-Cart.html"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
-
-        </ul> <!-- Closing the main nav ul -->
-
-      </nav> <!-- Closing main nav -->
-
-      <!-- Logo -->
-      <div class ="logo">
-        <a href = "Home-Page.html"> <img src = "img/logo.svg" alt= "image of logo" width= "90"> </a> 
-      </div>
-
-    </header>
 
     <div class = "main-container">
 

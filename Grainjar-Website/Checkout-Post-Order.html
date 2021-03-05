@@ -9,21 +9,19 @@
     <title> Post-Order </title>
 
     <!-- Links to CSS Style Sheets -->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
   </head>
 
-  <body>
+  <header>
 
-    <header>
+    <!-- Main Navigation -->
+    <nav id="navigation">
 
-      <!-- Main Navigation -->
-      <nav id="navigation">
+      <ul>
 
-        <ul>
-
-          <li> <a class= "logo" href = "Home-Page.html"> <img src = "img/logo.svg" alt= "image of logo" width= "90"> </a></li>
-          <li> <a href = "#"> shop </a> </li> <!-- link that opens dropdown (doesn't go anywhere) -->
+        <li> <a href = "#"> shop </a>  <!-- link that opens dropdown (doesn't go anywhere) -->
 
           <ul class="dropdown" aria-label="submenu">
             <li> <a href = 'Product-Detail.html'> favourites </a> </li>
@@ -32,15 +30,24 @@
             <li> <a href = '#snack'> snack </a> </li>
           </ul> <!-- Closing dropdown ul -->
 
-          <li> <a href = "Recipe.html"> recipes </a>  </li>
-          <li> <a href = "About.html"> about </a> </li>
-          <li> <a class = "active" href = "Checkout-Cart.html"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
+        </li><!-- Closing shop li -->
 
-        </ul> <!-- Closing the main nav ul -->
+        <li> <a href = "Recipe.html"> recipes </a>  </li>
+        <li> <a href = "About.html"> about </a> </li>
+        <li> <a class = "active" href = "Checkout-Cart.html"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
 
-      </nav> <!-- Closing main nav -->
+      </ul> <!-- Closing the main nav ul -->
 
-    </header>
+    </nav> <!-- Closing main nav -->
+
+    <!-- Logo -->
+    <div class ="logo">
+      <a href = "Home-Page.html"> <img src = "img/logo.svg" alt= "image of logo" width= "90"> </a> 
+    </div>
+
+  </header>
+
+  <body>
 
     <div class = "main-container">
 
@@ -51,7 +58,7 @@
 
         </section>
 
-      </div> <!-- Closing main-item -->
+      </div> <!-- Closing main-item -->   
     </div> <!-- Closing main-container -->
   </body> 
 </html>
