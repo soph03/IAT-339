@@ -121,12 +121,12 @@ nav li {
 }
 
 nav li a {
-    color: white;
+    color: #EADDD0;
     text-decoration: none;
 }
 
 nav li a:hover {
-    color: grey;
+    color: white;
     transition-duration: 0.4s;
 }
 
@@ -167,6 +167,7 @@ ul li ul:focus {
 }
 
 .active {
+	color: white;
 	font-weight:bold;
 }
 
