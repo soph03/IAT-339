@@ -222,6 +222,23 @@ ul li ul:focus {
 	margin-top:-1em;
 }
 
+#shop-bestsellers hr {
+	margin-bottom: 2.5em;
+}
+
+#shop-bestsellers a {
+	text-decoration:none;
+}
+
+.seemore-button {
+	text-align:right;
+	margin-right:1.3em;
+}
+
+#shop-bestsellers a:hover {
+	transition-duration:0.4s;
+}
+
 /*at grainjar section */
 
 #at-grainjar {

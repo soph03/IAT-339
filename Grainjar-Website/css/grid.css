@@ -2,7 +2,7 @@
 .best-sellers-grid {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	width: 95%;
+	grid-column-gap: 1em;
 }
 
 .at-grainjar-grid {
