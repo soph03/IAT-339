@@ -269,6 +269,7 @@ ul li ul:focus {
 
 #all-recipes li{
 	list-style-type: none;
+	margin-left:-3em;
 }
 
 .recipe-blurb h4 {
