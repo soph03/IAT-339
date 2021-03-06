@@ -88,7 +88,7 @@ section {
 .default-button {
 	border:none;
 	padding: 8px 28px 8px 28px;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	background-color:rgb(40,61,59);
 	color: white;
 	text-decoration: none;
@@ -342,6 +342,10 @@ ul li ul:focus {
 
 #recipe-detail p{
 	width: 55em;
+}
+
+.used-recipe {
+	font-size:1.4em;
 }
 
 .recipe-item li{
