@@ -55,11 +55,13 @@ p{
 a{
 	color: #3A2B1B;
     font-weight:400;
+	text-decoration:none;
 }
 
 a:hover, a:focus{
     font-weight:600;
     color:rgb(40,61,59);
+    transition-duration:0.3s;
 }
 
 img{
@@ -222,17 +224,19 @@ ul li ul:focus {
 	margin-top:-1em;
 }
 
-#shop-bestsellers a {
-	text-decoration:none;
-}
-
 .seemore-button {
 	text-align:right;
 	margin-right:1.3em;
 }
 
-#shop-bestsellers a:hover {
-	transition-duration:0.4s;
+/*recipe preview section */
+
+.recipes-preview-container img {
+	border-radius: 2%;
+}
+
+.recipe-preview-item h4{
+	margin-bottom:-2em;
 }
 
 /*at grainjar section */
