@@ -264,11 +264,30 @@ ul li ul:focus {
 
 #mailing-list {
 	text-align:center;
+	background-color: rgba(234,221,208,0.5);
+	margin-top:-3em;
+	padding-top:2em;
+	padding-bottom:2em;
 	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #mailing-list button {
 	margin-top:1em;
+}
+
+#mailing-list input {
+	background-color:rgba(234,221,208,0.1);
+	border:1px solid black;
+	border-radius: 5%;
+	width: 15em;
+	margin-right:0.8em;
+}
+
+::placeholder {
+	font-size:0.7em;
+	padding:1em;
+	margin-left:1em;
+	color:rgb(40,61,59);
 }
 
 /*Product*/
@@ -325,6 +344,12 @@ ul li ul:focus {
 .instructions-container{
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.perfect-parfait-title {
+	font-size:1.9em;
+	margin-bottom:1.5em;
+	margin-top:2em;
 }
 
 .recipe-container {
