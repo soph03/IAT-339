@@ -235,9 +235,14 @@ ul li ul:focus {
 	border-radius: 2%;
 }
 
-.recipe-preview-item h4{
-	margin-bottom:-2em;
+.recipes-preview-item1 h4{
+	margin-bottom:0.5em;
 }
+
+.recipes-preview-item1 a{
+	font-size:0.85em;
+}
+
 
 /*at grainjar section */
 
