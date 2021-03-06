@@ -135,7 +135,7 @@ nav li a:hover {
 }
 
 .logo {
-	margin-left:10em;
+	margin-left:8.5em;
 	margin-top:0.7em;
 	position: absolute;
 }
@@ -232,7 +232,7 @@ ul li ul:focus {
 /*recipe preview section */
 
 .recipes-preview-container img {
-	border-radius: 2%;
+	border-radius: 3%;
 }
 
 .recipes-preview-item1 h4{
