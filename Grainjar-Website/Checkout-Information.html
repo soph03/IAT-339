@@ -53,6 +53,74 @@
 
       <div class = "main-item">
 
+        <div class ="checkout-module">
+
+            <div class= "guest-checkout-container">
+              <h4> Guest checkout </h4>
+              <form>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email ">
+                <label for="pword">Password</label>
+                <input type="text" id="pword" name="pword"> 
+              </form>
+                <button class ="default-button"> Continue to shipping </button>
+            </div> <!-- Closing guest-checkout-container -->
+
+            <div class= "line-checkout">
+
+              <div class= "summary-checkout-container">
+
+                <div class = "purchased-summary-item">
+                  
+                  <div class ="image-purchased">
+                    <img src = 'img/coco.jpg' alt="Coco-hazelnut" width = "100">
+                  </div>
+
+                  <div class = "details-purchased">
+                    <h4> Coco-hazelnut cereal </h4>
+                    <p> Qty: 1 </p>
+                    <p> $25.00 </p>
+                  </div>
+
+                </div> <!-- Closiing purchased-summary-item -->
+
+                <hr>
+
+                <input type="text" id="discount" name="discount">
+                <button class ="default-button"> Apply </button>
+
+                <hr>
+
+                <div class ="subtotal-item">
+                  
+                  <div class ="summary-price-label">
+                    <div class ="label-subtotal">Subtotal</div>
+                    <div class="subtotal-price">$25.00</div>
+                  </div>
+
+                  <div class ="summary-price-label">
+                    <div class ="label-tax">Tax</div>
+                    <div class="tax-price">$1.25</div>
+                  </div>
+
+                  <div class ="summary-price-label">
+                    <div class ="label-shipping">Shipping</div>
+                    <div class="shipping-price">Next step</div>
+                  </div>
+
+                  <hr>
+
+                  <div class ="summary-price-label">
+                    <div class ="label-total">Total</div>
+                    <div class="total-price">$26.25</div>
+                  </div>
+
+                </div><!-- Closing subtotal-item -->
+
+              </div> <!-- Closing summary-checkout-container -->
+            </div> <!-- Closing line-checkout-->
+          </div> <!-- Closing checkout-module -->
+
         <!-- footer -->
         <section id = "footer">
 
