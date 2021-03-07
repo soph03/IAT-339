@@ -1,3 +1,12 @@
+/*Footer*/
+.footer-detail{
+	display:grid;
+	/*grid-template-columns: 1.3fr 1.2fr 1fr 0.9fr 1fr;*/
+	grid-template-columns: auto auto auto auto auto;
+	grid-column-gap: 1em;
+}
+
+
 /*Home Page*/
 .best-sellers-grid {
 	display:grid;
@@ -114,9 +123,19 @@
 
 
 /*Product*/
+#product-option-grid{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-column-gap: 1em;
+}
+
+.option-display-img1, .option-display-img2{
+	grid-column-end: span 2;
+}
+
 /*Product-Detail*/
 /*Recipe*/
-
 /*Recipe-Detail*/
 /*About*/
 /*Checkout-Cart*/
