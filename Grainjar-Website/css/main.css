@@ -283,6 +283,10 @@ ul li ul:focus {
 	font-style: italic;
 }
 
+#customer-feedback h2{
+	margin-top:-0.5em;
+}
+
 /*mailing list section */
 
 #mailing-list {
@@ -413,6 +417,21 @@ ul li ul:focus {
 
 .instructions-image {
 	margin-right: 2em;
+}
+
+.recipe-detail-breadcrumb{
+	position: absolute;
+	width: 100%;
+	display: block;
+	background-color: #EADDD0;
+	padding: 2em;
+	padding-left: 8em;
+}
+
+.recipe-detail-breadcrumb a{
+	color:rgb(40,61,59);
+	font-size: 1.2em; /* font-size: 26px */
+	font-weight: 600;
 }
 
 /*About*/
