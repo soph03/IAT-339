@@ -275,6 +275,14 @@ ul li ul:focus {
 	border-radius: 50%;
 }
 
+/*customer feedback section */
+
+#customer-feedback {
+	color:rgb(40,61,59);
+	text-align:center;
+	font-style: italic;
+}
+
 /*mailing list section */
 
 #mailing-list {
