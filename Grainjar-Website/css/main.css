@@ -558,6 +558,12 @@ ul li ul:focus {
 }
 
 /*Checkout-Cart*/
+button#cart_button{
+	padding: 0;
+	border:none;
+	cursor: pointer;
+	background-color: white;
+}
 /*Checkout-Information*/
 /*Checkout-Shipping*/
 /*Checkout-Payment*/
