@@ -102,6 +102,21 @@ section {
 	transition-duration: 0.4s;
 }
 
+/*Footer*/
+#footer{
+	background-color: rgb(40,61,59);
+	font-weight: 400;
+}
+#footer ul{
+	list-style: none;
+}
+.footer-adress li{
+	color: #EADDD0;
+}
+.footer-info a, .footer-info li, .footer-info p{
+	color: white;
+}
+
 /*Home Page*/
 
 /*Nav Bar*/
