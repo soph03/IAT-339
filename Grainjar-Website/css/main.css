@@ -105,11 +105,21 @@ section {
 /*Footer*/
 #footer{
 	background-color: rgb(40,61,59);
-	font-weight: 400;
+	font-weight: 330;
 	padding: 4rem 4rem;
 }
 #footer ul{
 	list-style: none;
+}
+#footer a, .footer-info-links p{
+	font-weight: 330;
+}
+.footer-title{
+	font-weight: 420;
+}
+.footer-info li{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 .footer-adress li{
 	color: #EADDD0;
@@ -123,17 +133,16 @@ section {
 .footer-social{
 	padding-top: 1em;
 }
-.footer-social-icon{
+.footer-social-icon, .footer-info-links p{
 	margin-right: 0.5rem;
-}
-.footer-info-links{
-	display: flex;
-}
-.footer-info-links p{
-	margin-right: 0.5em;
 }
 .footer-logo{
 	margin-bottom: 1rem;
+}
+.footer-detail{
+	border-bottom: 1.6px solid #AFB7B6;
+	padding-bottom:3rem;
+	margin-bottom: 1.5rem;
 }
 /*Home Page*/
 
