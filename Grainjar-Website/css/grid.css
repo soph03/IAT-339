@@ -5,6 +5,15 @@
 	grid-template-columns: auto auto auto auto auto;
 	grid-column-gap: 1em;
 }
+.footer-logo{
+	grid-column: 1/6;
+}
+.footer-line{
+	grid-column: 1/6;
+}
+.footer-info{
+	display: inline;
+}
 
 /*Home Page*/
 .best-sellers-grid {
