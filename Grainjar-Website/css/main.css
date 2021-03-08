@@ -114,7 +114,7 @@ section {
 .footer-adress li{
 	color: #EADDD0;
 }
-.footer-info a, .footer-info li, .footer-info p{
+.footer-rights p, .footer-info li, .footer-info a, .footer-info-links a{
 	color: white;
 }
 #footer ul{
@@ -125,6 +125,15 @@ section {
 }
 .footer-social-icon{
 	margin-right: 0.5rem;
+}
+.footer-info-links{
+	display: flex;
+}
+.footer-info-links p{
+	margin-right: 0.5em;
+}
+.footer-logo{
+	margin-bottom: 1rem;
 }
 /*Home Page*/
 

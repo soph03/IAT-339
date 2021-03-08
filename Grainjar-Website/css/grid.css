@@ -11,8 +11,8 @@
 .footer-line{
 	grid-column: 1/6;
 }
-.footer-info{
-	display: inline;
+.footer-info-links{
+	grid-column:4/6;
 }
 
 /*Home Page*/
