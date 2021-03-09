@@ -634,6 +634,12 @@ ul li ul:focus {
 #footer a, .footer-info-links p{
 	font-weight: 330;
 }
+
+#footer a {
+	color:rgba(255,255,255,0.7);
+	font-size:0.9em;
+}
+
 .footer-title{
 	font-weight: 420;
 }
