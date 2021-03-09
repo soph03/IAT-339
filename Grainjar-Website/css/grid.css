@@ -241,8 +241,9 @@
 
 .checkout-module{
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto auto auto;
 	grid-column-gap: 1rem;
+	margin-top: 4rem;
 }
 .guest-checkout-container{
 	display: flex;
@@ -256,6 +257,10 @@
 .summary-price-label{
 	display: flex;
 	justify-content: space-between;
+}
+.email-item input, .password-item input{
+	display: flex;
+	flex-direction: column;
 }
 /*Checkout-Shipping*/
 /*Checkout-Payment*/
