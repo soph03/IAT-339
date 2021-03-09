@@ -356,7 +356,7 @@ ul li ul:focus {
 
 .product-detail-breadcrumb a{
 	color:rgb(40,61,59);
-	font-size: 1.7em; /* font-size: 26px */
+	font-size: 1.2em; /* font-size: 26px */
 	font-weight: 600;
 }
 
@@ -638,6 +638,12 @@ ul li ul:focus {
 #footer a, .footer-info-links p{
 	font-weight: 330;
 }
+
+#footer a {
+	color:rgba(255,255,255,0.7);
+	font-size:0.9em;
+}
+
 .footer-title{
 	font-weight: 420;
 }
