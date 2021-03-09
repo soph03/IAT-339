@@ -401,8 +401,12 @@ ul li ul:focus {
 
 .product-info {
 	width: 55em;
+	margin-top:1em;
 }
 
+.product-info h3 {
+	margin-top:2em;
+}
 /* Product form formatting */
 
 /* Product Flavour Selection */
