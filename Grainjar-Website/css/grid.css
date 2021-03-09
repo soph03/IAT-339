@@ -36,17 +36,28 @@
 	margin-right:1.5em;
 }
 
-/*Product*/
+/*Product Template*/
 
 #product-option-grid{
 	display:grid;
 	grid-template-columns: auto auto auto auto;
 	grid-template-rows: 1fr 1fr 1fr;
-	grid-column-gap: 1em;
+	grid-column-gap: 2.2em;
 }
 
 .option-display-img1, .option-display-img2{
 	grid-column-end: span 2;
+}
+.product-option-item figure{
+
+}
+#filter-product{
+	display: flex;
+	justify-content: left;
+	flex-direction: row;
+}
+#filter-product p{
+	margin-right: 1em;
 }
 
 /*Product-Detail*/

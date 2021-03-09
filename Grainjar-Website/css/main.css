@@ -340,7 +340,13 @@ ul li ul:focus {
 	color:rgb(40,61,59);
 }
 
-/*Product*/
+/*Product Template*/
+#filter-product{
+	margin-bottom: 6em;
+}
+/*#product-option-grid img{
+	max-width: none;
+}*/
 
 /* Product Detail */
 
