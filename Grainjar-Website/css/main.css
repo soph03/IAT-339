@@ -102,48 +102,39 @@ section {
 	transition-duration: 0.4s;
 }
 
-/*Footer*/
-#footer{
-	background-color: rgb(40,61,59);
-	font-weight: 330;
-	padding: 4rem 4rem;
-}
-#footer ul{
-	list-style: none;
-}
-#footer a, .footer-info-links p{
-	font-weight: 330;
-}
-.footer-title{
-	font-weight: 420;
-}
-.footer-info li{
-	margin-top: 0.5em;
+.disabled-button {
+	border:1px solid black;
+	width: 10em;
+	padding: 8px 28px 8px 28px;
+	background-color: white;
+	border-radius: 3px;
 	margin-bottom: 0.5em;
+	color: black;
+
 }
-.footer-adress li{
-	color: #EADDD0;
-}
-.footer-rights p, .footer-info li, .footer-info a, .footer-info-links a{
+
+.disabled-button:hover {
 	color: white;
+	background-color: rgb(40,61,59);
+	transition-duration: 0.5s;
 }
-#footer ul{
-	padding: 0;
+
+.size-button {
+	border:1px solid black;
+	width: 4em;
+	padding: 0.5em;
+	background-color: white;
+	border-radius: 3px;
+	margin-right: 0.4em;
+
 }
-.footer-social{
-	padding-top: 1em;
+
+.size-button:hover {
+	color: white;
+	background-color: rgb(40,61,59);
+	transition-duration: 0.5s;
 }
-.footer-social-icon, .footer-info-links p{
-	margin-right: 0.5rem;
-}
-.footer-logo{
-	margin-bottom: 1rem;
-}
-.footer-detail{
-	border-bottom: 1.6px solid #AFB7B6;
-	padding-bottom:3rem;
-	margin-bottom: 1.5rem;
-}
+
 /*Home Page*/
 
 /*Nav Bar*/
@@ -151,6 +142,10 @@ section {
 header {
 	background-color:rgb(40,61,59);
 	height:3.5em;
+}
+
+#navigation{
+	z-index: 1; /* This makes sure that all nav bar elements display on top of any other elements on the page */
 }
 
 
@@ -345,7 +340,91 @@ ul li ul:focus {
 }
 
 /*Product*/
-/*Product-Detail*/
+
+/* Product Detail */
+
+/* Product Detail Breadcrumb */
+.product-detail-breadcrumb{
+	position: absolute;
+	width: 100%;
+	display: block;
+	background-color: #EADDD0;
+	padding: 2em;
+	padding-left: 8em;
+}
+
+.product-detail-breadcrumb a{
+	color:rgb(40,61,59);
+	font-size: 1.7em; /* font-size: 26px */
+	font-weight: 600;
+}
+
+/* Product Detail Module */
+.product-detail-container h5{
+	/* font-size: 16px */
+	font-size: 1em;
+	color: white;
+	background-color:rgb(91,122,120);
+	text-align: center;
+	padding: 0.5em;
+}
+
+.product-name{
+	/* font-size: 32px */
+	font-size: 2rem;
+	margin-bottom: 0.25em;
+}
+
+.product-price{
+	/* font-size: 30px */
+	font-size: 1.875rem;
+	font-weight: 400; 
+}
+
+.product-detail-container {
+	margin-left: 5em;
+	margin-top: -2em;
+}
+
+.product-detail-container h3 {
+	margin-bottom:1em;
+	margin-top:0em;
+	font-size: 1.4em;
+}
+
+.product-detail-container h4 {
+	margin-top:0.8em;
+	margin-bottom:0.8em;
+	font-size:1em;
+}
+
+/* Product form formatting */
+
+/* Product Flavour Selection */
+
+.flavour-container default-button {
+	font-size:0.9em;
+}
+
+.flavour-container .disabled-button {
+	display:block;
+}
+
+.right-flavour-item {
+	margin-left: 1em;
+}
+
+/* Product Size Selection */
+
+.size-container li {
+	list-style-type:none;
+	display: inline;
+	font-size: 0.9em;
+}
+
+.size-container {
+	margin-left:-2.5em;
+}
 
 /*Recipe*/
 
@@ -520,3 +599,46 @@ ul li ul:focus {
 /*Checkout-Payment*/
 /*Checkout-Summary*/
 /*Checkout-Post-Order*/
+
+/*Footer*/
+#footer{
+	background-color: rgb(40,61,59);
+	font-weight: 330;
+	padding: 4rem 4rem;
+}
+#footer ul{
+	list-style: none;
+}
+#footer a, .footer-info-links p{
+	font-weight: 330;
+}
+.footer-title{
+	font-weight: 420;
+}
+.footer-info li{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.footer-adress li{
+	color: #EADDD0;
+}
+.footer-rights p, .footer-info li, .footer-info a, .footer-info-links a{
+	color: white;
+}
+#footer ul{
+	padding: 0;
+}
+.footer-social{
+	padding-top: 1em;
+}
+.footer-social-icon, .footer-info-links p{
+	margin-right: 0.5rem;
+}
+.footer-logo{
+	margin-bottom: 1rem;
+}
+.footer-detail{
+	border-bottom: 1.6px solid #AFB7B6;
+	padding-bottom:3rem;
+	margin-bottom: 1.5rem;
+}
