@@ -77,6 +77,44 @@
 	margin-top: 2.5em;
 }
 
+/*Product Detail: Recommended for you module */
+
+.recommended-grid {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-left:2em;
+}
+
+#recommended {
+	background-color: #F6F0E9;
+	padding:2em;
+}
+
+#recommended h3 {
+	margin-left:1.3em;
+}
+
+.recommended-item {
+	margin-right:-2em;
+	max-width: 90%;
+}
+
+.recommended-item img {
+	border-radius: 4%;
+}
+
+.recommended-item p {
+	margin-top:-1em;
+}
+
+#recommended h4 {
+	font-size:0.95em;
+}
+
+#recommended p {
+	font-size:0.8em;
+}
+
 /*Recipe*/
 
 .recipe-preview-container{
@@ -121,44 +159,6 @@
 	margin-left:3em;
 	margin-top:3em;
 	width:12em;
-}
-
-/*Recommended for you module */
-
-.recommended-grid {
-	display:grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	margin-left:2em;
-}
-
-#recommended {
-	background-color: #F6F0E9;
-	padding:2em;
-}
-
-#recommended h3 {
-	margin-left:1.3em;
-}
-
-.recommended-item {
-	margin-right:-2em;
-	max-width: 90%;
-}
-
-.recommended-item img {
-	border-radius: 4%;
-}
-
-.recommended-item p {
-	margin-top:-1em;
-}
-
-#recommended h4 {
-	font-size:0.95em;
-}
-
-#recommended p {
-	font-size:0.8em;
 }
 
 /*About*/
