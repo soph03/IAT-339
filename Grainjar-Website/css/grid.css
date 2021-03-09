@@ -95,22 +95,15 @@
 .recommended-grid {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	margin-left:2em;
+	grid-column-gap:5em;
 }
 
 #recommended {
 	background-color: #F6F0E9;
-	padding:2em;
-	width: 52em;
-}
-
-#recommended h3 {
-	margin-left:1.3em;
 }
 
 .recommended-item {
 	margin-right:-2em;
-	max-width: 90%;
 }
 
 .recommended-item img {
