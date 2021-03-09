@@ -145,6 +145,10 @@ header {
 	height:3.5em;
 }
 
+#navigation{
+	z-index: 1;
+}
+
 
 nav li {
 	list-style-type: none;
