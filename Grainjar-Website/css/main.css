@@ -352,7 +352,7 @@ ul li ul:focus {
 
 .product-detail-breadcrumb a{
 	color:rgb(40,61,59);
-	font-size: 1.7em; /* font-size: 26px */
+	font-size: 1.2em; /* font-size: 26px */
 	font-weight: 600;
 }
 
