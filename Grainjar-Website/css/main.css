@@ -49,7 +49,7 @@ h5 {
 }
 
 p{
-	line-height:1.8em;
+	line-height:1.7em;
 }
 
 a{
@@ -399,8 +399,8 @@ ul li ul:focus {
 	font-size:1em;
 }
 
-.product-info p{
-	max-width: 70%;
+.product-info {
+	width: 55em;
 }
 
 /* Product form formatting */

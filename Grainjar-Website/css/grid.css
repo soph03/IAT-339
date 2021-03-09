@@ -81,12 +81,13 @@
 .ingredient-icon-grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	width: 55em;
+	margin-left:-2em;
 }
 
 .ingredient-icon-item{
 	margin-top: 3em;
 	text-align: center;
-	max-width: 90%;
 }
 
 /*Product Detail: Recommended for you module */
@@ -100,6 +101,7 @@
 #recommended {
 	background-color: #F6F0E9;
 	padding:2em;
+	width: 52em;
 }
 
 #recommended h3 {
