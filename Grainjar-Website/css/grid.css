@@ -77,6 +77,16 @@
 	margin-top: 2.5em;
 }
 
+/* Product Ingredient Icon  */
+.ingredient-icon-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ingredient-icon-item{
+	max-width: 90%;
+}
+
 /*Product Detail: Recommended for you module */
 
 .recommended-grid {
