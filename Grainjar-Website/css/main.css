@@ -153,6 +153,10 @@ header {
 	height:3.5em;
 }
 
+#navigation{
+	z-index: 1; /* This makes sure that all nav bar elements display on top of any other elements on the page */
+}
+
 
 nav li {
 	list-style-type: none;
