@@ -399,6 +399,10 @@ ul li ul:focus {
 	font-size:1em;
 }
 
+.product-info p{
+	max-width: 70%;
+}
+
 /* Product form formatting */
 
 /* Product Flavour Selection */
