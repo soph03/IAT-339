@@ -42,7 +42,8 @@
 	display:grid;
 	grid-template-columns: auto auto auto auto;
 	grid-template-rows: 1fr 1fr 1fr;
-	grid-column-gap: 2.2em;
+	grid-column-gap: 2.7em;
+	grid-row-gap: 2.7em;
 }
 
 .option-display-img1, .option-display-img2{
@@ -55,9 +56,6 @@
 	display: flex;
 	justify-content: left;
 	flex-direction: row;
-}
-#filter-product p{
-	margin-right: 1em;
 }
 
 /*Product-Detail*/

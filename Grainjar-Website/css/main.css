@@ -342,7 +342,21 @@ ul li ul:focus {
 
 /*Product Template*/
 #filter-product{
-	margin-bottom: 6em;
+	margin-bottom: 5em;
+}
+#filter-product p{
+	margin-right: 2.5em;
+}
+.product-option-item h4{
+	margin-top:0.6rem;
+	margin-bottom:0.6rem;
+}
+.product-option-item a{
+	font-weight: 550;
+}
+.product-option-item p{
+	margin-top:0.5rem;
+	margin-bottom: 0;
 }
 /*#product-option-grid img{
 	max-width: none;
