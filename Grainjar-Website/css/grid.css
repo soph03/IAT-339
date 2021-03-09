@@ -238,7 +238,37 @@
 }
 
 /*Checkout-Information*/
+
+.checkout-module{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 1rem;
+}
+.guest-checkout-container{
+	display: flex;
+	flex-direction: column;
+}
+.purchased-summary-item{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 1rem;
+}
+.summary-price-label{
+	display: flex;
+	justify-content: space-between;
+}
 /*Checkout-Shipping*/
 /*Checkout-Payment*/
 /*Checkout-Summary*/
 /*Checkout-Post-Order*/
+
+/* Media Query */
+@media (max-width: 55em) {
+
+/* Footer */
+	.footer-detail{
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+}
