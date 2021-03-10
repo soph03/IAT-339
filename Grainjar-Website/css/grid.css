@@ -336,6 +336,27 @@
     .your-impact-grid img{
     	width: 50%;
     }
+
+    .at-grainjar-grid {
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 1em;
+    }
+
+    .at-grainjar-grid img {
+    	width: 60%;
+    }
+
+    .recipes-preview-item {
+		width:100%;
+		margin-right:0em;
+		margin-bottom: 1em;
+	}
+
+	.best-sellers-grid {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 1em;
+	}
 }
 
 

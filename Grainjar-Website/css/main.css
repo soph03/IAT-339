@@ -709,7 +709,48 @@ ul li ul:focus {
 	margin-bottom: 1.5rem;
 }
 
+@media(max-width: 65em ) {
+
+	.inspo-grid-item h3 {
+		position:absolute;
+		margin-left:6em;
+    }
+
+}
+
 @media (max-width: 55em) {
+
+	/*home page */
+
+	.main-banner-text{
+		position:absolute;
+		justify-content:left;
+		top: 40%;
+	    left: 0%;
+	    width:100%;
+	}
+
+	.inspo-grid-item h3 {
+		font-size: 1.1em;
+		position:absolute;
+		margin-left:2em;
+    }
+
+	.why-grainjar-item1 {
+		width: 100%;
+    }
+
+    .why-grainjar-container img{
+		margin-left:0em;
+		width:100%;
+    }
+
+    #at-grainjar {
+		padding-bottom:3em;
+    }
+
+
+	/*about us page */
 
 	.our-mission p{
 	   width:100%;
