@@ -634,7 +634,7 @@ ul li ul:focus {
 }
 .line-checkout{
     border-left: 1px solid #3A2B1B;
-    height: 27em;
+    height: 35em;
     margin-left: 3em;
     margin-right: 3em;
 }
@@ -648,6 +648,12 @@ ul li ul:focus {
 .summary-checkout-container input{
 	width: 12em;
 	margin-right: 1rem;
+}
+.summary-price-label{
+	margin-bottom: 1rem;
+}
+.email-item label{
+	margin-bottom: 1rem;
 }
 /*Checkout-Shipping*/
 /*Checkout-Payment*/
@@ -697,7 +703,7 @@ ul li ul:focus {
 .footer-logo{
 	margin-bottom: 1rem;
 }
-.footer-detail{
+.footer-container{
 	border-bottom: 1.6px solid #AFB7B6;
 	padding-bottom:3rem;
 	margin-bottom: 1.5rem;
