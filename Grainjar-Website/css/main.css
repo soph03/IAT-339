@@ -712,6 +712,20 @@ ul li ul:focus {
 @media (max-width: 55em) {
 
 	.our-mission p{
-	width:100%;
+	   width:100%;
+    }
+
+   .meet-team-item2 img{
+		margin-top:2em;
+		margin-left:1em;
+    }
 }
+
+@media (max-width: 40em) {
+
+	.numbers-item img {
+		margin-left:-4.5em;
+		margin-top:1em;
+		width: 85%;
+	}
 }

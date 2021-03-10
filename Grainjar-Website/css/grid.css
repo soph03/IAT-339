@@ -287,6 +287,9 @@
 	justify-self:right;
 }
 
+
+/* Media Query */
+
 @media (max-width: 60em) {
 
 	.your-impact-grid {
@@ -296,9 +299,14 @@
 		width:100%;
 	}
 
+	.numbers-grid {
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows:1fr 1fr 1fr 1fr;
+   }
+
 }
 
-/* Media Query */
 @media (max-width: 55em) {
 
 	.main-item{
@@ -319,7 +327,6 @@
 
 	.meet-team-item1{
 		width: 100%;
-		margin-bottom:4em;
     } 
 
     .meet-team-item2{
