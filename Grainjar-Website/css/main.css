@@ -708,3 +708,10 @@ ul li ul:focus {
 	padding-bottom:3rem;
 	margin-bottom: 1.5rem;
 }
+
+@media (max-width: 55em) {
+
+	.our-mission p{
+	width:100%;
+}
+}

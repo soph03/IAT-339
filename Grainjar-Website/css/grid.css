@@ -287,8 +287,23 @@
 	justify-self:right;
 }
 
+@media (max-width: 60em) {
+
+	.your-impact-grid {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 2em;
+		margin-top:0em;
+		width:100%;
+	}
+
+}
+
 /* Media Query */
 @media (max-width: 55em) {
+
+	.main-item{
+		padding:1em;
+	}
 	/*Product Template */
 	#filter-product{
 		flex-direction: column;
@@ -301,7 +316,21 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+
+	.meet-team-item1{
+		width: 100%;
+		margin-bottom:4em;
+    } 
+
+    .meet-team-item2{
+    	margin-left:-2em;
+    }
+
+    .your-impact-grid img{
+    	width: 50%;
+    }
 }
+
 
 @media (max-width: 48em) {
 	/*Product Template */
