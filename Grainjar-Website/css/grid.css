@@ -287,8 +287,31 @@
 	justify-self:right;
 }
 
+
 /* Media Query */
+
+@media (max-width: 60em) {
+
+	.your-impact-grid {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 2em;
+		margin-top:0em;
+		width:100%;
+	}
+
+	.numbers-grid {
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows:1fr 1fr 1fr 1fr;
+   }
+
+}
+
 @media (max-width: 55em) {
+
+	.main-item{
+		padding:1em;
+	}
 	/*Product Template */
 	#filter-product{
 		flex-direction: column;
@@ -301,7 +324,41 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+
+	.meet-team-item1{
+		width: 100%;
+    } 
+
+    .meet-team-item2{
+    	margin-left:-2em;
+    }
+
+    .your-impact-grid img{
+    	width: 50%;
+    }
+
+    .at-grainjar-grid {
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 1em;
+    }
+
+    .at-grainjar-grid img {
+    	width: 60%;
+    }
+
+    .recipes-preview-item {
+		width:100%;
+		margin-right:0em;
+		margin-bottom: 1em;
+	}
+
+	.best-sellers-grid {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 1em;
+	}
 }
+
 
 @media (max-width: 48em) {
 	/*Product Template */
