@@ -283,9 +283,6 @@
 .footer-rights{
 	grid-column:1/3;
 }
-.footer-social{
-	justify-self:right;
-}
 
 
 /* Media Query */
@@ -365,6 +362,7 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+<<<<<<< HEAD
 	.footer-adress{
 		
 	}
@@ -390,6 +388,8 @@
     	width:100%;
     	margin-bottom:2em;
     }
+=======
+>>>>>>> main
 }
 
 @media (max-width: 32em) {
@@ -397,5 +397,8 @@
 	.filter-container{
 		flex-direction: column;
 	}
-
+	.footer-container{
+	display: grid;
+	grid-template-columns: 1fr;
+	}
 }
