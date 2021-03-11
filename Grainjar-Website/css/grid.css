@@ -360,6 +360,18 @@
     .recipe-img {
     	flex:100%;
     }
+
+    /*recipe-detail */
+
+    .recipe-rec-container1{
+		margin-left:0em;
+}
+
+   .recipe-rec-item2 {
+		margin-left:2em;
+		margin-top:3em;
+		width:12em;
+}
 }
 
 

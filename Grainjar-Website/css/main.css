@@ -837,6 +837,24 @@ section#title-banner{
 	.recipe-img {
 		margin-bottom:0em;
 	}
+
+	/* recipe detail page */
+
+	.recipe-detail-breadcrumb {
+		padding-left:2em;
+	}
+
+	#recipe-detail p{
+	    width: 100%;
+	}
+
+	#recipe-detail img{
+		width: 100%;
+	}
+
+	.instructions-image {
+		margin-bottom:1em;
+	}
 }
 
 @media(max-width: 48em) {
