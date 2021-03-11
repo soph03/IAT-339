@@ -228,9 +228,13 @@ section#title-banner{
 	
 }
 
+/*
+
 #title-banner h1 {
-	font-size: 5vw;
+	font-size: vw;
 }
+
+*/
 
 #title-banner h1 {
 	position:absolute;
@@ -485,7 +489,7 @@ section#title-banner{
 	position: absolute;
 	width: 100%;
 	display: block;
-	background-color: #EADDD0;
+	background-color: #F6F0E9;
 	
 }
 
@@ -580,7 +584,7 @@ section#title-banner{
 	position: absolute;
 	width: 100%;
 	display: block;
-	background-color: #EADDD0;
+	background-color: #F6F0E9;
 	padding: 2em;
 	padding-left: 8em;
 }
@@ -591,15 +595,23 @@ section#title-banner{
 	font-weight: 600;
 }
 
+#recipe-detail {
+	margin-top:-3em;
+}
+
 /*About*/
 /*About grainjar*/
 
+#about-container{
+	margin-top:-5em;
+}
+
 .line {
 	border-left: 2px solid #3D2B19;
-	height:14em;
+	height:13em;
 	position:absolute;
 	margin-left:-3em;
-	margin-top:2em;
+	margin-top:-2em;
 }
 
 .our-mission p{
@@ -840,6 +852,10 @@ section#title-banner{
 		margin-bottom:0em;
 	}
 
+	#recipe-head h1{
+		padding-left: 1em;
+     }
+
 	/* recipe detail page */
 
 	.recipe-detail-breadcrumb {
@@ -860,10 +876,6 @@ section#title-banner{
 
 	#breadcrumb a{
 		font-size: 1em;
-	}
-
-	#recipe-detail {
-		margin-top:-3em;
 	}
 }
 
