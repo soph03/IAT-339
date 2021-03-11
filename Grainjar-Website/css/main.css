@@ -737,6 +737,11 @@ section#title-banner{
 		font-size: 1.6em;
 	}
 
+	.logo {
+		margin-left:2em;
+		margin-top:1em;
+	}
+
     .main-banner-text{
 		position:relative;
 		top:50%;
@@ -855,6 +860,10 @@ section#title-banner{
 
 	#breadcrumb a{
 		font-size: 1em;
+	}
+
+	#recipe-detail {
+		margin-top:-3em;
 	}
 }
 
