@@ -285,6 +285,7 @@
 }
 
 
+
 /* Media Query */
 
 @media (max-width: 60em) {
@@ -362,7 +363,7 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
-<<<<<<< HEAD
+
 	.footer-adress{
 		
 	}
@@ -388,9 +389,6 @@
     	width:100%;
     	margin-bottom:2em;
     }
-=======
->>>>>>> main
-}
 
 @media (max-width: 32em) {
 	/*Product Template */
