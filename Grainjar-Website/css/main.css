@@ -222,6 +222,10 @@ ul li ul:focus {
 	margin-bottom:2em;
 }
 
+.main-banner-text p{
+	margin-bottom:2em;
+}
+
 /*Other page title banner */
 section#title-banner{
 	position: relative; 
