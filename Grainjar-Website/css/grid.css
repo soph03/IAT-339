@@ -310,7 +310,7 @@
 @media (max-width: 55em) {
 
 	.main-item{
-		padding:1em;
+		padding:2em;
 	}
 	/*Product Template */
 	#filter-product{
@@ -335,16 +335,6 @@
 
     .your-impact-grid img{
     	width: 50%;
-    }
-
-    .at-grainjar-grid {
-		display:grid;
-		grid-template-columns: 1fr 1fr;
-		grid-column-gap: 1em;
-    }
-
-    .at-grainjar-grid img {
-    	width: 60%;
     }
 
     .recipes-preview-item {
@@ -378,6 +368,28 @@
 	.footer-adress{
 		
 	}
+
+	.at-grainjar-grid {
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 1em;
+    }
+
+    .at-grainjar-grid img {
+    	width: 60%;
+    }
+}
+
+@media (max-width: 40em) {
+	    .inspo-grid {
+		grid-template-columns: 1fr;
+		grid-column-gap:0em;
+    }
+
+    .inspo-grid-item img {
+    	width:100%;
+    	margin-bottom:2em;
+    }
 }
 
 @media (max-width: 32em) {
