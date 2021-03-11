@@ -722,9 +722,18 @@ section#title-banner{
 	#secondary-img {
 		display:none;
 	}
+
 }
 
 @media(max-width: 65em ) {
+
+	h1{
+		font-size: 2em;
+	}
+
+	h2{
+		font-size: 1.6em;
+	}
 
 	.inspo-grid-item h3 {
 		position:absolute;
@@ -741,20 +750,20 @@ section#title-banner{
 	    padding:2em;
 	}
 
-	.main-banner-text h1 {
-		font-size: 2em;
-	}
-
-	#main-banner {
-		margin-bottom:-3em;
-	}
-
 	#main-img {
 		display:none;
 	}
 
 	#secondary-img {
 		width:100%;
+	}
+
+	.why-grainjar-container h2 {
+		margin-bottom:1em;
+	}
+
+	.main-banner-text {
+		margin-bottom: -7em;
 	}
 }
 
@@ -774,6 +783,10 @@ section#title-banner{
 		padding-bottom:3em;
     }
 
+    .recipes-preview-item1 {
+    	width:100%;
+    }
+
 	/*about us page */
 
 	.our-mission p{
@@ -787,7 +800,43 @@ section#title-banner{
 
     section {
 	   margin-bottom:5em;
-}
+	}
+
+	/*Recipes*/
+
+	#featured-recipe img{
+		width:100%;
+	}
+
+	.featured-text {
+		width:100%;
+	}
+
+	#featured-recipe{	
+		margin-top: 6em;
+	}
+
+	.recipe-blurb p {
+		width:100%;
+		margin-bottom:2em;
+	}
+
+	.recipe-blurb {
+		margin-bottom:2em;
+	}
+
+	#all-recipes h3 {
+		font-size: 1.5em;
+	}
+
+	#all-recipes h4 {
+		font-size: 1.3em;
+		margin-bottom:2em;
+	}
+
+	.recipe-img {
+		margin-bottom:0em;
+	}
 }
 
 @media(max-width: 48em) {

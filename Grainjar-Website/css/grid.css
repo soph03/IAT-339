@@ -323,6 +323,8 @@
 		flex-wrap: wrap;
 	}
 
+	/*About us page */
+
 	.meet-team-item1{
 		width: 100%;
     } 
@@ -335,6 +337,8 @@
     	width: 50%;
     }
 
+    /*Home page */
+
     .recipes-preview-item {
 		width:100%;
 		margin-right:0em;
@@ -345,6 +349,17 @@
 		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 1em;
 	}
+
+	/*recipe page */
+
+	.recipe-img {
+	    margin-right: 0em;
+	    margin-bottom: 2em;
+    }
+
+    .recipe-img {
+    	flex:100%;
+    }
 }
 
 
@@ -390,6 +405,17 @@
     	margin-bottom:2em;
     	padding-left:2em;
     }
+
+    .recipes-preview-item1 {
+		flex:100%;
+		margin-bottom: 2em;
+	}
+
+	.recipes-preview-item1 img{
+		width:100%;
+	}
+
+}
 
 @media (max-width: 32em) {
 	/*Product Template */
