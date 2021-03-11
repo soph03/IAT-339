@@ -900,6 +900,31 @@ section#title-banner{
     }
 }
 
+
+@media (max-width: 41.5em) {
+	    .filter-container{
+    	display: none;
+    }
+
+    .filter-button-mobile{
+		border:1px solid #3A2B1B;
+		width: 9.5em;
+		height: 2.1em;
+		text-align: center;
+		background-color: white;
+		border-radius: 5px;
+		display: table-cell;
+		vertical-align: middle;
+		color: #3A2B1B;
+	}
+	.filter-button-mobile:hover {
+		color: white;
+		background-color: #A00226;
+		transition-duration: 0.3s;
+		border:none;
+	}
+}
+
 @media (max-width: 40em) {
 
 	.numbers-item img {
@@ -923,27 +948,4 @@ section#title-banner{
     	margin-top:-3em;
     	margin-bottom:8em;
     }
-    .filter-container{
-    	display: none;
-    }
-   	.filter-container-mobile span{
-    	display: block;
-    }
-    .filter-button-mobile{
-		border:1px solid #3A2B1B;
-		width: 9.5em;
-		height: 2.1em;
-		text-align: center;
-		background-color: white;
-		border-radius: 5px;
-		display: table-cell;
-		vertical-align: middle;
-		color: #3A2B1B;
-	}
-	.filter-button-mobile:hover {
-		color: white;
-		background-color: #A00226;
-		transition-duration: 0.3s;
-		border:none;
-	}
 }
