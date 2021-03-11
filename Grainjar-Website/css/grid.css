@@ -360,8 +360,8 @@
 		flex-wrap: wrap;
 	}
 	#product-option-grid{
-		display: flex;
-		flex-wrap: wrap;
+		display: grid;
+		grid-template-columns: auto auto;
 	}
 
 	.footer-adress{
@@ -395,8 +395,12 @@
 	.filter-container{
 		flex-direction: column;
 	}
-	.footer-container{
-	display: grid;
-	grid-template-columns: 1fr;
+	#product-option-grid{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	/*Footer*/
+	.product-option-item{
+	grid-column: 1/3;
 	}
 }
