@@ -855,6 +855,10 @@ section#title-banner{
 	.instructions-image {
 		margin-bottom:1em;
 	}
+
+	#breadcrumb a{
+		font-size: 1em;
+	}
 }
 
 @media(max-width: 48em) {
