@@ -211,10 +211,9 @@ ul li ul:focus {
 
 .main-banner-text{
 	position:absolute;
-	justify-content:right;
-	top: 35%;
-    left: 57%;
-    width: 36%;
+	top:50%;
+	left:60%;
+	transform: translate(-20%, -50%);
     text-align:right;
     color:#3D2B19;
 }
@@ -719,6 +718,12 @@ section#title-banner{
 	margin-bottom: 1.5rem;
 }
 
+@media (min-width: 65em) {
+	#secondary-img {
+		display:none;
+	}
+}
+
 @media(max-width: 65em ) {
 
 	.inspo-grid-item h3 {
@@ -728,29 +733,34 @@ section#title-banner{
 
     .main-banner-text{
 		position:relative;
-		top: 35%;
-	    width: 100%;
+		top:50%;
+		left:20%;
+		transform: translate(-20%, -10%);
 	    text-align:left;
-	    padding: 2em;
-   }
+	    color:#3D2B19;
+	    padding:2em;
+	}
 
-   .main-banner-text h1{
-		font-size: 2.5em;
-   }
+	.main-banner-text h1 {
+		font-size: 2em;
+	}
 
+	#main-banner {
+		margin-bottom:-3em;
+	}
+
+	#main-img {
+		display:none;
+	}
+
+	#secondary-img {
+		width:100%;
+	}
 }
 
 @media (max-width: 55em) {
 
 	/*home page */
-
-	.main-banner-text{
-		position:absolute;
-		justify-content:left;
-		top: 40%;
-	    left: 0%;
-	    width:100%;
-	}
 
 	.why-grainjar-item1 {
 		width: 100%;
@@ -774,6 +784,10 @@ section#title-banner{
 		margin-top:2em;
 		margin-left:1em;
     }
+
+    section {
+	   margin-bottom:5em;
+}
 }
 
 @media(max-width: 48em) {

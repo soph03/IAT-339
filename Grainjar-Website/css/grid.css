@@ -386,8 +386,9 @@
     }
 
     .inspo-grid-item img {
-    	width:100%;
+    	width: 80%;
     	margin-bottom:2em;
+    	padding-left:2em;
     }
 
 @media (max-width: 32em) {
