@@ -399,7 +399,7 @@ section#title-banner{
 	position: absolute;
 	width: 100%;
 	display: block;
-	background-color: #EADDD0;
+	background-color: #F6F0E9;
 	padding: 2em;
 	padding-left: 8em;
 }
@@ -880,6 +880,13 @@ section#title-banner{
 
 	#breadcrumb a{
 		font-size: 1em;
+	}
+
+	/*product-detail */
+
+	.product-detail-breadcrumb{
+		padding: 2em;
+		padding-left: 2em;
 	}
 }
 
