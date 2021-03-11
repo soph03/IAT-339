@@ -218,7 +218,7 @@ ul li ul:focus {
     color:#3D2B19;
 }
 
-#main-banner p{
+#main-banner-text{
 	margin-bottom:2em;
 }
 
@@ -248,8 +248,10 @@ section#title-banner{
 .inspo-grid-item h3 {
 	color:white;
 	font-size: 1.3em;
-	position:absolute;
-	margin-left:9em;
+	position:relative;
+	margin-bottom:-2.5em;
+	text-align:right;
+	margin-right:2em;
 }
 
 /*why grainjar section */
@@ -735,11 +737,6 @@ section#title-banner{
 		font-size: 1.6em;
 	}
 
-	.inspo-grid-item h3 {
-		position:absolute;
-		margin-left:6em;
-    }
-
     .main-banner-text{
 		position:relative;
 		top:50%;
@@ -878,7 +875,18 @@ section#title-banner{
 	}
 
 	.inspo-grid-item h3 {
-		font-size: 1.8em;
-		margin-left:4.5em;
+    	font-size: 1.8em;
+    	margin-right:0em;
+    	text-align:center;
+    }
+
+    .inspo-grid-item {
+    	padding:4em;
+    	margin-bottom:-7em;
+    }
+
+    .inspo-grid {
+    	margin-top:-3em;
+    	margin-bottom:8em;
     }
 }
