@@ -22,7 +22,7 @@ body{
 
 h1{
     /* font-size: 60px; */
-    font-size: 5vw;
+    font-size: 3.1em;
     font-weight: 700;
 }
 
@@ -223,23 +223,6 @@ ul li ul:focus {
 	margin-bottom:2em;
 }
 
-/*Other page title banner */
-
-section#title-banner{
-	position: relative; 
-}
-
-#title-banner h1 {
-	position:absolute;
-	left:10%;
-	top:20%;
-}
-
-#title-banner img {
-	height: auto;
-	width:100%;
-}
-
 /*inspo board section */
 
 .inspo-grid-item h3 {
@@ -358,7 +341,6 @@ section#title-banner{
 }
 
 /*Product Template*/
-
 #filter-product{
 	margin-bottom: 5em;
 }
@@ -589,6 +571,17 @@ section#title-banner{
 
 /*About*/
 /*About grainjar*/
+
+#title-banner h1 {
+	position:absolute;
+	left:10%;
+	top:20%;
+}
+
+#title-banner img {
+	height: auto;
+	width:100%;
+}
 
 .line {
 	border-left: 2px solid #3D2B19;
