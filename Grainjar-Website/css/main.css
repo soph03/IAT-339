@@ -652,6 +652,19 @@ section#title-banner{
 }
 
 /*Checkout-Cart*/
+button#cart-button{
+	padding: 0;
+	border:none;
+	cursor: pointer;
+	background-color: white;
+	display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+}
+
+#cart-image{
+	border-radius: 4% 
+}
 /*Checkout-Information*/
 .checkout-module input {
     width: 19em;
