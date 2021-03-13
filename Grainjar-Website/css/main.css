@@ -1042,8 +1042,10 @@ h4.express-checkout-label{
 
 	#cart {
 		margin-top:2em;
+	}
+
 }
-}
+
 
 @media(max-width: 48em) {
 
@@ -1051,6 +1053,10 @@ h4.express-checkout-label{
 		margin-left:0em;
 		width:100%;
     }
+
+    .line-checkout{
+		display:none;
+	}
 }
 
 
