@@ -248,11 +248,12 @@
 	display: flex;
 	justify-content: space-between;
 }
-.email-item input, .password-item input{
+.email-item input, .email-item1 input, .password-item input{
 	display: flex;
 	flex-direction: column;
 }
 /*Checkout-Shipping*/
+
 
 /*Checkout-Payment*/
 /*Checkout-Summary*/
@@ -487,6 +488,9 @@
 		display: flex;
 		justify-content: flex-end;
 	}
+	#cart-image{
+		width: 24vw;
+	}
 	p.cart-quantity, p.cart-price{
 		font-size: 0.7em;
 	}
@@ -504,11 +508,8 @@
 		grid-row-start: 3;
 		margin-top: 2rem;
 	}
-	img#cart-image{
-		width: 100px;
-	}
-	p#cart-product-name{
-		font-size: 0.9em;
+	.cart-product-name{
+		font-size: 1.1em;
 	}
 
 }
