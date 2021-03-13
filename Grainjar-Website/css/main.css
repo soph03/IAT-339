@@ -661,9 +661,15 @@ button#cart-button{
     text-align: center;
     align-items: flex-start;
 }
-
 #cart-image{
-	border-radius: 4% 
+	border-radius: 4%;
+	min-width:8em; 
+}
+.cart-button{
+	margin-top: 2.5rem;
+}
+h4.express-checkout-label{
+	margin-bottom: 1rem;
 }
 /*Checkout-Information*/
 .checkout-module input {
