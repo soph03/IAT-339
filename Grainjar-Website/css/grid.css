@@ -254,6 +254,12 @@
 }
 /*Checkout-Shipping*/
 
+.shipping-form {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1em;
+}
+
 
 /*Checkout-Payment*/
 /*Checkout-Summary*/
