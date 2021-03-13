@@ -487,9 +487,6 @@
 		display: flex;
 		justify-content: flex-end;
 	}
-	#cart-image{
-		width: 24vw;
-	}
 	p.cart-quantity, p.cart-price{
 		font-size: 0.7em;
 	}
@@ -507,8 +504,11 @@
 		grid-row-start: 3;
 		margin-top: 2rem;
 	}
-	.cart-product-name{
-		font-size: 1.1em;
+	img#cart-image{
+		width: 100px;
+	}
+	p#cart-product-name{
+		font-size: 0.9em;
 	}
 
 }

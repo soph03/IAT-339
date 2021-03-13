@@ -18,6 +18,7 @@ https://css-tricks.com/solved-with-css-dropdown-menus/ */
 body{
     font-family:'Poppins', Helvetica, Arial, sans-serif;
 	color: #3A2B1B;
+	overflow-x: hidden;
 }
 
 h1{
@@ -494,12 +495,10 @@ section#title-banner{
 
 /* Recipes title banner */
 #recipe-head{
-	z-index: -1;
 	position: absolute;
 	width: 100%;
 	display: block;
 	background-color: #F6F0E9;
-	
 }
 
 #recipe-head h1{
@@ -537,6 +536,25 @@ section#title-banner{
 }
 
 /*Recipe-Detail*/
+
+.recipe-detail-breadcrumb{
+	position: absolute;
+	width: 100%;
+	display: block;
+	background-color: #F6F0E9;
+	padding: 2em;
+	padding-left: 8em;
+}
+
+.recipe-detail-breadcrumb a{
+	color:rgb(40,61,59);
+	font-size: 1.2em; /* font-size: 26px */
+	font-weight: 600;
+}
+
+#recipe-detail {
+	margin-top:-em;
+}
 
 .instructions-container{
 	display: flex;
@@ -587,25 +605,6 @@ section#title-banner{
 
 .instructions-image {
 	margin-right: 2em;
-}
-
-.recipe-detail-breadcrumb{
-	position: absolute;
-	width: 100%;
-	display: block;
-	background-color: #F6F0E9;
-	padding: 2em;
-	padding-left: 8em;
-}
-
-.recipe-detail-breadcrumb a{
-	color:rgb(40,61,59);
-	font-size: 1.2em; /* font-size: 26px */
-	font-weight: 600;
-}
-
-#recipe-detail {
-	margin-top:-3em;
 }
 
 /*About*/
@@ -685,6 +684,30 @@ h4.express-checkout-label{
 #cart {
 	margin-top:4em;
 }
+.plus-minus-input {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plus-minus-input .input-group-field {
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+.plus-minus-input .input-group-field::-webkit-inner-spin-button,
+.plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+.plus-minus-input .input-group-button .circle {
+  border-radius: 50%;
+  padding: 0.25em 0.8em;
+}
+
 /*Checkout-Information*/
 .checkout-module input {
     width: 27em;
