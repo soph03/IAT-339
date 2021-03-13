@@ -482,19 +482,32 @@
 	.cart-grid-container{
 		grid-column-gap: 1.2rem;
 	}
-	.cart-price{
+	.cart-price, .cart-subtotal-price{
 		display: flex;
 		justify-content: flex-end;
 	}
 	#cart-image{
-		width: 30.25vw;
+		width: 24vw;
 	}
 	p.cart-quantity, p.cart-price{
-		font-size: 0.8em;
+		font-size: 0.7em;
 	}
+	
+} 
+
+@media (max-width: 32em) {
 	.cart-header-subtotal{
 		grid-column-start: 1;
+		grid-row-start: 3;
+		margin-top: 2rem;
 	}
-} 
+	.cart-subtotal-price{
+		grid-column: 3/5;
+		grid-row-start: 3;
+		margin-top: 2rem;
+	}
+	.cart-product-name{
+		font-size: 1.1em;
+	}
 
 }
