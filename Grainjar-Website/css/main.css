@@ -18,6 +18,7 @@ https://css-tricks.com/solved-with-css-dropdown-menus/ */
 body{
     font-family:'Poppins', Helvetica, Arial, sans-serif;
 	color: #3A2B1B;
+	overflow-x: hidden;
 }
 
 h1{
@@ -494,12 +495,10 @@ section#title-banner{
 
 /* Recipes title banner */
 #recipe-head{
-	z-index: -1;
 	position: absolute;
 	width: 100%;
 	display: block;
 	background-color: #F6F0E9;
-	
 }
 
 #recipe-head h1{
@@ -537,6 +536,25 @@ section#title-banner{
 }
 
 /*Recipe-Detail*/
+
+.recipe-detail-breadcrumb{
+	position: absolute;
+	width: 100%;
+	display: block;
+	background-color: #F6F0E9;
+	padding: 2em;
+	padding-left: 8em;
+}
+
+.recipe-detail-breadcrumb a{
+	color:rgb(40,61,59);
+	font-size: 1.2em; /* font-size: 26px */
+	font-weight: 600;
+}
+
+#recipe-detail {
+	margin-top:-5em;
+}
 
 .instructions-container{
 	display: flex;
@@ -587,25 +605,6 @@ section#title-banner{
 
 .instructions-image {
 	margin-right: 2em;
-}
-
-.recipe-detail-breadcrumb{
-	position: absolute;
-	width: 100%;
-	display: block;
-	background-color: #F6F0E9;
-	padding: 2em;
-	padding-left: 8em;
-}
-
-.recipe-detail-breadcrumb a{
-	color:rgb(40,61,59);
-	font-size: 1.2em; /* font-size: 26px */
-	font-weight: 600;
-}
-
-#recipe-detail {
-	margin-top:-3em;
 }
 
 /*About*/
