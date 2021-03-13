@@ -711,7 +711,7 @@ h4.express-checkout-label{
 
 /*Checkout-Information*/
 .checkout-module input {
-    width: 19em;
+    width: 27em;
     height: 1.6em;
     background-color: rgb(242,242,242);
     border: none;
