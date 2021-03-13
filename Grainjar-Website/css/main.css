@@ -369,8 +369,11 @@ section#title-banner{
 }
 
 /*Product Template*/
+.favourites-banner{
+	margin-bottom: 4rem;
+}
 #filter-product{
-	margin-bottom: 5em;
+	margin-bottom: 3em;
 }
 #filter-product p{
 	margin-right: 2.5em;
@@ -667,6 +670,9 @@ button#cart-button{
 }
 .cart-button{
 	margin-top: 2.5rem;
+}
+.cart-quantity, .cart-item{
+	
 }
 h4.express-checkout-label{
 	margin-bottom: 1rem;
