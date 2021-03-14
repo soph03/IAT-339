@@ -45,8 +45,13 @@
     <!--Main banner section-->
     <section id ="main-banner">
 
-         <img id="main-img" src ="img/mainbanner.jpg" alt ="main banner">
-         <img id="secondary-img" src ="img/mobile-banner.jpg" alt ="mobile banner" width="600">
+        <picture>
+
+          <source media="(max-width: 65em)" srcset="img/home-mobile-banner.jpg"
+          alt="home mobile banner">
+
+          <img src = "img/home-banner.jpg" alt = "home banner">
+        </picture>
 
         <div class ="main-banner-text">
 

@@ -225,31 +225,6 @@ ul li ul:focus {
 	margin-bottom:2em;
 }
 
-/*Other page title banner */
-section#title-banner{
-	position: relative; 
-	
-}
-
-/*
-
-#title-banner h1 {
-	font-size: vw;
-}
-
-*/
-
-#title-banner h1 {
-	position:absolute;
-	left:10%;
-	top:20%;
-}
-
-#title-banner img {
-	height: auto;
-	width:100%;
-}
-
 /*inspo board section */
 
 .inspo-grid-item h3 {
@@ -924,14 +899,6 @@ h4.express-checkout-label{
 	    text-align:left;
 	    color:#3D2B19;
 	    padding:2em;
-	}
-
-	#main-img {
-		display:none;
-	}
-
-	#secondary-img {
-		width:100%;
 	}
 
 	.why-grainjar-container h2 {
