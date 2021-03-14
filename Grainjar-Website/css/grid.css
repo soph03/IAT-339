@@ -256,6 +256,35 @@
 
 /*Checkout-Payment*/
 /*Checkout-Summary*/
+
+.order-container{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#order-summary h3 {
+	margin-top:3em;
+}
+
+.order-summary-container {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.order-summary-item {
+	margin-right: 5em;
+}
+
+.order-summary-item li {
+	list-style-type:none;
+	margin-left:-2.4em;
+}
+
+.order-summary-billing p{
+	margin-bottom:2.5em;
+
+}
+
 /*Checkout-Post-Order*/
 
 /*Footer*/
