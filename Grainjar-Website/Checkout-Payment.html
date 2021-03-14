@@ -65,8 +65,124 @@
           
         </section> <!-- Closing tag for checkout-breadcrumb -->
 
-      </div> <!-- Closing main-item -->  
-        
+        <!-- Checkout Payment Module -->
+        <section class ="payment-module">
+          <div class ="payment-container">
+
+            <h3> Payment </h3>
+
+            <form>
+              <div class ="payment-form">
+              
+                <div class = "payment-form-container">
+                  
+                  <div class = "email-item">
+                    <input type="checkbox" id="credit-card" name="credit-card">
+                    <label for="credit-payment">
+                      <img src="img/Visa.png" alt="A picture of visa payment button" width="70">
+                      <img src="img/MasterCard.png" alt="A picture of mastercard payment button" width="70"> 
+                    </label>
+                  </div>
+                   
+
+                  <div class = "email-item">
+                    <input type="checkbox" id="other-payment" name="other-payment">
+                    <img src="img/PayPal.png" alt="A picture of paypal payment button" width="70">
+                    <img src="img/AMEX.png" alt="A picture of AMEX payment button" width="70">
+                  </div>
+                </div>
+                    
+                <div class="email-item1">
+                  <label for="card-number">Card number</label>
+                  <input type="text" id="card-number" name="card-number">
+                </div>
+
+                <div class="email-item1">
+                  <label for="card-name">Name on card</label>
+                  <input type="text" id="card-name" name="card-name"> 
+                </div>
+
+                <div class ="payment-form-container">
+
+                  <div class="email-item">
+                    <label for="expiration">Exp. date</label>
+                    <input type="number" id="expiration" name="expiration"> 
+                  </div>
+
+                  <div class="email-item">
+                    <label for="cvv">CVV</label>
+                    <input type="number" id="cvv" name="cvv"> 
+                  </div>
+
+                </div> <!-- Closing payment-form-container -->
+
+                <div class ="continue-to-next">
+                  <a href="Checkout-Summary.html"> 
+                    <button class ="default-button"> Confirm and Pay </button> 
+                  </a>
+                </div>
+                
+              </div> <!-- Closing payment-form -->
+
+            </form>
+
+          </div> <!-- Closing payment-container -->
+
+          <div class= "line-checkout">  </div> <!-- Closing line-checkout-->
+
+          <div class= "summary-checkout-container">
+
+            <div class = "purchased-summary-item">
+              
+              <div class ="image-purchased">
+                <img src = 'img/coco.jpg' alt="Coco-hazelnut" width = "110">
+              </div>
+
+              <div class = "details-purchased">
+                <h4> Coco-hazelnut cereal </h4>
+                <p> Qty: 1 </p>
+                <p> $25.00 </p>
+              </div>
+
+            </div> <!-- Closiing purchased-summary-item -->
+
+            <hr>
+
+            <input type="text" id="discount" name="discount">
+            <button class ="default-button"> Apply </button>
+
+            <hr>
+
+            <div class ="subtotal-item">
+              
+              <div class ="summary-price-label">
+                <div class ="label-subtotal">Subtotal</div>
+                <div class="subtotal-price">$25.00</div>
+              </div>
+
+              <div class ="summary-price-label">
+                <div class ="label-tax">Tax</div>
+                <div class="tax-price">$1.25</div>
+              </div>
+
+              <div class ="summary-price-label">
+                <div class ="label-shipping">Shipping</div>
+                <div class="shipping-price">$2.00</div>
+              </div>
+
+              <hr>
+
+              <div class ="summary-price-label">
+                <div class ="label-total">Total</div>
+                <div class="total-price">$28.25</div>
+              </div>
+
+            </div><!-- Closing subtotal-item -->
+
+          </div> <!-- Closing summary-checkout-container -->
+        </section> <!-- Closing payment-module -->
+
+      </div> <!-- Closing main-item -->         
     </div> <!-- Closing main-container --> 
  
     <!-- footer --> 
