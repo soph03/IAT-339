@@ -876,12 +876,6 @@ h4.express-checkout-label{
 	margin-bottom: 1.5rem;
 }
 
-@media (min-width: 65em) {
-	#secondary-img {
-		display:none;
-	}
-}
-
 @media(max-width: 65em ) {
 
 	h1{
@@ -1049,7 +1043,7 @@ h4.express-checkout-label{
 
 
 @media (max-width: 41.5em) {
-	    .filter-container{
+	.filter-container{
     	display: none;
     }
 
@@ -1083,4 +1077,9 @@ h4.express-checkout-label{
 	.inspo-grid-item h3 {
     	font-size: 1.8em;
     }
+
+	/* About*/
+	#about-container{
+		padding-top: 3em;
+	}
 }
