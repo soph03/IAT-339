@@ -697,7 +697,24 @@ h4.express-checkout-label{
   padding: 0.25em 0.8em;
 }
 
+/* Checkout Breadcrumb */
+
+#checkout-breadcrumb{
+	padding-top: 5em;
+	margin-bottom: 0;
+}
+
+.checkout-crumb a, a:hover{
+	margin-right: 1em;
+	color:  #3A2B1B;
+}
+
+.active-checkout{
+	font-weight: 600;
+}
+
 /*Checkout-Information*/
+
 .checkout-module input {
     width: 23em;
     height: 1.8em;
