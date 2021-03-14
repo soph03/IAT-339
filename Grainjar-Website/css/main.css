@@ -23,7 +23,7 @@ body{
 
 h1{
     /* font-size: 60px; */
-    font-size: 3.1em;
+    font-size: 6vw;
     font-weight: 700;
 }
 
@@ -225,6 +225,7 @@ ul li ul:focus {
 	margin-bottom:2em;
 }
 
+
 /*inspo board section */
 
 .inspo-grid-item h3 {
@@ -346,6 +347,10 @@ ul li ul:focus {
 }
 
 /*Product Template*/
+
+section#title-banner{
+	position: relative; 
+}
 
 #title-banner h1 {
 	position:absolute;
@@ -895,10 +900,6 @@ h4.express-checkout-label{
 
 @media(max-width: 65em ) {
 
-	h1{
-		font-size: 2em;
-	}
-
 	h2{
 		font-size: 1.6em;
 	}
@@ -1047,6 +1048,9 @@ h4.express-checkout-label{
 
 
 @media(max-width: 48em) {
+	h1{
+		font-size: 4.8vh;
+	}
 
 	.why-grainjar-container img{
 		margin-left:0em;
@@ -1081,6 +1085,9 @@ h4.express-checkout-label{
 		transition-duration: 0.3s;
 		border:none;
 	}
+	.favourites-banner{
+	margin-bottom: 0;
+}
 }
 
 @media (max-width: 40em) {
