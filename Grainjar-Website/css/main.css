@@ -935,11 +935,6 @@ h4.express-checkout-label{
 	.main-banner-text {
 		margin-bottom: -7em;
 	}
-
-	/* product template */
-	#title-banner h1 {
-		font-size: 3em;
-	}
 }
 
 @media (max-width: 55em) {
@@ -1037,6 +1032,11 @@ h4.express-checkout-label{
 
 	#breadcrumb a{
 		font-size: 1em;
+	}
+
+	/* product template */
+	#title-banner h1 {
+		font-size: 3em;
 	}
 
 	/*product-detail */
