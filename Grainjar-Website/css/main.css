@@ -23,7 +23,7 @@ body{
 
 h1{
     /* font-size: 60px; */
-    font-size: 6vw;
+    font-size: 3em;
     font-weight: 700;
 }
 
@@ -356,6 +356,7 @@ section#title-banner{
 	position:absolute;
 	left:10%;
 	top:20%;
+	font-size: 4em;
 }
 
 #title-banner img {
@@ -933,6 +934,11 @@ h4.express-checkout-label{
 
 	.main-banner-text {
 		margin-bottom: -7em;
+	}
+
+	/* product template */
+	#title-banner h1 {
+		font-size: 3em;
 	}
 }
 
