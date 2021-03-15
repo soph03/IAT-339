@@ -977,7 +977,7 @@ h4.express-checkout-label{
 
 	/*Recipes*/
 
-	#featured-recipe img, .featured-text, #product-detail img{
+	#featured-recipe img, .featured-text, .product-image-container img{
 		width:100%;
 	}
 
