@@ -18,7 +18,6 @@ https://css-tricks.com/solved-with-css-dropdown-menus/ */
 body{
     font-family:'Poppins', Helvetica, Arial, sans-serif;
 	color: #3A2B1B;
-	overflow-x: hidden;
 }
 
 h1{
@@ -396,19 +395,26 @@ section#title-banner{
 /* Product Detail */
 
 /* Product Detail Breadcrumb */
-.product-detail-breadcrumb{
+#breadcrumb{
 	position: absolute;
 	width: 100%;
 	display: block;
 	background-color: #F6F0E9;
-	padding: 2em;
-	padding-left: 8em;
+	padding: 2em 0;
 }
 
-.product-detail-breadcrumb a{
+.product-detail-breadcrumb, .recipe-detail-breadcrumb{
+	margin-left: 8em;
+}
+
+.product-detail-breadcrumb a, .recipe-detail-breadcrumb a{
 	color:rgb(40,61,59);
 	font-size: 1.2em; /* font-size: 26px */
 	font-weight: 600;
+}
+
+#product-detail, #recipe-detail{
+	margin-top: 10em;
 }
 
 /* Product Detail Module */
@@ -450,8 +456,8 @@ section#title-banner{
 	font-size:1em;
 }
 
-.product-info {
-	width: 50em;
+.product-info p{
+	max-width: 45vw;
 	margin-top:1em;
 }
 
@@ -531,21 +537,6 @@ section#title-banner{
 }
 
 /*Recipe-Detail*/
-
-.recipe-detail-breadcrumb{
-	position: absolute;
-	width: 100%;
-	display: block;
-	background-color: #F6F0E9;
-	padding: 2em;
-	padding-left: 8em;
-}
-
-.recipe-detail-breadcrumb a{
-	color:rgb(40,61,59);
-	font-size: 1.2em; /* font-size: 26px */
-	font-weight: 600;
-}
 
 #recipe-detail {
 	margin-top:-em;
@@ -710,7 +701,7 @@ h4.express-checkout-label{
 	margin-bottom: 0;
 }
 
-.checkout-crumb a, a:hover{
+.checkout-crumb a, .checkout-crumb a:hover{
 	margin-right: 1em;
 	color:  #3A2B1B;
 }
@@ -978,16 +969,12 @@ h4.express-checkout-label{
 
 	/*Recipes*/
 
-	#featured-recipe img{
-		width:100%;
-	}
-
-	.featured-text {
+	#featured-recipe img, .featured-text, #product-detail img{
 		width:100%;
 	}
 
 	#featured-recipe{	
-		margin-top: 6em;
+		margin-top: 10em;
 	}
 
 	.recipe-blurb p {

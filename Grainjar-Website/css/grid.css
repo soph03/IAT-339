@@ -396,13 +396,13 @@
 	/* Product Detail */
 	.product-module{
 		display: grid;
+	}
+
+	.product-detail-container{
+		position: relative;
 		grid-template-columns: 1fr;
 		grid-template-rows: auto;
 		grid-column-gap: 1em;
-	}
-
-	.product-image-container img{
-		width: 100%;
 	}
  
 	.flavour-container {
