@@ -363,7 +363,7 @@ section#title-banner{
 	width:100%;
 }
 
-.favourites-banner{
+.product-banner{
 	margin-bottom: 4rem;
 }
 
@@ -1090,7 +1090,7 @@ h4.express-checkout-label{
 		transition-duration: 0.3s;
 		border:none;
 	}
-	.favourites-banner{
+	.product-banner{
 	margin-bottom: 0;
 	}
 }

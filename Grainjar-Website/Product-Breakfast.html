@@ -1,0 +1,287 @@
+<!doctype html>
+
+<!-- This is the Product Breakfast Page -->
+  
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title> Products Breakfast </title>
+
+    <!-- Links to CSS Style Sheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+  </head>
+
+  <header>
+
+    <!-- Main Navigation -->
+    <nav id="navigation">
+
+      <ul>
+
+        <li> <a class = "active" href = "#"> shop </a> <!-- link that opens dropdown (doesn't go anywhere) -->
+
+          <ul class="dropdown" aria-label="submenu">
+            <li> <a href = 'Product-Favourites.html'> favourites </a> </li>
+            <li> <a href = 'Product-Breakfast.html'> breakfast </a> </li>
+            <li> <a href = 'Product-Dessert.html'> dessert </a> </li>
+            <li> <a href = 'Product-Snack.html'> snack </a> </li>
+          </ul> <!-- Closing dropdown ul -->
+
+        </li><!-- Closing shop li -->
+
+        <li> <a href = "Recipe.html"> recipes </a>  </li>
+        <li> <a href = "About.html"> about </a> </li>
+        <li> <a href = "Checkout-Cart.html"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
+
+      </ul> <!-- Closing the main nav ul -->
+
+    </nav> <!-- Closing main nav -->
+
+    <!-- Logo -->
+    <div class ="logo">
+      <a href = "Home-Page.html"> <img src = "img/logo.svg" alt= "image of logo" width= "90"> </a> 
+    </div>
+
+  </header>
+
+  <body>
+
+    <!-- Banner at the top of the About page -->
+    <section id = "title-banner" class="product-banner">
+
+      <h1>Breakfast</h1>
+
+      <picture>
+        <source media="(max-width: 55em)" srcset="img/favourites-banner-mobile.png"
+        alt="favourite products mobile banner">
+
+        <img src = "img/breakfast-banner.png" alt = "breakfast products banner">
+      </picture>
+
+    </section> <!-- Closing tag for title-banner -->
+
+    <div class = "main-container">
+
+      <div class = "main-item">
+
+        <section id="filter-product">
+
+          <p><b>Filters</b></p>
+
+          <div class="filter-container">
+          <p>
+            <input type="checkbox" id="favourite-filter" name="favourite-fill">
+            <label for="favourite-fill">Favourites</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="breakfast-filter" name="breakfast-fill">
+            <label for="breakfast-fill">Breakfast</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="dessert-filter" name="dessert-fill">
+            <label for="dessert-fill">Dessert</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="snack-filter" name="snack-fill">
+            <label for="snack-fill">Snack</label>
+          </p>
+        </div>
+
+        <div class="filter-container-mobile">
+          <a href="#"><div class="filter-button-mobile">Favourites</div></a>
+          <a href="#"><div class="filter-button-mobile">Breakfast</div></a>
+          <a href="#"><div class="filter-button-mobile">Dessert</div></a>
+          <a href="#"><div class="filter-button-mobile">Snack</div></a>
+        </div>
+
+        </section> <!-- id: filter product --> 
+
+        <section id="product-option-grid">
+          
+          <!-- First Row -->
+          <div class="product-option-item option-display-img1">
+            <img src="img/breakfast-display-1.png" alt="" width="426">
+          </div>
+
+          <div class="product-option-item">
+              <a href="">
+              <img src="img/favourites-toasted-cinnamon.png" alt="" width="190" height="190">
+              </a>
+            
+            <h4 class="option-name">
+              <a href="">Toasted cinnamon</a>
+            </h4>
+            <p class="option-price">&dollar; 25&period;00 CAD</p>
+          </div> 
+
+         <div class="product-option-item">
+              <a href="">
+              <img src="img/mixed-berry.png" alt="" width="205">
+              </a>
+              
+            <h4 class="option-name">
+              <a href="">Mixed berries</a>
+            </h4>
+            <p class="option-price">&dollar; 25&period;00 CAD</p>
+          </div>
+
+          <!-- Second Row -->
+          <div class="product-option-item">
+              <a href="">
+              <img src="img/mixed-berry.png" alt="" width="205">
+              </a>
+              
+            <h4 class="option-name">
+              <a href="">Mixed berries</a>
+            </h4>
+            <p class="option-price">&dollar; 25&period;00 CAD</p>
+          </div>
+
+          <div class="product-option-item">
+             
+              <a href="">
+              <img src="img/raspberry-bliss.png" alt="" width="205">
+              </a>
+              
+            <h4 class="option-name">
+              <a href="">Raspberry bliss</a>
+            </h4>
+            <p class="option-price">&dollar; 25&period;00 CAD</p>
+          </div>
+
+          <div class="product-option-item option-display-img2">
+            <img src="img/breakfast-display-2.png" alt="" width="426">
+          </div>
+
+          <!-- Third Row -->
+          <div class="product-option-item">
+              <a href="">
+              <img src="img/whole-grain.png" alt="" width="205">
+              </a>
+              
+            <h4 class="option-name">
+              <a href="">Grain goodness</a>
+            </h4>
+            <p class="option-price">&dollar; 25&period;00 CAD</p>
+          </div>
+
+          <div class="product-option-item">
+             
+              <a href="">
+              <img src="img/mixed-nuts.png" alt="" width="205">
+              </a>
+              
+            <h4 class="option-name">
+              <a href="">Mixed nuts</a>
+            </h4>
+            <p class="option-price">&dollar; 25&period;00 CAD</p>
+          </div>
+
+          <div class="product-option-item">
+             
+              <a href="">
+              <img src="img/coconut-flake.png" alt="" width="205">
+              </a>
+              
+            <h4 class="option-name">
+              <a href="">Coconut flake</a>
+            </h4>
+            <p class="option-price">&dollar; 25&period;00 CAD</p>
+          </div>
+
+          <div class="product-option-item">
+             
+              <a href="">
+              <img src="img/very-berry.png" alt="" width="205">
+              </a>
+              
+            <h4 class="option-name">
+              <a href="">Very berry</a>
+            </h4>
+            <p class="option-price">&dollar; 25&period;00 CAD</p>
+          </div>
+
+      </div> <!-- Closing main-item -->  
+
+    </div> <!-- Closing main-container -->
+
+    </section> <!-- Closing product-option-grid -->
+
+    <!-- footer -->
+    <section id = "footer">
+
+      <div class="footer-item footer-logo">
+        <img src="img/logo.svg" alt="image of logo" width="120">
+      </div>
+
+      <div class="footer-container">
+
+        <div class="footer-item footer-detail">
+          <ul class="footer-adress"><li>5617 Mainland Street</li><li>Vancouver, BC  V6B 2T4</li></ul>
+          <ul class="footer-adress"><li>4625 Quebec Street</li><li>Vancouver, BC  V9C 1P7</li></ul>
+        </div>
+
+        <div class="footer-item footer-detail">
+          <ul class="footer-adress"><li class="footer-title">Hours</li><li>Mon-Sun 9AM - 7PM</li></ul>
+          <ul class="footer-adress"><li class="footer-title">Phone</li><li>604-352-0938</li></ul>
+        </div>
+
+        <div class="footer-item footer-info">
+          <ul>
+          <li><p class="footer-title">Information</p></li>
+          <li><a href="#about">About grainjar</a></li>
+          <li><a href="#impact">Packaging Free</a></li> 
+          <li><a href="#recipes">Our Recipes</a></li> 
+          </ul>
+        </div>
+
+        <div class="footer-item footer-info">
+          <ul>
+          <li><p class="footer-title">Products</p></li>
+          <li><a href="#favourites">Favourites</a></li>
+          <li><a href="#breakfast">Breakfast</a></li> 
+          <li><a href="#dessert">Dessert</a></li> 
+          <li><a href="#snack">Snack</a></li> 
+          </ul>
+        </div>
+
+        <!-- https://stackoverflow.com/questions/3131072/how-to-change-input-text-box-style-to-line/3131082 
+        https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form-->
+        <!-- https://www.toptal.com/designers/htmlarrows/arrows/-->
+        <!-- 
+        <form action="/action_page.php"  class="subscription"  method="get">
+          <input type="text" id="subscription" name="subscription" placeholder=" Enter your email to join the community">
+          <button type="submit">&#x2192;</button>
+        </form> -->
+
+        <div class="footer-item footer-social">
+          <a class="footer-social-icon" href="#"><img src="img/instagram.png"></a>
+          <a class="footer-social-icon" href="#"><img src="img/twitter.png"></a>
+          <a class="footer-social-icon" href="#"><img src="img/facebook.png"></a>
+        </div>
+
+      </div> <!-- Closing footer-container -->
+
+      <div class="footer-crumb">
+
+         <div class="footer-item footer-info-links">
+          <p><a href="https://joannekimm.github.io/styleguide0/Basic-Styles.html">Style Guide</a></p>
+          <p><a href="https://joannekimm.github.io/styleguide0/Wireframes.html">Wireframes</a></p>
+          <p><a href="https://joannekimm.github.io/styleguide0/Citations.html">Citations</a></p>
+        </div>
+
+        <div class="footer-item footer-rights">
+          <p>&copy;2021 grainjar, Inc. All Right Reserved</p>
+        </div>
+      
+      </div> <!-- Closing footer-crumb -->
+
+    </section> <!-- Closing footer -->
+  </body> 
+</html>
