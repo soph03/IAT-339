@@ -1018,6 +1018,10 @@ h4.express-checkout-label{
 		margin-left: 2em;
 	}
 
+	#product-detail, #recipe-detail{
+		margin-top: 5em;
+	}
+
 	#recipe-detail img{
 		width: 100%;
 	}
