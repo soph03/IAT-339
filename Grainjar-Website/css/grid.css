@@ -425,6 +425,23 @@
     #recommended {
 		padding:0;
     }
+
+    /*checkout-module */
+
+    .checkout-module{
+		display: grid;
+		grid-template-columns: auto;
+		grid-column-gap: 0rem;
+		margin-top: 2rem;
+	}
+
+	.guest-checkout-container {
+		margin-bottom:4em;
+	}
+
+	#checkout-breadcrumb{
+		font-size:0.7em;
+}
 }
 
 
