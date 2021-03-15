@@ -802,7 +802,7 @@ h4.express-checkout-label{
 	margin-bottom: 2rem;
 }
 
-.shipping-module {
+.shipping-module, .payment-module{
 	display:flex;
 	flex-wrap:wrap;
 	margin-top:4em;
