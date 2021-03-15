@@ -841,6 +841,11 @@ h4.express-checkout-label{
 
 /*Checkout-Payment*/
 
+.payment-module hr{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
 
 /*Checkout-Summary*/
 /*Checkout-Post-Order*/
