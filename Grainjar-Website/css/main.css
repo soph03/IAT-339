@@ -734,10 +734,6 @@ h4.express-checkout-label{
 .image-purchased img{
 	object-fit: cover;
 }
-.summary-checkout-container input{
-	width: 13em;
-	margin-right: 1rem;
-}
 
 .summary-checkout-container {
 	margin-top:2em;
@@ -780,8 +776,9 @@ h4.express-checkout-label{
 }
 
 .summary-checkout-container input {
-    width: 13em;
+    width: 62%;
     height: 1.8em;
+    margin-right: 1rem;
     background-color: rgb(242,242,242);
     border: none;
     border-radius: 4px;
