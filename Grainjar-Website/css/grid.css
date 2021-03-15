@@ -40,7 +40,7 @@
 
 #product-option-grid{
 	display:grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-column-gap: 2.7em;
 	grid-row-gap: 2.7em;
@@ -413,6 +413,7 @@
 	.ingredient-icon-grid{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		width: 100%;
 	}
 
 	/* product recommended carousel */
@@ -459,11 +460,11 @@
 }
 
 @media (max-width: 43.5em) {
-	.filter-container{
-		display: none;
-	}
 	#filter-product{
     	flex-direction: column;
+    }
+    .filter-container{
+    	display: none;
     }
     .filter-container-mobile{
     	display: grid;
@@ -520,9 +521,6 @@
 
 	.best-sellers-grid {
 		grid-template-columns: 1fr 1fr;
-	}
-	.filter-container{
-		display: none;
 	}
 	#filter-product{
     	flex-direction: column;
