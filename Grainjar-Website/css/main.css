@@ -26,6 +26,10 @@ h1{
     font-weight: 700;
 }
 
+.white-font {
+	color:white;
+}
+
 h2 {	
 	/* font-size: 40px; */
 	font-size: 2.2em;
@@ -714,7 +718,7 @@ h4.express-checkout-label{
 
 .checkout-module input {
     width: 23em;
-    height: 1.8em;
+    height: 2em;
     background-color: rgb(242,242,242);
     border: none;
     border-radius: 4px;
@@ -759,7 +763,7 @@ h4.express-checkout-label{
 
 .email-item input {
     width: 100%;
-    height: 1.8em;
+    height: 2em;
     background-color: rgb(242,242,242);
     border: none;
     border-radius: 4px;
@@ -768,7 +772,7 @@ h4.express-checkout-label{
 
 .email-item1 input {
     width: 96.5%;
-    height: 1.8em;
+    height: 2em;
     background-color: rgb(242,242,242);
     border: none;
     border-radius: 4px;
@@ -777,7 +781,7 @@ h4.express-checkout-label{
 
 .summary-checkout-container input {
     width: 62%;
-    height: 1.8em;
+    height: 1.9em;
     margin-right: 1rem;
     background-color: rgb(242,242,242);
     border: none;
@@ -805,7 +809,7 @@ h4.express-checkout-label{
 	margin-top:4em;
 }
 
-.shipping-form, .payment-form{
+.shipping-form {
 	margin-bottom:5em;
 }
 
@@ -843,13 +847,9 @@ h4.express-checkout-label{
 	margin-bottom: 2rem;
 }
 
-.payment-container form{
-	margin-bottom:-4.5em;
-}
-
 .payment-form-container{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: flex;
+	flex-wrap:wrap;
 }
 
 .payment-form-container .email-item{
@@ -858,6 +858,19 @@ h4.express-checkout-label{
 
 /*Checkout-Summary*/
 /*Checkout-Post-Order*/
+
+#finished-order {
+	margin-top:5em;
+}
+
+#finished-order hr{
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
+.subtotal-tem{
+	width:25em;
+}
 
 /*Footer*/
 #footer{
