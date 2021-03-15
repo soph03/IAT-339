@@ -643,7 +643,7 @@ section#title-banner{
 	margin-left:2em;
 }
 
-/*Checkout-Cart*/
+/*Checkout Cart*/
 button#cart-button{
 	padding: 0;
 	border:none;
@@ -698,6 +698,10 @@ h4.express-checkout-label{
   padding: 0.25em 0.8em;
 }
 
+section.checkout-module{
+	margin-bottom: 4em;
+}
+
 /* Checkout Breadcrumb */
 
 #checkout-breadcrumb{
@@ -726,7 +730,7 @@ h4.express-checkout-label{
 }
 .line-checkout{
     border-left: 1px solid #3A2B1B;
-    height: 60em;
+    height: 39em;
     margin-top:2em;
     margin-left: 3em;
     margin-right: 3em;
@@ -741,6 +745,7 @@ h4.express-checkout-label{
 
 .summary-checkout-container {
 	margin-top:2em;
+	margin-bottom: 1em;
 }
 
 .summary-price-label{
@@ -757,6 +762,9 @@ h4.express-checkout-label{
 .details-purchased h4{
 	margin-top:0em;
 	margin-bottom:-0.3em;
+}
+.label-total, .total-price{
+	font-weight: 580;
 }
 
 /*Checkout-Shipping*/
