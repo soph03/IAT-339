@@ -1005,12 +1005,12 @@ h4.express-checkout-label{
 
 	/* recipe detail page */
 
-	.recipe-detail-breadcrumb {
-		padding-left:2em;
-	}
-
 	#recipe-detail p{
 	    width: 100%;
+	}
+
+	.product-detail-breadcrumb, .recipe-detail-breadcrumb{
+		margin-left: 2em;
 	}
 
 	#recipe-detail img{
@@ -1028,13 +1028,6 @@ h4.express-checkout-label{
 	/* product template */
 	#title-banner h1 {
 		font-size: 3em;
-	}
-
-	/*product-detail */
-
-	.product-detail-breadcrumb{
-		padding: 2em;
-		padding-left: 2em;
 	}
 
 	#cart {
