@@ -788,7 +788,7 @@ h4.express-checkout-label{
     margin-bottom: 1em;
 }
 
-.shipping-form-container, .payment-form-container {
+.shipping-form-container {
 	display:flex;
 	flex-wrap:wrap;
 }
@@ -848,6 +848,11 @@ h4.express-checkout-label{
 
 .payment-container form{
 	margin-bottom:-4.5em;
+}
+
+.payment-form-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 /*Checkout-Summary*/
