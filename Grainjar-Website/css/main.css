@@ -743,14 +743,6 @@ section.checkout-module{
 	object-fit: cover;
 }
 
-.summary-checkout-container {
-	margin-top:2em;
-	margin-bottom: 1em;
-}
-
-.summary-price-label{
-	margin-bottom: 1rem;
-}
 .email-item label{
 	margin-bottom: 1rem;
 }
@@ -862,6 +854,20 @@ section.checkout-module{
 }
 
 /*Checkout-Summary*/
+
+.summary-checkout-container {
+	margin-top:2em;
+	margin-bottom: 1em;
+}
+
+.summary-checkout-container hr{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.summary-price-label{
+	margin-bottom: 1rem;
+}
 /*Checkout-Post-Order*/
 
 #finished-order {
@@ -1006,7 +1012,7 @@ section.checkout-module{
 	}
 
 	#featured-recipe{	
-		margin-top: 10em;
+		margin-top: 7em;
 	}
 
 	.recipe-blurb p {
@@ -1061,6 +1067,10 @@ section.checkout-module{
 		font-size: 1em;
 	}
 
+	.ingredients-header{
+		margin-top:-2em;
+	}
+
 	/* product template */
 
 	#cart {
@@ -1098,6 +1108,7 @@ section.checkout-module{
 
 	.summary-checkout-container {
 		width:100%;
+
 	}
 
 	/*post-order*/
@@ -1109,9 +1120,17 @@ section.checkout-module{
 		margin-top:-3em;
 	}
 
+	.orderr-container{
+		margin-top:-5em;
+	}
+
+	/*Shipping checkout */
+
 	.pickup {
 		margin-top:-2em;
 	}
+
+	/*Payment checkout */
 
 	.payment-item {
 		margin-bottom:1.5em;
