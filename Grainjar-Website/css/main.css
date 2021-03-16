@@ -1090,10 +1090,19 @@ section.checkout-module{
 		display: none;
 	}
 
+	.email-item{
+		width: 100%;
+	}
+
 	/*summary checkout*/
 
 	.summary-checkout-container {
 		width:100%;
+	}
+
+	/*post-order*/
+	#finished-order{
+		margin-top: -0.1em;
 	}
 
 }
