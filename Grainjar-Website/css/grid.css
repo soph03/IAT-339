@@ -267,7 +267,6 @@
 }
 */
 
-
 /*Checkout-Payment*/
 /*Checkout-Summary*/
 
@@ -461,7 +460,7 @@
 
     /*checkout-module */
 
-    .checkout-module{
+    .checkout-module, .shipping-module, .payment-module{
 		display: grid;
 		grid-template-columns: auto;
 		grid-column-gap: 0rem;
