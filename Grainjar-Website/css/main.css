@@ -1178,12 +1178,20 @@ a.payment-HP-button{
 		vertical-align: middle;
 		color: #3A2B1B;
 	}
+
 	.filter-button-mobile:hover {
 		color: white;
 		background-color: #A00226;
 		transition-duration: 0.3s;
 		border:none;
 	}
+
+	.filter-active{
+		color: white;
+		background-color: #A00226;
+		border:none;
+	}
+
 	.product-banner{
 	margin-bottom: 0;
 	}
