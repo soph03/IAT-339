@@ -1,0 +1,262 @@
+<!doctype html>
+
+<!-- This is the Product Detail Favourites -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title> Product Detail Favourites </title>
+
+    <!-- Links to CSS Style Sheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+  </head>
+
+  <header>
+
+    <!-- Main Navigation -->
+    <nav id="navigation">
+
+      <ul>
+
+        <li> <a class = "active" href = "#"> shop </a>  <!-- link that opens dropdown (doesn't go anywhere) -->
+
+          <ul class="dropdown" aria-label="submenu">
+
+            <li> <a href = 'Product-Favourites.html'> favourites </a> </li>
+            <li> <a href = 'Product-Breakfast.html'> breakfast </a> </li>
+            <li> <a href = 'Product-Dessert.html'> dessert </a> </li>
+            <li> <a href = 'Product-Snack.html'> snack </a> </li>
+
+          </ul> <!-- Closing dropdown ul -->
+
+        </li><!-- Closing shop li -->
+
+        <li> <a href = "Recipe.html"> recipes </a>  </li>
+        <li> <a href = "About.html"> about </a> </li>
+        <li> <a href = "Checkout-Cart.html"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
+
+      </ul> <!-- Closing the main nav ul -->
+
+    </nav> <!-- Closing main nav -->
+
+    <!-- Logo -->
+    <div class ="logo">
+      <a href = "Home-Page.html"> <img src = "img/logo.svg" alt= "image of logo" width= "90"> </a> 
+    </div>
+
+  </header>
+
+  <body>
+
+    <!-- Breadcrumb header -->
+    <section id ="breadcrumb">
+
+      <div class ="product-detail-breadcrumb">
+        <a href = "Product-Detail.html"> favourites &#8250;</a>
+        <a> toasted granola</a>
+      </div> <!-- Closing tag for product-detail-breadcrumb -->
+
+    </section> <!-- Closing tag for breadcrumb -->
+
+    <div class = "main-container">
+
+      <div class = "main-item">  
+
+        <section id = "product-detail">
+
+          <!-- This is the module for the product image, name, price, selections and the add-to-cart button -->
+          <div class = "product-module">
+
+            <div class = "product-image-container">
+              <img src = "img/product-toasted-cinnamon.png" alt= "toasted cinnamon product" width = "390">
+            </div>
+
+            <div class = "product-detail-container">
+              <h5> best-seller </h5>
+              <h2 class = "product-name"> Toasted Granola</h2>
+              <h3 class="product-price"> $ 25.00 CAD </h3>
+              
+              <h4> select flavour </h4>
+              <div class ="flavour-container">
+                <div class ="left-flavour-item">
+                  <button class = "disabled-button"> honey </button> 
+                  <button class = "disabled-button"> cinnamon </button>
+                </div> <!-- Closing tag for left-flavour-item -->
+
+                <div class = "right-flavour-item">
+                  <button class = "disabled-button"> mixed berry </button> 
+                  <button class = "disabled-button"> natural </button>
+                </div> <!-- Closing tag for right-flavour-item -->
+              </div> <!-- Closing tag for flavour-container -->
+
+              <h4> select size </h4>
+              <div class = "size-container">
+                <ul>
+                  <li> <button class = "size-button"> 300g </button></li>
+                  <li> <button class = "size-button"> 500g </button></li>
+                  <li> <button class = "size-button"> 1kg </button></li>
+                </ul>
+              </div> <!-- Closing tag for size-container -->
+
+              <div class ="product-add-button">
+              <button class = "default-button"> Add to Cart </button></div>
+              </div> <!-- Closing tag for product-add-button -->
+
+            </div> <!-- Closing tag for product-detail-container -->
+
+            <div class = "product-info">
+              <h3> Description </h3>
+              <p> Our best selling granola in brand new flavours to choose from! 
+                Made with organic and natural ingredients, our granola is your go-to breakfast on a busy day </p>
+
+              <h3> Ingredients </h3>
+              <p> All of the ingredients used in Grainjar are 100% organic, vegan friendly, no added sugars and no 
+                artificial flavours or coloring. Please refer to the ingredients list to check for nuts. </p>
+            </div> <!-- Closing tag for product-info -->
+            
+            <div class = "ingredient-icon-grid"> <!-- Should I save the icon as a whole including text? Or label separately? -->
+              
+              <div class = "ingredient-icon-item">
+                <img src = "img/no-lactose.svg" alt = "no lactose" width = "80">
+                <p> No lactose</p>
+              </div>
+              
+              <div class = "ingredient-icon-item">
+                <img src = "img/organic.svg" alt = "organic" width = "80">
+                <p> Organic </p>
+              </div>
+              
+              <div class = "ingredient-icon-item">
+                <img src = "img/no-artificials.svg" alt = "no artificials" width = "80">
+                <p> No artificials </p>
+              </div>
+              
+              <div class = "ingredient-icon-item">
+                <img src = "img/vegan-friendly.svg" alt = "vegan-friendly" width = "80">
+                <p> Vegan-friendly</p>
+              </div>
+              
+              <div class = "ingredient-icon-item">
+                <img src = "img/no-added-sugars.svg" alt = "no added sugars" width = "80">
+                <p> No added-sugars</p>
+              </div>
+
+            </div> <!-- Closing tag for ingredient-icon-grid -->
+            
+          </div> <!-- Closing tag for product-module -->
+        </section> <!-- Closing tag for product-detail -->
+      </div>
+    </div>
+
+    <!-- Recommended for you Carousel -->
+    <section id="recommended">
+      <div class = "main-container">
+        <div class="main-item">
+          <h3> Recommended for you </h3>
+          <div class = "recommended-grid">
+
+            <div class = "recommended-item">
+              <img src = "img/coco-hazelnut-cereal.png" alt="coco hazelnut cereal" width="150">
+              <h4> Coco-hazelnut cereal </h4>
+              <p>$ 25.00 CAD</p>
+            </div>
+
+            <div class = "recommended-item">
+              <img src = "img/citrus-granola.png" alt="citrus swirl granola" width="150">
+              <h4> Citrus swirl granola </h4>
+              <p>$ 25.00 CAD</p>
+            </div>
+
+            <div class = "recommended-item">
+              <img src = "img/puffed-grain-cereal.png" alt="puffed grain cereal" width="150">
+              <h4> Puffed-grain cereal </h4>
+              <p>$ 25.00 CAD</p>
+            </div>
+
+            <div class = "recommended-item">
+              <img src = "img/whole-grain-cereal.png" alt="whole grain cereal" width="150">
+              <h4> Whole-grain flakes </h4>
+              <p>$ 25.00 CAD</p>
+            </div>
+
+          </div> <!-- Closing tag for recommended-grid -->
+        </div>
+      </div>
+    </section> <!-- Closing tag for recommended -->
+
+ 
+    <!-- footer -->
+    <section id = "footer">
+
+      <div class="footer-item footer-logo">
+        <img src="img/logo.svg" alt="image of logo" width="120">
+      </div>
+
+      <div class="footer-container">
+
+        <div class="footer-item footer-detail">
+          <ul class="footer-adress"><li>5617 Mainland Street</li><li>Vancouver, BC  V6B 2T4</li></ul>
+          <ul class="footer-adress"><li>4625 Quebec Street</li><li>Vancouver, BC  V9C 1P7</li></ul>
+        </div>
+
+        <div class="footer-item footer-detail">
+          <ul class="footer-adress"><li class="footer-title">Hours</li><li>Mon-Sun 9AM - 7PM</li></ul>
+          <ul class="footer-adress"><li class="footer-title">Phone</li><li>604-352-0938</li></ul>
+        </div>
+
+        <div class="footer-item footer-info">
+          <ul>
+          <li><p class="footer-title">Information</p></li>
+          <li><a href="#about">About grainjar</a></li>
+          <li><a href="#impact">Packaging Free</a></li> 
+          <li><a href="#recipes">Our Recipes</a></li> 
+          </ul>
+        </div>
+
+        <div class="footer-item footer-info">
+          <ul>
+          <li><p class="footer-title">Products</p></li>
+          <li><a href="#favourites">Favourites</a></li>
+          <li><a href="#breakfast">Breakfast</a></li> 
+          <li><a href="#dessert">Dessert</a></li> 
+          <li><a href="#snack">Snack</a></li> 
+          </ul>
+        </div>
+
+        <!-- https://stackoverflow.com/questions/3131072/how-to-change-input-text-box-style-to-line/3131082 
+        https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form-->
+        <!-- https://www.toptal.com/designers/htmlarrows/arrows/-->
+        <!-- 
+        <form action="/action_page.php"  class="subscription"  method="get">
+          <input type="text" id="subscription" name="subscription" placeholder=" Enter your email to join the community">
+          <button type="submit">&#x2192;</button>
+        </form> -->
+
+        <div class="footer-item footer-social">
+          <a class="footer-social-icon" href="#"><img src="img/instagram.png"></a>
+          <a class="footer-social-icon" href="#"><img src="img/twitter.png"></a>
+          <a class="footer-social-icon" href="#"><img src="img/facebook.png"></a>
+        </div>
+
+      </div> <!-- Closing footer-container -->
+
+      <div class="footer-crumb">
+
+         <div class="footer-item footer-info-links">
+          <p><a href="">Style Guide</a></p>
+          <p><a href="">Wireframes</a></p>
+          <p><a href="">Citations</a></p>
+        </div>
+
+        <div class="footer-item footer-rights">
+          <p>&copy;2021 grainjar, Inc. All Right Reserved</p>
+        </div>
+      
+      </div> <!-- Closing footer-crumb -->
+
+    </section> <!-- Closing footer -->
+  </body> 
+</html>

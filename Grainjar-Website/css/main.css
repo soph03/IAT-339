@@ -468,6 +468,10 @@ section#title-banner{
 .product-info h3 {
 	margin-top:2em;
 }
+
+.product-add-button{
+	margin-top: 2em;
+}
 /* Product form formatting */
 
 /* Product Flavour Selection */
@@ -1092,6 +1096,7 @@ a.payment-HP-button{
 	.product-info p{
 		max-width: 100%;
 	}
+
 
 	/*checout-cart*/
 	.continue-to-next{
