@@ -852,6 +852,12 @@ section.checkout-module{
 .payment-form-container .email-item{
 	display: flex;
 }
+a.payment-HP-button{
+	margin-top: 3.5em;
+	display: inline-block;
+	text-align: right;
+	width: 100%;
+}
 
 /*Checkout-Summary*/
 
