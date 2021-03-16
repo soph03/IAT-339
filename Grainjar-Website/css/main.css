@@ -725,7 +725,7 @@ section.checkout-module{
 /*Checkout-Information*/
 
 .checkout-module input {
-    width: 100%;
+    width: 23em;
     height: 2em;
     background-color: rgb(242,242,242);
     border: none;
