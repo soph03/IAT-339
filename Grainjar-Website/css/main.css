@@ -814,12 +814,6 @@ section.checkout-module{
 	margin-bottom: 2rem;
 }
 
-.shipping-module, .payment-module{
-	display:flex;
-	flex-wrap:wrap;
-	margin-top:4em;
-}
-
 .shipping-form {
 	margin-bottom:5em;
 }
@@ -1091,7 +1085,7 @@ section.checkout-module{
 	.continue-to-next-mobile{
 	display: inline;
 	}
-	
+
 	.line-checkout{
 		display: none;
 	}
