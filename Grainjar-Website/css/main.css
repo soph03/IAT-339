@@ -1105,6 +1105,18 @@ section.checkout-module{
 		margin-top: -0.1em;
 	}
 
+	#order-summary{
+		margin-top:-3em;
+	}
+
+	.pickup {
+		margin-top:-2em;
+	}
+
+	.payment-item {
+		margin-bottom:1.5em;
+	}
+
 }
 
 @media(max-width: 48em) {
