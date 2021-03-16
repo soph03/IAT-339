@@ -766,6 +766,9 @@ section.checkout-module{
 .label-total, .total-price{
 	font-weight: 580;
 }
+.continue-to-next-mobile{
+	display: none;
+}
 
 /*Checkout-Shipping*/
 
@@ -1080,6 +1083,16 @@ section.checkout-module{
 		max-width: 100%;
 	}
 
+	/*checout-cart*/
+	.continue-to-next{
+	display: none;
+	}
+	.continue-to-next-mobile{
+	display: inline;
+	}
+	.line-checkout{
+		display: none;
+	}
 	/*summary checkout*/
 
 	.summary-checkout-container {
