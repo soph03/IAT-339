@@ -1087,12 +1087,15 @@ section.checkout-module{
 	.continue-to-next{
 	display: none;
 	}
+
 	.continue-to-next-mobile{
 	display: inline;
 	}
+	
 	.line-checkout{
 		display: none;
 	}
+
 	/*summary checkout*/
 
 	.summary-checkout-container {
