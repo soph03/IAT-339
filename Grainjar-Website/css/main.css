@@ -1111,7 +1111,7 @@ a.payment-HP-button{
 		display: none;
 	}
 
-	.email-item{
+	.email-item, .password-item input{
 		width: 100%;
 	}
 
