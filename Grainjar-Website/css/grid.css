@@ -467,7 +467,7 @@
 
     /*checkout-module */
 
-    .checkout-module, .shipping-module, .payment-module{
+    .checkout-module, .shipping-module, .payment-module, .summary-module{
 		display: grid;
 		grid-template-columns: auto;
 		grid-column-gap: 0rem;
@@ -481,18 +481,17 @@
 	#checkout-breadcrumb{
 		font-size:0.7em;
 	}
-}
-
-	/*order summary*/
 
 	.summary-module{
 		margin-top: -5em;
 	}
 
+	/*order summary*/
+
 	.finished-order-grid {
 		display:grid;
 		grid-template-columns: 1fr 1fr;
-}
+	}
 }
 
 
