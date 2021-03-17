@@ -110,7 +110,7 @@ section {
 	border:1px solid #3A2B1B;
 	width: 10em;
 	padding: 8px 28px 8px 28px;
-	background-color: white;
+	background-color: transparent;
 	border-radius: 3px;
 	margin-bottom: 0.5em;
 	color: #3A2B1B;
@@ -126,7 +126,7 @@ section {
 	border:1px solid black;
 	width: 4em;
 	padding: 0.5em;
-	background-color: white;
+	background-color: transparent;
 	border-radius: 3px;
 	margin-right: 0.4em;
 
@@ -1111,7 +1111,7 @@ a.payment-HP-button{
 		display: none;
 	}
 
-	.email-item{
+	.email-item, .password-item input{
 		width: 100%;
 	}
 
@@ -1172,18 +1172,26 @@ a.payment-HP-button{
 		width: 9.5em;
 		height: 2.1em;
 		text-align: center;
-		background-color: white;
+		background-color: transparent;
 		border-radius: 5px;
 		display: table-cell;
 		vertical-align: middle;
 		color: #3A2B1B;
 	}
+
 	.filter-button-mobile:hover {
 		color: white;
 		background-color: #A00226;
 		transition-duration: 0.3s;
 		border:none;
 	}
+
+	.filter-active{
+		color: white;
+		background-color: #A00226;
+		border:none;
+	}
+
 	.product-banner{
 	margin-bottom: 0;
 	}
