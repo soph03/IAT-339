@@ -679,20 +679,43 @@ h4.express-checkout-label{
 	margin-top:4em;
 }
 
-div.cart-quantity-button{
-	width: 100%;
-	margin: auto;
+.cart-quantity-button{
+	border:0.01em solid grey;
+	border-radius: 0.3em;
+	height: 1.5em;
+	
 }
 
 input.quantity-input{
-	display: inline-block;
-	padding: 0.1em;
+	float: left;
 	width: 2em;
+	border: none;
+	border-width: 0.01em;
+	text-align: center;
+	background-color: none;
+	height: 1.5em;
+	font-size: 0.9em;
 }
+button#subtract{
+	float: left;
+	background-color: white;
+	color: rgb(40,61,59);
+	border:none;
+	border-radius: 0.3em;
+	height: 1.5em;
+}
+
+button#add{
+	background-color: white;
+
+	border:none;
+	border-radius: 0.3em;
+	height: 1.5em;
+}
+
 section.checkout-module{
 	margin-bottom: 4em;
 }
-
 
 /* Checkout Breadcrumb */
 

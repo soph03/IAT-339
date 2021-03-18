@@ -16,11 +16,7 @@ btnSubtract.addEventListener('click',()=>{
 
 if (input.value == 1) {
     document.getElementById("subtract").disabled = true;
-    document.getElementById("add").disabled = false;
-} 
-
-if (input.value > 1) {
-    document.getElementById("subtract").disabled = false;
-} 
-
-    
+}
+    else {
+        document.getElementById("subtract").removeAttribute('disabled');
+    }
