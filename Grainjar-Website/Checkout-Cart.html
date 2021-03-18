@@ -14,14 +14,6 @@
     <link rel="stylesheet" href="css/grid.css">
 
    
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
   </head>
 
@@ -86,22 +78,12 @@
       
             <!-- https://bootsnipp.com/snippets/Max59 -->
             
-            <div class=" cart-item cart-quantity-button">
+            <div class=" cart-item">
 
-                <div class="container">
-                  <div class="row">
-                    <div class="col-xs-3">
-                      <div class="input-group number-spinner">
-                        <span class="input-group-btn">
-                          <button class="btn btn-default" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
-                        </span>
-                        <input type="text" class="form-control text-center" value="1">
-                        <span class="input-group-btn">
-                          <button class="btn btn-default" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
+                <div class="cart-quantity-button">
+                  <button id="subtract">-</button>
+                  <input type="number" value="1" class="quantity-input">
+                  <button id="add">+</button>
                 </div>
 
               </div>
@@ -204,8 +186,8 @@
 
     </section> <!-- Closing footer -->
 
-    <!-- jquery --> 
-    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- jquery 
+    <script src="https://code.jquery.com/jquery.js"></script> --> 
     <!-- js styling file --> 
     <script src="js/styling.js"></script>
 

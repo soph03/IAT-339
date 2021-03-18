@@ -2,22 +2,25 @@
 
 console.log('Hello World, Javascript is online');
 
-/*https://bootsnipp.com/snippets/Max59*/
+let btnAdd = document.querySelector('#add');
+let btnSubtract = document.querySelector('#subtract');
+let input = document.querySelector('input');
 
-$(document).on('click', '.number-spinner button', function () {    
-    var btn = $(this),
-        oldValue = btn.closest('.number-spinner').find('input').val().trim(),
-        newVal = 0;
-    
-    if (btn.attr('data-dir') == 'up') {
-        newVal = parseInt(oldValue) + 1;
-    } else {
-        if (oldValue > 1) {
-            newVal = parseInt(oldValue) - 1;
-        } else {
-            newVal = 1;
-        }
-    }
-    btn.closest('.number-spinner').find('input').val(newVal);
+btnAdd.addEventListener('click',()=>{
+    input.value = parseInt(input.value) + 1;
 });
 
+btnSubtract.addEventListener('click',()=>{
+     input.value = parseInt(input.value) - 1;
+});
+
+if (input.value == 1) {
+    document.getElementById("subtract").disabled = true;
+    document.getElementById("add").disabled = false;
+} 
+
+if (input.value > 1) {
+    document.getElementById("subtract").disabled = false;
+} 
+
+    
