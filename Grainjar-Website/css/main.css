@@ -682,13 +682,18 @@ section#title-banner{
 
 /*Checkout Cart*/
 button#cart-button{
-	padding: 0;
 	border:none;
 	cursor: pointer;
 	background-color: white;
 	display: inline-block;
     text-align: center;
     align-items: flex-start;
+}
+button#cart-button:active{
+	outline: none !important;
+}
+button#cart-button:hover{
+	outline: none !important;
 }
 #cart-image{
 	border-radius: 4%;
@@ -697,9 +702,7 @@ button#cart-button{
 .cart-button{
 	margin-top: 2.5rem;
 }
-.cart-quantity, .cart-item{
-	
-}
+
 h4.express-checkout-label{
 	margin-bottom: 2rem;
 }
@@ -738,12 +741,30 @@ button#subtract{
 	height: 1.5em;
 }
 
+button#subtract:focus{
+	outline: none;
+}
+
+button#subtract:hover{
+	color:#3A2B1B;
+	opacity: 50%;
+}
+
 button#add{
 	background-color: white;
 
 	border:none;
 	border-radius: 0.3em;
 	height: 1.5em;
+}
+
+button#add:focus{
+	outline: none;
+}
+
+button#add:hover{
+	color:#3A2B1B;
+	opacity: 50%;
 }
 
 section.checkout-module{
