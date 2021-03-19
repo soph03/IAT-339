@@ -2,6 +2,7 @@
 
 console.log('Hello World, Javascript is online');
 
+/* https://www.youtube.com/watch?v=wF2gOkBMmsk */
 let btnAdd = document.querySelector('#add');
 let btnSubtract = document.querySelector('#subtract');
 let input = document.querySelector('input');
