@@ -725,7 +725,7 @@ input.quantity-input{
 	border: none;
 	border-width: 0.01em;
 	text-align: center;
-	background-color: none;
+	background-color: white;
 	height: 1.5em;
 	font-size: 0.9em;
 }
