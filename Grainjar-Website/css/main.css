@@ -689,11 +689,12 @@ button#cart-button{
     text-align: center;
     align-items: flex-start;
 }
-button#cart-button:active{
+button#cart-button:focus{
 	outline: none !important;
 }
 button#cart-button:hover{
-	outline: none !important;
+	outline: none;
+	font-weight: 600;
 }
 #cart-image{
 	border-radius: 4%;
