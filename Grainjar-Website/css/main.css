@@ -76,6 +76,20 @@ img{
 section {
 	margin-bottom:9em;
 }
+input[type=text]{
+  padding: 12px 20px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+  outline: none;
+  font-size: 1em;
+  font-weight: 500;
+}
+input[type=text]:focus{
+   
+    border: 1.3px solid rgb(40,61,59);
+}
+
 
 .main-container{
 	display:flex;
