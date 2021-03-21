@@ -207,7 +207,7 @@ ul li ul:focus {
 .active {
 	color: white;
 	font-weight:bold;
-}
+} 
 
 /*Home page banner */
 
@@ -425,9 +425,9 @@ section#title-banner{
 	display: none;
 }
 
-/*#product-option-grid img{
-	max-width: none;
-}*/
+/* Product-Favourites*/
+
+
 
 /* Product Detail */
 

@@ -21,3 +21,5 @@ if (input.value == 1) {
     else {
         document.getElementById("subtract").removeAttribute('disabled');
     }
+
+
