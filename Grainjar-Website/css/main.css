@@ -85,8 +85,8 @@ input[type=text]{
   font-size: 1em;
   font-weight: 500;
 }
-input[type=text]:focus{
-   
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus2*/
+input[type=text]:focus{ 
     border: 1.3px solid rgb(40,61,59);
 }
 
@@ -704,7 +704,7 @@ button#cart-button{
     align-items: flex-start;
 }
 button#cart-button:focus{
-	outline: none !important;
+	outline: none;
 }
 button#cart-button:hover{
 	outline: none;
