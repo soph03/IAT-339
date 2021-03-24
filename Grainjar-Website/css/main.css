@@ -1082,6 +1082,15 @@ a.payment-HP-button{
     	width:100%;
     }
 
+    #recipe-preview {
+    	margin-top:-2.5em;
+    	margin-bottom:2em;
+    }
+
+    #shop-bestsellers {
+    	margin-bottom:0.5em;
+    }
+
 	/*about us page */
 
 	.our-mission p{
