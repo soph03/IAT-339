@@ -354,6 +354,7 @@ ul li ul:focus {
 	border-radius: 5%;
 	width: 15em;
 	margin-right:0.8em;
+	height: 2.2em;
 }
 
 ::placeholder {
