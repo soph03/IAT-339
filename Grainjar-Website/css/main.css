@@ -786,6 +786,7 @@ h4.express-checkout-label{
 .express-payment-icon{
 	display: flex;
 	justify-content: flex-end;
+	flex-wrap: wrap;
 }
 
 .express-checkout img{
