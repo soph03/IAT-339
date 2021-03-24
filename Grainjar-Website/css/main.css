@@ -1293,6 +1293,13 @@ a.payment-HP-button{
 		margin-bottom:1.5em;
 	}
 
+	.recipecontainer {
+		padding:2em;
+		margin-left:0em;
+		margin-right:0em;
+}
+
+
 }
 
 @media(max-width: 48em) {
@@ -1339,7 +1346,7 @@ a.payment-HP-button{
 	}
 
 	.product-banner{
-	margin-bottom: 0;
+		margin-bottom: 0;
 	}
 }
 
