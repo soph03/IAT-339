@@ -718,14 +718,23 @@ button#cart-button:hover{
 }
 .cart-button{
 	margin-top: 2.5rem;
+	display: flex;
+	justify-content: flex-end;
 }
 
 h4.express-checkout-label{
 	margin-bottom: 2rem;
+	display: flex;
+	justify-content: flex-end;
+
+}
+.express-payment-icon{
+	display: flex;
+	justify-content: flex-end;
 }
 
 .express-checkout img{
-	margin-right:1em;
+	margin-left:1em;
 }
 
 #cart {
@@ -736,7 +745,6 @@ h4.express-checkout-label{
 	border:0.01em solid grey;
 	border-radius: 0.3em;
 	height: 1.5em;
-	
 }
 
 input.quantity-input{
