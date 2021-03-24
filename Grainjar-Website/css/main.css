@@ -1150,6 +1150,10 @@ a.payment-HP-button{
 	.main-banner-text {
 		margin-bottom: -7em;
 	}
+
+	#title-banner h4{
+		top: 50%;
+	}
 }
 
 @media (max-width: 55em) {
@@ -1349,6 +1353,15 @@ a.payment-HP-button{
 
     .line-checkout{
 		display:none;
+	}
+
+	#title-banner h1{
+		font-size: 2.7em;
+		top: 10%;
+	}
+
+	#title-banner h4{
+		top: 40%;
 	}
 }
 
