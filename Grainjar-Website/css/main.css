@@ -446,6 +446,14 @@ section#title-banner{
 	font-size: 4em;
 }
 
+#title-banner h4 {
+	position:absolute;
+	left:10%;
+	top:38%;
+	font-size: 1.5em;
+	font-weight:normal;
+}
+
 #title-banner img {
 	height: auto;
 	width:100%;
@@ -1386,5 +1394,12 @@ a.payment-HP-button{
 		position:absolute;
 		left:10%;
 		top:15%;
+	}
+
+	#title-banner h4 {
+		font-size: 1.4em;
+		position:absolute;
+		left:10%;
+		top:38%;
 	}
 }
