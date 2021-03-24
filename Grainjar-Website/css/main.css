@@ -501,8 +501,11 @@ section#title-banner{
 /* Product-Favourites*/
 .display-name{
 	position: absolute;
-	left: 9%;
-	top: -1%;
+	left: 7%;
+	top: -4%;
+	
+}
+.display-name-white{
 	color: white;
 }
 
