@@ -485,8 +485,12 @@ section#title-banner{
 }
 
 /* Product-Favourites*/
-
-
+.display-name{
+	position: absolute;
+	left: 9%;
+	top: -1%;
+	color: white;
+}
 
 /* Product Detail */
 

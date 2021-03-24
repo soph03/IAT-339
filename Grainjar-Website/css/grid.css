@@ -48,6 +48,7 @@
 
 .option-display-img1, .option-display-img2{
 	grid-column-end: span 2;
+	position: relative;
 }
 
 #filter-product, .filter-container{
@@ -636,7 +637,6 @@
 	}
 	.cart-item-button{
 		justify-content: flex-end;
-		justify-content: center;
 	}
 	.cart-quantity-button{
 		display: grid;
