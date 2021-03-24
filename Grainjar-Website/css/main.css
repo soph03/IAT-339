@@ -363,6 +363,7 @@ ul li ul:focus {
 	margin-left:1em;
 	color:rgb(40,61,59);
 }
+/* the following code inspired by https://jsfiddle.net/esedic/rLdv29ou/ */
 
 @keyframes up {
     15% {
