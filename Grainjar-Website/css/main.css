@@ -1369,14 +1369,14 @@ a.payment-HP-button{
 
 	.filter-button-mobile:hover {
 		color: white;
-		background-color: #A00226;
+		background-color: #3A2B1B;;
 		transition-duration: 0.3s;
 		border:none;
 	}
 
 	.filter-active{
 		color: white;
-		background-color: #A00226;
+		background-color: #3A2B1B;;
 		border:none;
 	}
 
