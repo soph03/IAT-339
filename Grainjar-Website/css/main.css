@@ -378,10 +378,10 @@ ul li ul:focus {
 	font-style: italic;
 }
 
-#customer-feedback h2{
-	margin-top:-0.5em;
+#customer-feedback hr{
+	width: 18em;
+	margin-bottom:3em;
 }
-
 /*mailing list section */
 
 #mailing-list {
