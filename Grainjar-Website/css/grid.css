@@ -662,8 +662,10 @@
 	.cart-item-button{
 		justify-content: flex-end;
 	}
-	.cart-quantity-button{
+	.cart-item-button{
 		display: grid;
+		grid-column: 3/4;
+		grid-row: 1/3;
 		height: auto;
 	}
 	
