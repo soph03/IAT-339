@@ -25,8 +25,8 @@ https://css-tricks.com/solved-with-css-dropdown-menus/ */
   transition-property: transform;
 }
 .shrink-effect:hover, .shrink-effect:focus, .shrink-effect:active {
-  -webkit-transform: scale(0.93);
-  transform: scale(0.93);
+  -webkit-transform: scale(0.96);
+  transform: scale(0.96);
 }
 
 body{
