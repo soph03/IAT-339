@@ -41,6 +41,7 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap:3em;
 	padding:4em;
+	margin-top:-2em;
 }
 
 .testi-item {
@@ -366,11 +367,23 @@
 .footer-info-links{
 	display: flex;
 	grid-column: 4/6;
-	justify-self:right;
+	justify-content:right;
 }
 .footer-rights{
 	grid-column:1/3;
 	grid-row-start: 1;
+}
+
+@media(max-width: 75em) {
+
+	.testi-container {
+		grid-template-columns: 1fr;
+		padding:1em;
+	}
+
+	.testi-item {
+		margin-top:2em;
+	}
 }
 
 
@@ -391,11 +404,6 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows:1fr 1fr 1fr 1fr;
    }
-
-   	.testi-container {
-		grid-template-columns: 1fr;
-}
-
 }
 
 @media (max-width: 55em) {

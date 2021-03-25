@@ -384,6 +384,10 @@ ul li ul:focus {
 	text-align:center;
 }
 
+#customer-feedback {
+	margin-top:-3.5em;
+}
+
 #customer-feedback hr{
 	width: 18em;
 	margin-bottom:3em;
