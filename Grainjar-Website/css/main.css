@@ -191,7 +191,7 @@ header {
 nav li {
 	list-style-type: none;
 	display: inline-block;
-	margin: 0 1.3vw;
+	margin: 0 1.3vw; /*1.3vx = 0.72em */
 }
 
 nav li a {
@@ -205,13 +205,13 @@ nav li a:hover {
 }
 
 #navigation {
-	margin-right: 2.7em;
+	margin-right: 4.28em;
 	position: absolute;
 	right: 0;
 }
 
 .logo {
-	margin-left:4em;
+	margin-left:5em;
 	margin-top:0.7em;
 	position: absolute;
 }
@@ -1066,10 +1066,11 @@ a.payment-HP-button{
 #footer{
 	background-color: rgb(40,61,59);
 	font-weight: 330;
-	padding: 4rem 4rem;
+	padding: 4rem 20rem;
 }
 #footer ul{
 	list-style: none;
+	padding: 0;
 }
 #footer a, .footer-info-links p{
 	font-weight: 330;
@@ -1092,9 +1093,6 @@ a.payment-HP-button{
 }
 .footer-rights p, .footer-info li, .footer-info a, .footer-info-links a{
 	color: white;
-}
-#footer ul{
-	padding: 0;
 }
 .footer-social{
 	padding-top: 1em;
