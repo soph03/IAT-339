@@ -321,7 +321,7 @@ ul li ul:focus {
 .why-grainjar-item1 {
 	flex:10%;
 	flex-direction: column;
-	width:30em;
+	width:35em;
 }
 
 .why-grainjar-container h2 {
@@ -1125,7 +1125,7 @@ a.payment-HP-button{
 
 	h1{
 		margin-top:1em;
-		font-size:2em;
+		font-size:1.8em;
 	}
 
 	.logo {
@@ -1154,31 +1154,22 @@ a.payment-HP-button{
 	#title-banner h4{
 		top: 50%;
 	}
+
+	.why-grainjar-item1 {
+		width: 100%;
+    }
+
+    .why-grainjar-item2 {
+		width: 100%;
+    }
 }
 
 @media (max-width: 55em) {
 
 	/*home page */
 
-	.why-grainjar-item1 {
-		width: 100%;
-    }
-
-    .why-grainjar-container img{
-		margin-left:0em;
-    }
-
     #at-grainjar {
 		padding-bottom:3em;
-    }
-
-    .recipes-preview-item1 {
-    	width:100%;
-    }
-
-    #recipe-preview {
-    	margin-top:-2.5em;
-    	margin-bottom:0em;
     }
 
     #shop-bestsellers {
