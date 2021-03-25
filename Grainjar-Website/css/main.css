@@ -142,6 +142,7 @@ input[type=text]:focus{
 	border-radius: 3px;
 	margin-bottom: 0.5em;
 	color: #3A2B1B;
+	font-size:0.9em;
 }
 
 .disabled-button:hover {
