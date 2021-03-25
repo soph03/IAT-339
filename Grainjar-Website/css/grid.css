@@ -8,7 +8,7 @@
 .at-grainjar-grid {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-column-gap: 1em;
+	grid-column-gap: 2em;
 	margin-top:4em;
 	margin-bottom:2em;
 }
@@ -16,7 +16,7 @@
 .inspo-grid {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-column-gap:2em;
+	grid-column-gap:3em;
 }
 
 .recipes-preview-container {
@@ -26,7 +26,7 @@
 
 .recipes-preview-item {
 	flex-direction:column;
-	width: 23em;
+	width: 25em;
 	margin-right: 3em;
 }
 
