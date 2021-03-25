@@ -1032,6 +1032,11 @@ a.payment-HP-button{
 	width: 100%;
 }
 
+#cart hr {
+	border-color:#F3F3F3;
+	border-height:0.1em;
+}
+
 /*Checkout-Summary*/
 
 .summary-checkout-container {
