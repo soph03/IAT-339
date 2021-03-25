@@ -379,10 +379,9 @@ ul li ul:focus {
 
 /*customer feedback section */
 
-#customer-feedback {
+#customer-feedback  h3{
 	color:rgb(40,61,59);
 	text-align:center;
-	font-style: italic;
 }
 
 #customer-feedback hr{

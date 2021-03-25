@@ -45,14 +45,16 @@
 
 .testi-item {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-	border-radius: 3%;
+	border-radius: 1%;
 	padding:2em;
-	background-color:white;
+	background-color:rgba(91,122,120, 0.2);
 }
 
 .testi-item p{
 	font-size:0.9em;
-	color:grey;
+	font-weight: 250;
+	font-style: italic;
+	color:#262626;
 }
 
 /*Product Template*/
