@@ -1094,6 +1094,7 @@ a.payment-HP-button{
 	color:white;
 	font-size:2em;
 	margin-right:1em;
+	cursor:pointer;
 }
 
 .hamburger:focus {
