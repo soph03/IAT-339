@@ -371,7 +371,6 @@ ul li ul:focus {
 	padding-top:3em;
 	padding:3em;
 	padding-bottom:5em;
-	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #mailing-list button {
@@ -381,10 +380,9 @@ ul li ul:focus {
 #mailing-list input {
 	background-color:rgba(234,221,208,0.1);
 	border:1px solid black;
-	border-radius: 3px;
 	width: 15em;
 	margin-right:0.8em;
-	height: 2.2em;
+	height: 2em;
 }
 
 ::placeholder {
@@ -1132,7 +1130,7 @@ nav{
 		background-color: rgb(40,61,59);
 		width:100%;
 		position:relative;
-		margin-top:0.33em;
+		margin-top:0em;
 		margin-right:0em;
 	}
 
