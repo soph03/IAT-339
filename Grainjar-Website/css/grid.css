@@ -402,6 +402,16 @@
 	.recipes-preview-item1 {
     	width:100%;
     }
+    .footer-container{
+		grid-template-columns: auto auto auto auto;
+	}
+    	.footer-social{
+		grid-column: 1/5;
+		grid-row: 3;
+	}
+	.footer-logo{
+		grid-column: 1/5;
+	}
 }
 
 
@@ -421,13 +431,8 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows:1fr 1fr 1fr 1fr;
    }
-   .footer-container{
-		grid-template-columns: auto auto auto auto;
-	}
-	.footer-social{
-		grid-column: 1/5;
-		grid-row: 3;
-	}
+ 
+
 
 }
 

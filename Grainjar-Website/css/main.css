@@ -1159,7 +1159,7 @@ nav{
 
 }
 
-@media(max-width: 80em ) {
+@media(max-width: 85em ) {
 	#footer{
 		padding: 4rem 10rem;
 	}
