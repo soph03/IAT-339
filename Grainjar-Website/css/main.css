@@ -1167,6 +1167,10 @@ a.payment-HP-button{
     .why-grainjar-item2 {
 		width: 100%;
     }
+
+    .why-grainjar-container img{
+		margin-left:0em;
+    }
 }
 
 @media (max-width: 55em) {
