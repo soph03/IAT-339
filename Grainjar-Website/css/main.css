@@ -1040,7 +1040,7 @@ a.payment-HP-button{
 #footer{
 	background-color: rgb(40,61,59);
 	font-weight: 330;
-	padding: 4rem 20rem;
+	padding: 4rem 19rem;
 }
 #footer ul{
 	list-style: none;
@@ -1157,6 +1157,12 @@ nav{
 		margin-bottom:1.5em;
 	}
 
+}
+
+@media(max-width: 75em ) {
+	#footer{
+		padding: 4rem 10rem;
+	}
 }
 
 @media(max-width: 65em ) {
@@ -1474,6 +1480,9 @@ nav{
 	.disabled-button {
 		font-size: 0.9em;
     }
+    #footer{
+		padding: 4rem 8rem;
+	}
 }
 
 @media (max-width: 34em) {
@@ -1490,5 +1499,11 @@ nav{
 		position:absolute;
 		left:10%;
 		top:38%;
+	}
+	 #footer{
+		padding: 4rem 6rem;
+	}
+	.footer-rights p{
+		font-size: 0.75em;
 	}
 }
