@@ -1159,7 +1159,7 @@ nav{
 
 }
 
-@media(max-width: 75em ) {
+@media(max-width: 80em ) {
 	#footer{
 		padding: 4rem 10rem;
 	}
@@ -1451,6 +1451,9 @@ nav{
 	.product-banner{
 		margin-bottom: 0;
 	}
+	.footer-rights p{
+		font-size: 0.75em;
+	}
 }
 
 @media (max-width: 40em) {
@@ -1503,7 +1506,5 @@ nav{
 	 #footer{
 		padding: 4rem 6rem;
 	}
-	.footer-rights p{
-		font-size: 0.75em;
-	}
+
 }
