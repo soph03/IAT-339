@@ -1164,6 +1164,18 @@ nav{
 	}
 }
 
+@media(max-width:70em){
+	.main-banner-text{
+		position:relative;
+		top:50%;
+		left:20%;
+		transform: translate(-20%, -10%);
+	    text-align:left;
+	    color:#3D2B19;
+	    padding:2em;
+	}
+}
+
 @media(max-width: 65em ) {
 
 	h2{
@@ -1186,16 +1198,6 @@ nav{
 	.logo {
 		margin-left:2em;
 		margin-top:1em;
-	}
-
-    .main-banner-text{
-		position:relative;
-		top:50%;
-		left:20%;
-		transform: translate(-20%, -10%);
-	    text-align:left;
-	    color:#3D2B19;
-	    padding:2em;
 	}
 
 	.why-grainjar-container h2 {
