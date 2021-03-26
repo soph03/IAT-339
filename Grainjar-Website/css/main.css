@@ -176,44 +176,13 @@ input::-webkit-inner-spin-button {
 
 /*Home Page*/
 
-/*Nav Bar*/
-
 header {
 	background-color:rgb(40,61,59);
 	height:3.5em;
 }
 
-#navigation{
-	z-index: 1;
-}
-
-
 nav li {
-	list-style-type: none;
-	display: inline-block;
 	margin: 0 1.3vw; /*1.3vx = 0.72em */
-}
-
-nav li a {
-    color: #EADDD0;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    color: white;
-    transition-duration: 0.4s;
-}
-
-#navigation {
-	margin-right: 4.28em;
-	position: absolute;
-	right: 0;
-}
-
-.logo {
-	margin-left:5em;
-	margin-top:0.7em;
-	position: absolute;
 }
 
 ul li ul {
@@ -1112,6 +1081,81 @@ a.payment-HP-button{
 	border-bottom: 1.6px solid #AFB7B6;
 	padding-bottom:3rem;
 	margin-bottom: 1.5rem;
+}
+
+/*nav bar^/
+
+/*code inspired by https://www.youtube.com/watch?v=ydZc17rlR5E&ab_channel=FlorinPop */
+
+.hamburger {
+	display:none;
+	background-color:transparent;
+	border:0;
+	color:white;
+	font-size:2em;
+	margin-right:1em;
+}
+
+.hamburger:focus {
+	outline:none;
+}
+
+nav{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.nav-ul {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding:0;
+	list-style-type : none;
+	margin-right:3em;
+}
+
+.nav-ul li a {
+	display:inline-block;
+	color:white;
+}
+
+.logoo {
+	margin-left:3em;
+}
+
+@media screen and (max-width: 700px) {
+	.nav-ul {
+		display:none;
+		flex-direction:column;
+		background-color: rgb(40,61,59);
+		width:100%;
+		position:relative;
+		margin-top:0.33em;
+		margin-right:0em;
+	}
+
+	.nav-ul.show {
+		display:flex;
+	}
+
+	.hamburger {
+		display:block;
+		margin-top:0.1em;
+	}
+
+	.logoo {
+		margin-top:0.3em;
+		margin-left:1.3em;
+	}
+
+	.nav-ul li a {
+		display:inline-block;
+		color:white;
+		margin-bottom:1.5em;
+	}
+
 }
 
 @media(max-width: 65em ) {
