@@ -390,6 +390,18 @@
 	.testi-item {
 		margin-top:2em;
 	}
+
+	/*Home page */
+
+    .recipes-preview-item {
+		width:100%;
+		margin-right:0em;
+		margin-bottom: 1em;
+	}
+
+	.recipes-preview-item1 {
+    	width:100%;
+    }
 }
 
 
@@ -439,18 +451,6 @@
 
     .your-impact-grid img{
     	width: 50%;
-    }
-
-    /*Home page */
-
-    .recipes-preview-item {
-		width:100%;
-		margin-right:0em;
-		margin-bottom: 1em;
-	}
-
-	.recipes-preview-item1 {
-    	width:100%;
     }
 
 	/*recipe page */
