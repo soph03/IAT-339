@@ -1227,13 +1227,26 @@ nav{
 
 	/*home page */
 
+	#at-grainjar {
+	padding-top:1em;
+	}
+
     #at-grainjar {
 		padding-bottom:3em;
     }
 
+    #recipe-preview {
+    	margin-top:-3em;
+    }
+
     #shop-bestsellers {
     	margin-bottom:0.5em;
+    	margin-top:-2em;
     }
+
+    #customer-feedback {
+		margin-top:-2em;
+	}
 
 	/*about us page */
 
