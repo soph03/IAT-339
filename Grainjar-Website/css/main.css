@@ -1283,7 +1283,7 @@ nav{
 	}
 
 	.recipe-blurb {
-		margin-bottom:2em;
+		margin-bottom:4em;
 	}
 
 	#all-recipes h3 {
@@ -1293,10 +1293,6 @@ nav{
 	#all-recipes h4 {
 		font-size: 1.3em;
 		margin-bottom:2em;
-	}
-
-	.recipe-img {
-		margin-bottom:0em;
 	}
 
 	#recipe-head h1{
