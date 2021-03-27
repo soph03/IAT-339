@@ -882,7 +882,7 @@ p.cart-choices {
 	font-size: 0.85em;
 }
 .checkout-module input {
-    width: 21em;
+    width: 20em;
     height: 2em;
     background-color: rgb(242,242,242);
     border: none;
@@ -921,6 +921,9 @@ p.cart-choices {
 }
 .continue-to-next-mobile{
 	display: none;
+}
+.image-purchased img{
+	min-width: 90px;
 }
 
 
