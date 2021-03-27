@@ -403,6 +403,10 @@
 	.footer-logo{
 		grid-column: 1/5;
 	}
+
+	.recipe-preview-container{
+		display: inline-block;
+		}
 }
 
 
@@ -431,11 +435,7 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows:1fr 1fr 1fr 1fr;
    }
- 
-
-
 }
-
 
 
 @media (max-width: 55em) {
