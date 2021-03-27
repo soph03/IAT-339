@@ -874,21 +874,24 @@ p.cart-choices {
 }
 
 /*Checkout-Information*/
-
+.summary-checkout-container {
+	background-color: #F6F0E9;
+	padding: 2em;
+}
+.summary-checkout-container p{
+	font-size: 0.85em;
+}
 .checkout-module input {
-    width: 23em;
+    width: 21em;
     height: 2em;
     background-color: rgb(242,242,242);
     border: none;
     border-radius: 4px;
     margin-bottom: 1em;
 }
-.line-checkout{
-    border-left: 1px solid #3A2B1B;
-    height: 39em;
-    margin-top:2em;
-    margin-left: 3em;
-    margin-right: 3em;
+.subtotal-item{
+	width:15em;
+	font-size: 0.85em;
 }
 .checkout-module hr{
 	margin-top: 2rem;
@@ -905,8 +908,11 @@ p.cart-choices {
 .continue-to-next {
 	margin-top:1.5em;
 }
-
+.details-purchased p{
+	font-size: 0.68em;
+}
 .details-purchased h4{
+	font-size: 0.95rem;
 	margin-top:0em;
 	margin-bottom:-0.3em;
 }
@@ -915,6 +921,16 @@ p.cart-choices {
 }
 .continue-to-next-mobile{
 	display: none;
+}
+
+
+hr.checkout-line{
+	
+    background-color: #3A2B1B;
+    border: 0 none;
+    color: #3A2B1B;
+    height: 1px;
+
 }
 
 /*Checkout-Shipping*/
@@ -970,17 +986,13 @@ p.cart-choices {
 
 }
 
-.address{
+.address, .hours{
 	margin-bottom:2em;
 }
 
 .hours p{
 	margin-bottom:-1em;
 
-}
-
-.hours{
-	margin-bottom:2em;
 }
 
 .phone p{
@@ -1045,9 +1057,7 @@ a.payment-HP-button{
 	margin-bottom:2em;
 }
 
-.subtotal-item{
-	width:25em;
-}
+
 
 /*Footer*/
 #footer{
