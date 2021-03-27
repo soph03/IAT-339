@@ -29,6 +29,10 @@ https://css-tricks.com/solved-with-css-dropdown-menus/ */
   transform: scale(0.96);
 }
 
+.dropdown{
+	z-index: 1;
+}
+
 body{
     font-family:'Poppins', Helvetica, Arial, sans-serif;
 	color: #3A2B1B;
