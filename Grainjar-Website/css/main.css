@@ -752,6 +752,7 @@ button#cart-button{
 	display: inline-block;
     text-align: center;
     align-items: flex-start;
+    font-size: 1.3em;
 }
 button#cart-button:focus{
 	outline: none;
@@ -843,6 +844,17 @@ button#add:hover{
 
 section.checkout-module{
 	margin-bottom: 4em;
+}
+#cart-product-name{
+	flex-direction: column ;
+	align-items: flex-start;
+}
+.cart-choices{
+	margin: 0;
+}
+p.cart-choices {
+	font-weight: 300;
+	font-size: 0.75em;
 }
 
 /* Checkout Breadcrumb */
@@ -1529,6 +1541,9 @@ nav{
 	}
 	 #footer{
 		padding: 4rem 6rem;
+	}
+	input.quantity-input{
+		width: 0.85em;
 	}
 
 }
