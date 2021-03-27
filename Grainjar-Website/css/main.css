@@ -763,7 +763,7 @@ button#cart-button:hover{
 }
 #cart-image{
 	border-radius: 4%;
-	min-width:8em; 
+	min-width:5em; 
 }
 .cart-button{
 	margin-top: 2.5rem;
@@ -845,7 +845,7 @@ button#add:hover{
 section.checkout-module{
 	margin-bottom: 4em;
 }
-#cart-product-name{
+#cart-product-detail{
 	flex-direction: column ;
 	align-items: flex-start;
 }
@@ -1397,6 +1397,7 @@ nav{
 		width: 100%;
 	}
 
+
 	/*summary checkout*/
 
 	.summary-checkout-container {
@@ -1532,6 +1533,10 @@ nav{
     #footer{
 		padding: 4rem 8rem;
 	}
+	p.cart-product-name{
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+	}
 }
 
 @media (max-width: 34em) {
@@ -1555,5 +1560,6 @@ nav{
 	input.quantity-input{
 		width: 0.85em;
 	}
+	
 
 }
