@@ -768,6 +768,10 @@
 	#cart-product-detail{
 		grid-column-start: 2;
 	}
+	#order-summary, .order-summary-container{
+		display: flex;
+		flex-direction: column;
+	}
 
 } 
 
