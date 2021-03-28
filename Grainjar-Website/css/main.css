@@ -855,6 +855,7 @@ section.checkout-module{
 p.cart-choices {
 	font-weight: 300;
 	font-size: 0.75em;
+	margin-top: 0.2rem;
 }
 
 /* Checkout Breadcrumb */
@@ -875,8 +876,12 @@ p.cart-choices {
 
 /*Checkout-Information*/
 .summary-checkout-container {
-	background-color: #F6F0E9;
+	background-color: rgba(246, 240, 233, 0.6);
 	padding: 2em;
+	margin-top:2em;
+	margin-bottom: 1em;
+	margin-left: 3rem;
+	
 }
 .summary-checkout-container p{
 	font-size: 0.85em;
@@ -890,8 +895,7 @@ p.cart-choices {
     margin-bottom: 1em;
 }
 .subtotal-item{
-	width:15em;
-	font-size: 0.85em;
+	font-size: 0.75em;
 }
 .checkout-module hr{
 	margin-top: 2rem;
@@ -909,10 +913,10 @@ p.cart-choices {
 	margin-top:1.5em;
 }
 .details-purchased p{
-	font-size: 0.68em;
+	font-size: 0.66em;
 }
 .details-purchased h4{
-	font-size: 0.95rem;
+	font-size: 0.78rem;
 	margin-top:0em;
 	margin-bottom:-0.3em;
 }
@@ -923,7 +927,7 @@ p.cart-choices {
 	display: none;
 }
 .image-purchased img{
-	min-width: 90px;
+	min-width: 4.4rem;
 }
 
 
@@ -1036,10 +1040,6 @@ a.payment-HP-button{
 
 /*Checkout-Summary*/
 
-.summary-checkout-container {
-	margin-top:2em;
-	margin-bottom: 1em;
-}
 
 .summary-checkout-container hr{
 	margin-top: 2rem;
@@ -1404,7 +1404,7 @@ nav{
 	/*summary checkout*/
 
 	.summary-checkout-container {
-		width:100%;
+		width:80%;
 
 	}
 
