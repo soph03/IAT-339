@@ -385,6 +385,9 @@
 	}
 }
 
+@media(max-width: 99em) {
+}
+
 @media(max-width: 75em) {
 
 	/*Home page */
@@ -562,6 +565,9 @@
 		display:grid;
 		grid-template-columns: 1fr 1fr;
 	}
+	.footer-container{
+		grid-template-columns: auto auto;
+	}
 }
 
 
@@ -598,9 +604,7 @@
 	     .footer-logo{
     	grid-column: 1/3;
     }
-    .footer-container{
-		grid-template-columns: auto auto;
-	}
+   
 	.footer-detail{
 		grid-row-start: 2;
 	}
