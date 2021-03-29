@@ -1459,9 +1459,6 @@ nav{
 
 
 @media(max-width: 48em) {
-	h1{
-		font-size: 4.8vh;
-	}
 
 	.why-grainjar-container img{
 		margin-left:0em;
