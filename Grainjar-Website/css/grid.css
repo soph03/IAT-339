@@ -246,7 +246,6 @@
 .checkout-module{
 	display: grid;
 	grid-template-columns: 1.5fr 1.2fr;
-	grid-column-gap: 3rem;
 	margin-top: 4rem;
 }
 .guest-checkout-container{
