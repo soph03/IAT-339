@@ -1019,19 +1019,16 @@ a.payment-HP-button{
 }
 .discount-form input{
 	width: 50%;
-    height: 1.8em;
+    height: 2em;
     background-color: rgb(242,242,242);
     border: none;
     border-radius: 4px;
 	margin-right: 1rem;
 }
 
-.discount-form ::placeholder {
-	color:#AFB7B6;
-}
 
 .discount-button{
-	padding: 6px 25px 6px 25px;
+	padding: 7px 25px 7px 25px;
 	font-size: 0.7rem;
 	margin: 12px 0;
 }
