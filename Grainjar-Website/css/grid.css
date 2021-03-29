@@ -417,6 +417,12 @@
 	.recipe-preview-container{
 		display: inline-block;
 		}
+
+	.recipe-rec-item2 {
+		margin-left:0;
+		margin-top:0;
+		width:100%;
+	}
 }
 
 
@@ -499,13 +505,6 @@
 		margin-left:0em;
 	}
 
-   .recipe-rec-item2 {
-		margin-left:0em;
-		margin-top:0em;
-		margin-bottom:2em;
-		width:100%;
-	}
-
 	/* Product Detail */
 	.product-module{
 		display: grid;
@@ -564,6 +563,10 @@
 	}
 	.footer-container{
 		grid-template-columns: auto auto;
+	}
+
+	.recipe-rec-item2 {
+		margin-bottom: 3em;
 	}
 }
 
