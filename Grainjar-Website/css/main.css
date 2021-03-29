@@ -387,6 +387,7 @@ ul li ul:focus {
 	width: 15em;
 	margin-right:0.8em;
 	height: 2em;
+	border-radius: 3px;
 }
 
 ::placeholder {
