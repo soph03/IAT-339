@@ -1224,7 +1224,7 @@ nav{
 }
 
 
-@media(max-width:70em){
+@media(max-width:75em){
 	.main-banner-text{
 		position:relative;
 		top:50%;
