@@ -15,10 +15,4 @@ btnSubtract.addEventListener('click',()=>{
      input.value = parseInt(input.value) - 1;
 });
 
-if (input.value == 1) {
-    document.getElementById("subtract").disabled = true;
-}
-    else {
-        document.getElementById("subtract").removeAttribute('disabled');
-    }
 
