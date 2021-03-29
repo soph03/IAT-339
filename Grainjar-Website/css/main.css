@@ -1193,6 +1193,10 @@ nav{
 		margin-top:1em;
 	}
 
+	.cartt {
+		display:none;
+	}
+
 	.nav-menu-end {
 		display:flex;
 		justify-content:flex-end;
