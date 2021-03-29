@@ -256,7 +256,7 @@ ul li ul:focus {
 .main-banner-text{
 	position:absolute;
 	top:65%;
-	left:60%;
+	left:63%;
 	transform: translate(-20%, -50%);
     text-align:right;
     color:#3D2B19;
