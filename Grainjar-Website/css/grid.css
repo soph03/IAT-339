@@ -383,7 +383,7 @@
 		grid-template-columns: auto auto auto auto 10rem;
 	}
 	.footer-logo{
-		grid-column: 1/7;
+		grid-column: 1/6;
 	}
 }
 
