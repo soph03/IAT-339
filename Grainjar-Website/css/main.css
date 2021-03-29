@@ -1175,6 +1175,7 @@ nav{
 		position:relative;
 		margin-top:0em;
 		margin-right:0em;
+		z-index:1;
 	}
 
 	.nav-ul.show {
