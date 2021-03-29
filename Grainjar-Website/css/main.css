@@ -470,7 +470,7 @@ section#title-banner{
 	margin-bottom:0.6rem;
 }
 .product-option-item a{
-	font-weight: 550;
+	font-weight: 500;
 }
 .product-option-item p{
 	margin-top:0.5rem;
@@ -931,7 +931,7 @@ p.cart-choices {
 	margin-bottom:-0.3em;
 }
 .label-total, .total-price{
-	font-weight: 580;
+	font-weight: 600;
 }
 .continue-to-next-mobile{
 	display: none;
@@ -1020,7 +1020,7 @@ a.payment-HP-button{
 
 #cart hr {
 	border-color:#F3F3F3;
-	border-height:0.1em;
+	border-right:0.1em;
 }
 .discount-form{
 	display: flex;
@@ -1074,7 +1074,7 @@ h4.discount-title{
 /*Footer*/
 #footer{
 	background-color: rgb(40,61,59);
-	font-weight: 330;
+	font-weight: 300;
 	padding: 4rem 19rem;
 }
 #footer ul{
@@ -1082,7 +1082,7 @@ h4.discount-title{
 	padding: 0;
 }
 #footer a, .footer-info-links p{
-	font-weight: 330;
+	font-weight: 300;
 }
 
 #footer a {
@@ -1091,7 +1091,7 @@ h4.discount-title{
 }
 
 .footer-title{
-	font-weight: 420;
+	font-weight: 400;
 }
 .footer-info li{
 	margin-top: 0.5em;
