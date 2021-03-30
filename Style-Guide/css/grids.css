@@ -336,6 +336,15 @@ hr {
 	margin-top: 0.5rem;
 }
 
+.summary-pandq{
+	display: flex;
+	flex-direction: wrap;
+}
+
+.summary-pandq p{
+	margin-right: 3em;
+}
+
 
 /*Recommended for you module */
 
