@@ -402,6 +402,15 @@ input {
 	text-decoration: none;
 	border-radius: 3px;
 }
+.filter-button {
+	border:none;
+	padding: 8px 28px 8px 28px;
+	font-size: 0.9em;
+	background-color:#3A2B1B;
+	color: white;
+	text-decoration: none;
+	border-radius: 3px;
+}
 
 .product-add-button {
 	margin-top:1.5em;
@@ -427,8 +436,21 @@ input {
 
 .disabled-button:hover {
 	color: white;
-	background-color: rgb(40,61,59);
+	background-color: #3A2B1B;
 	transition-duration: 0.5s;
+}
+.check-container{
+	display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.check-container label{
+	margin-bottom: 0;
+}
+
+.check-container input{
+	width: 1.1em;
+	margin-right: 0.5em;
 }
 
 .size-button {
@@ -450,7 +472,7 @@ input {
 .secondary-button {
 	width: 8em;
 	padding: 7px 20px 7px 20px;
-	background-color: #A00226;
+	background-color: #3A2B1B;
 	border-radius: 3px;
 	font-size: 0.9em;
 	color: white;
