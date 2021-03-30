@@ -462,9 +462,12 @@ section.checkout-module{
 	align-items: flex-start;
 }
 .cart-choices{
+	margin: 0;
+}
+p.cart-choices {
 	font-weight: 300;
 	font-size: 0.75em;
-	margin-bottom: 2em;
+	margin-top: 0.2rem;
 }
 
 /* Form label styling */
@@ -506,10 +509,6 @@ input {
 	color: white;
 	text-decoration: none;
 	border-radius: 3px;
-}
-
-.filter-button:hover{
-	color: white;
 }
 
 .product-add-button {
@@ -583,6 +582,9 @@ input {
 #buttons h4 {
 	margin-top: 2.5em;
 }
+.details-purchased p {
+    font-size: 0.66em;
+}
 
 
 .summary-checkout-container input {
@@ -602,7 +604,6 @@ input {
 }
 
 .details-purchased{
-	margin-left: 2em;
 	margin-top: -1em;
 }
 
@@ -612,6 +613,7 @@ input {
 .summary-price-label {
     margin-bottom: 1rem;
 }
+
 hr.checkout-line {
     background-color: #3A2B1B;
     border: 0 none;
