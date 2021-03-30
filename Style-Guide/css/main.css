@@ -462,12 +462,9 @@ section.checkout-module{
 	align-items: flex-start;
 }
 .cart-choices{
-	margin: 0;
-}
-p.cart-choices {
 	font-weight: 300;
 	font-size: 0.75em;
-	margin-top: 0.2rem;
+	margin-bottom: 2em;
 }
 
 /* Form label styling */
@@ -509,6 +506,10 @@ input {
 	color: white;
 	text-decoration: none;
 	border-radius: 3px;
+}
+
+.filter-button:hover{
+	color: white;
 }
 
 .product-add-button {

@@ -330,6 +330,15 @@ hr {
 	padding-left: 1em;
 }
 
+.summary-pandq{
+	display: flex;
+	flex-direction: wrap;
+}
+
+.summary-pandq p{
+	margin-right: 3em;
+}
+
 
 /*Recommended for you module */
 
