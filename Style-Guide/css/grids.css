@@ -479,8 +479,12 @@ hr {
        margin-bottom:1em;
    }
 
-   #footer img{
-       width: 100%;
+   .footer-social-icon img{
+       width: 15%;
+   }
+
+   .footer-logo img{
+       width: 60%;
    }
 
    .detail-container {
@@ -649,6 +653,10 @@ hr {
 	.cart-subtotal{
 		grid-column: 3/4;
 	}
+	#cart-product-detail{
+		flex-direction: column ;
+		align-items: flex-start;
+}
 
 	/* Footer */
 	.footer-logo{
@@ -792,5 +800,12 @@ hr {
 	}
 	#cart-product-detail{
 		grid-column-start: 2;
+	}
+	#order-summary, .order-summary-container{
+		display: flex;
+		flex-direction: column;
+	}
+	#footer img{
+		width: 15%;
 	}
 }
