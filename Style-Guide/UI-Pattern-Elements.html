@@ -146,7 +146,6 @@
                 <button class ="default-button"> Continue to shipping </button>
             </div>
 
-            <div class= "line-checkout">
               <div class= "summary-checkout-container">
                 <div class = "purchased-summary-item">
                   
@@ -156,8 +155,11 @@
 
                   <div class = "details-purchased">
                     <h4> Chia seed fluff </h4>
+                    <p class="cart-choices"> Honey | 1 kg</p>
+                    <div class="summary-pandq">
                     <p> Qty: 1 </p>
                     <p> $25.00 </p>
+                    </div>
                   </div>
                 </div>
 
@@ -183,7 +185,7 @@
                     </ul>
                   </div>
 
-                </div>
+            
               </div>
             </div>
           </div>
@@ -357,41 +359,37 @@
           <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_th-->
           <div class="cart-grid-container">
 
-          <!-- 
-          <p></p>
-          <p class="cart-header"><b>Product</b></p>
-          <p></p>
-          <p class="cart-header"><b>Quantity</b></p>
-          <p class="cart-header"><b>Price</b></p>-->
-    
-          <button type="button" id="cart_button">&times;</button>
-
-          <img src="img/b0.png" alt="A picture of a bowl of granola with milk" id="cart-image" width="150" height="150">
-
-          <div class="product-cart-detail">
-          
-          <p class="cart-description" id="cart-product-name">Chia seed fluff</p>
-
-          <p class="cart-description cart-quantity">- 1 +</p>
-          <!-- https://get.foundation/building-blocks/blocks/plus-minus-input.html -->
+          <p class="cart-item cart-header-product"><b>Product</b></p>
+            <p class="cart-item cart-header-quantity"><b>Quantity</b></p>
+            <p class="cart-item cart-header-price"><b>Price</b></p>
+      
+            <button type="button" class="cart-item" id="cart-button">&times;</button>
             
-            <!-- <form class="input_button">
-              <button type="button" data-type="minus" data-field="quantity">
-                <i class="fa fa-minus" aria-hidden="true"></i>
-              </button>
-            </form>
-            <input  class="input_field" type="number" name="quanity" value="1" min="0" max="100">
-            <form class="input_button">
-              <button type="button" data-type="plus" data-field="quantity"><i class="fa fa-plus" aria-hidden="true"></i></button>
-            </form> -->
+            <img src="img/b0.png" alt="A picture of a bowl of granola with milk" class="cart-item" id="cart-image" width="120" height="130">
 
-          <p class="cart-description cart-price">&dollar;25&period;00</p>
-          </div>
+            <div class="cart-item" id="cart-product-detail">
+              <p class="cart-product-name">Chia seed fluff</p> 
+              <p class="cart-choices"> Honey | 1 kg</p>
+            </div>
+            
 
-          <div class="cart-subtotal">
-            <p><b>Subtotal</b></p>
-            <p>&dollar;25&period;00</p>
-          </div>
+            <!-- https://bootsnipp.com/snippets/Max59 -->
+            
+            <div class=" cart-item cart-item-button">
+
+                <!-- https://www.youtube.com/watch?v=wF2gOkBMmsk -->
+                <div class="cart-quantity-button">
+                  <button id="subtract">-</button>
+                  <input type="number" value="1" class="quantity-input">
+                  <button id="add">+</button>
+                </div>
+
+              </div>
+
+              <p class="cart-item cart-price">&dollar;25&period;00</p>
+          
+              <p class="cart-item cart-header-subtotal" ><b>Subtotal</b></p>
+              <p class="cart-item cart-subtotal-price">&dollar;25&period;00</p>
 
           </div> <!-- cart grid container --> 
 
@@ -412,65 +410,70 @@
         </section>
 
         <!-- Section Footer -->
-        <section id= "footer">
-          <h3> Footer </h3>
-          <img src ="img/footer.jpg" alt = "footer" width = "700"> <p></p>
-          <div class ="code">
-            <code> Sample code</code> <p></p>
-            <code> &lt; footer &gt; </code><p></p> 
-            <code> &lt; div class =  &quot;column-1&quot;&gt;</code><p></p> 
-            <code> &lt;h4&gt; Information &lt;/h4&gt; </code><p></p> 
-            <code> &lt;p&gt; About &lt;/p&gt;</code><p></p> 
-            <code> &lt;p&gt; grainjar &lt;/p&gt;</code><p></p> 
-            <code> &lt;p&gt; Packaging &lt;/p&gt; </code><p></p> 
-            <code> &lt;p&gt; Free &lt;/p&gt;</code><p></p> 
-            <code> &lt;p&gt; Our recipes &lt;/p&gt;</code><p></p> 
-            <code> &lt;/div&gt;</code><p></p> 
-            <code> &lt;/footer&gt;</code></div>
-            <p> Author : Sophia Wang </p>
-          </section>
 
-          <!-- <section id="footer">
-          
-          <h3>Footer</h3>
+        <h3>Footer Module</h3>
+        <section id = "footer">
 
-          <img src="">
-          <ul><li>5617 Mainland Street</li><li>Vancouver, BC  V6B 2T4</li></ul>
-          <ul><li>Hours</li><li>Mon-Sun 9AM - 7PM</li></ul>
-          <ul><li>Phone</li><li>604-352-0938</li></ul>
+      <div class="footer-container">
 
+        <div class="footer-item footer-logo">
+          <img src="img/logo-footer.svg" alt="image of logo" width="200">
+        </div>
+
+        <div class="footer-item footer-detail">
+          <ul class="footer-adress"><li>5617 Mainland Street</li><li>Vancouver, BC  V6B 2T4</li></ul>
+          <ul class="footer-adress"><li>4625 Quebec Street</li><li>Vancouver, BC  V9C 1P7</li></ul>
+        </div>
+
+        <div class="footer-item footer-detail">
+          <ul class="footer-adress"><li class="footer-title">Hours</li><li>Mon-Sun 9AM - 7PM</li></ul>
+          <ul class="footer-adress"><li class="footer-title">Phone</li><li>604-352-0938</li></ul>
+        </div>
+
+        <div class="footer-item footer-info">
           <ul>
-          <li><p>Information</p></li>
-          <li><a href="#about">About grainjar</a></li>
-          <li><a href="#impact">Packaging Free</a></li> 
-          <li><a href="#recipes">Our Recipes</a></li> 
+          <li><p class="footer-title">Information</p></li>
+          <li><a href="Recipe.html">Recipes</a></li> 
+          <li><a href="About.html">About</a></li>
+          <li><a href="#">Shipping</a></li> 
+          <li><a href="#">Return</a></li>
           </ul>
+        </div>
 
+        <div class="footer-item footer-info">
           <ul>
-          <li><p>Products</p></li>
-          <li><a href="#favourites">Favourites</a></li>
-          <li><a href="#breakfast">Breakfast</a></li> 
-          <li><a href="#dessert">Dessert</a></li> 
-          <li><a href="#snack">Snack</a></li> 
-          </ul> -->
+          <li><p class="footer-title">Products</p></li>
+          <li><a href="Product-Favourites.html">Favourites</a></li>
+          <li><a href="Product-Breakfast.html">Breakfast</a></li> 
+          <li><a href="Product-Dessert.html">Dessert</a></li> 
+          <li><a href="Product-Snack.html">Snack</a></li> 
+          </ul>
+        </div>
 
-          <!-- https://stackoverflow.com/questions/3131072/how-to-change-input-text-box-style-to-line/3131082 
-          https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form-->
-          <!-- https://www.toptal.com/designers/htmlarrows/arrows/-->
-          <!-- <form action="/action_page.php"  class="subscription"  method="get">
-            <input type="text" id="subscription" name="subscription" placeholder=" Enter your email to join the community">
-            <button type="submit">&#x2192;</button>
-          </form>
+        <div class="footer-item footer-social">
+          <a class="footer-social-icon" href="#"><img src="img/instagram.png" alt="image of instagram icon" width="40"></a>
+          <a class="footer-social-icon" href="#"><img src="img/twitter.png" alt="image of twitter icon" width="38"></a>
+          <a class="footer-social-icon" href="#"><img src="img/facebook.png" alt="image of facebook icon" width="40"></a>
+        </div>
 
-          <a href="#"><img src=""></a>
-          <a href="#"><img src=""></a>
-          <a href="#"><img src=""></a>
+      </div> <!-- Closing footer-container -->
 
+      <div class="footer-crumb">
+
+         <div class="footer-item footer-info-links">
+          <p><a href="https://joannekimm.github.io/styleguide0/Basic-Styles.html">Style Guide</a></p>
+          <p><a href="https://joannekimm.github.io/styleguide0/Wireframes.html">Wireframes</a></p>
+          <p><a href="https://joannekimm.github.io/styleguide0/Citations.html">Citations</a></p>
+        </div>
+
+        <div class="footer-item footer-rights">
           <p>&copy;2021 grainjar, Inc. All Right Reserved</p>
-          <a href="">Style Guide</a>
-          <a href="">Citations</a>
+        </div>
+      
+      </div> <!-- Closing footer-crumb -->
 
-        </section> -->
+    </section> <!-- Closing footer -->
+
 
         <section id = "grid">
           <h3> Website grid structure </h3>
