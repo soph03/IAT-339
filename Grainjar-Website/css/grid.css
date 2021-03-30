@@ -774,6 +774,16 @@
 		display: flex;
 		flex-direction: column;
 	}
+	.numbers-grid{
+		justify-content: center;
+		align-items:center;
+	}
+	.numbers-item h5{
+		margin-top: 2.6em;
+	}
+	.numbers-item h2{
+		margin-right: 0.5em;
+	}
 
 } 
 

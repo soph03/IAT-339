@@ -733,6 +733,11 @@ section#title-banner{
 .numbers {
 	color: rgba(135,106,76, 0.5);
 	margin-top:1.3em;
+	
+}
+
+.numbers-item h2{
+	z-index: 3;
 }
 
 .numbers-item h5 {
@@ -1088,7 +1093,7 @@ h4.discount-title{
 
 #footer a {
 	color:rgba(255,255,255,0.7);
-	font-size:0.9em;
+	font-size:1em;
 }
 
 .footer-title{
@@ -1590,7 +1595,7 @@ nav{
 		font-size: 2.2em;
 		position:absolute;
 		left:10%;
-		top:15%;
+		top:10%;
 	}
 
 	#title-banner h4 {
