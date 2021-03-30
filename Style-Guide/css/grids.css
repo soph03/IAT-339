@@ -181,11 +181,10 @@ img {
 	margin-top: 2.5em;
 }
 
-.checkout-module {
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 2.5em;
-	margin-bottom: 2em;
+.checkout-module{
+	display: grid;
+	grid-template-columns: 1.5fr 1.2fr;
+	margin-top: 4rem;
 }
 
 .guest-checkout-container button {
@@ -207,9 +206,9 @@ img {
 	font-size: 1em;
 }
 
-.subtotal-item {
-	display: flex;
-	margin-left:-2em;
+.summary-price-label {
+    display: flex;
+    justify-content: space-between;
 }
 
 .price-subtotal {
@@ -328,6 +327,13 @@ hr {
 }
 .cart-header-quantity, .cart-item-button, .cart-header-price, .cart-header-subtotal, .cart-price, .cart-subtotal-price{
 	padding-left: 1em;
+}
+.summary-pandq{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.summary-pandq p{
+	margin-top: 0.5rem;
 }
 
 
@@ -557,6 +563,17 @@ hr {
        width: 15em;
        height: 2em;
    }
+
+   .checkout-module{
+   	     display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 0rem;
+   }
+
+   .summary-price-label{
+	display: flex;
+	justify-content: space-between;
+}
 
    #form input {
        width: 20em;

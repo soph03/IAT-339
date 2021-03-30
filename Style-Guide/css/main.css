@@ -593,7 +593,6 @@ input {
 }
 
 .summary-checkout-container {
-	margin-left: 8em;
 	background-color: rgba(246, 240, 233, 0.6);
 	padding: 2em;
 	margin-top:1em;
@@ -609,11 +608,14 @@ input {
 .details-purchased p{
 	margin-top: -0.5em;
 }
-
-.subtotal-item {
-	display: flex;
-	margin-left:-2em;
-	margin-top:-1em;
+.summary-price-label {
+    margin-bottom: 1rem;
+}
+hr.checkout-line {
+    background-color: #3A2B1B;
+    border: 0 none;
+    color: #3A2B1B;
+    height: 1px;
 }
 
 .subtotal-item li {
